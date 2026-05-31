@@ -1,0 +1,353 @@
+html {
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  color: #000;
+}
+
+:root {
+  --neutral-color: midnightblue;
+  --wrong-color: maroon;
+  --correct-color: darkolivegreen;
+}
+
+
+.toolbar {
+  /* outline: 5px solid maroon;
+  outline-offset: -5px; */
+  z-index: 50;
+
+  position: fixed;
+  top: 0;
+  
+  gap: 0.2em;
+  display: flex;
+  padding: 0.2em;
+
+  user-select: none;
+}
+
+.toolbar > * {
+  /* outline: 5px solid teal;
+  outline-offset: -5px; */
+  
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0002;
+
+  text-decoration: none;
+  transition-duration: 70ms;
+  transition-property: transform;
+}
+
+.toolbar-list:hover {
+  transform: scale(1.05, 1.15);
+  color: #000;
+  cursor: pointer;
+}
+
+.toolbar-back:hover {
+  transform: translateX(-10%) scaleX(1.1);
+  color: #000;
+  cursor: pointer;
+}
+
+.toolbar-restart:hover {
+  transform: rotate(45deg);
+  color: #000;
+  cursor: pointer;
+}
+
+.toolbar-next:hover {
+  transform: translateX(10%) scaleX(1.1);
+  color: #000;
+  cursor: pointer;
+}
+
+.package {
+  /* outline: 5px solid orange;
+  outline-offset: -5px; */
+
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 10px;
+  font-family: system-ui, sans-serif;
+/*   background: radial-gradient(circle, floralwhite 20%, lemonchiffon 100%); */
+  background: radial-gradient(circle, floralwhite 20%, lemonchiffon 80%, saddlebrown 160%);
+  
+/*   background-image: radial-gradiant(); */
+  height: 100vh;
+  width: 100vw;
+  padding: 20vh 0 15vh 0;
+  box-sizing: border-box;
+}
+
+.practice-title {
+  z-index: 10;
+  position: fixed;
+  top: 0.2em;
+  width: 100%;
+
+  font-family: 'SchoolSafetyNotification';
+  font-size: 3rem;
+  padding: 3vh 0 8vh 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: grey;
+}
+
+.disallow-del {
+  color: var(--wrong-color);
+}
+
+.allow-del {
+  color: var(--correct-color);
+}
+
+
+.status {
+  /* outline: 5px solid green;
+  outline-offset: -5px; */
+  
+  display: flex;
+  justify-content: space-around;
+  
+  font-size: 1.5rem;
+  font-family: 'SchoolSafetyNotification';
+  color: chocolate;
+}
+
+.status div {
+  border-bottom: solid;
+}
+
+.status span {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0 0.5em 0;
+  display: inline-block; /* to make width effective */
+}
+
+.status-time.paused span {
+  color: #d1beb0;
+}
+
+/* @media (width < 60rem) {
+  .status span {
+    display: block;
+    white-space: nowrap;
+  }
+} */
+
+
+.words-viewer {
+  /* outline: 5px solid blue;
+  outline-offset: -5px; */
+  
+  flex: 1;
+
+  display: flex;  
+  gap: 12vw;
+  align-items: center;
+  
+  font-size: 12em;
+  font-family: 'OmuDaye';
+
+  /* for inputbox overflow */
+  overflow-x: clip;
+
+  cursor: text;
+}
+
+.word-and-input {
+  /* outline: 5px solid purple;
+  outline-offset: -5px; */
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.word-and-input .current {
+   flex: 0 0 auto;
+}
+
+.word-and-input:not(.current) {
+/*   outline: 5px solid cyan;
+  outline-offset: -5px; */
+
+  /* IMPORTANT for clipping */
+  flex: 1 1 0;
+  font-size: 0.6em;
+  overflow: hidden;
+}
+
+.word-and-input.prev-word {
+  color: var(--correct-color);
+}
+
+.word-and-input.prev-word.wrong {
+  color: var(--wrong-color);
+}
+
+.word-and-input.next-word {
+  color: var(--neutral-color);
+}
+
+.prev-word {
+  text-align: left;
+  direction: rtl;
+}
+
+.next-word {
+  text-align: left;
+  overflow: hidden;
+}
+
+.given {
+/*   outline: 5px solid red;
+  outline-offset: -5px;
+  background-color: white; */
+  
+  padding-bottom: 1em; /* space for the input below */
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.answer {
+/*   outline: 5px solid orange;
+  outline-offset: -5px; */
+
+  /* form elements does not inherit by default */
+  font-size: inherit;
+  font-family: inherit;
+
+  color: #777;
+
+  position: absolute; /* to prevent word-and-input-holder to grow in width*/
+  top: 1em; /* space for the given text aobve*/
+  
+  background-color: transparent;
+  border: none;
+  caret-color: transparent;
+  white-space: nowrap;
+}
+
+.current .answer {
+  left: 0;
+}
+
+.prev-word .answer {
+  right: 0;
+}
+
+.answer:focus {
+  outline: none;
+}
+
+
+
+.result-viewer {
+  /*   outline: 5px solid blue;
+  outline-offset: -5px; */
+
+  padding-top: 5vh;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  
+  font-size: 6em;
+  font-weight: bold;
+  font-family: "SchoolSafetyNotification";
+  
+  overflow-x: clip;
+  white-space: nowrap;
+}
+
+.pointbar {
+  background-image: linear-gradient(90deg, #EEEEEE 95%, grey 5%);
+  background-size: 7.05vw;
+
+  height: 0.5em;
+  width: 70vw;
+
+  outline: solid 3 grey;
+  display: grid; /* to make overlapping fills */
+}
+
+.pointbar-fill {
+  height: 100%;
+  width: 0;
+
+  grid-area: 1 / 1;
+  transition-duration: 80ms;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(.55,.09,.68,.53);
+  transition-delay: var(--pointbar-transition-delay);
+
+  background-image: linear-gradient(90deg, var(--pointbar-color) 95%, grey 5%);
+  background-size: 7.05vw;
+}
+
+/*use --pointbar-color, --pointbar-transition-delay, --pointbar-background */
+.pointbar-level1 {
+  --pointbar-color: #FFC94D;
+  --pointbar-transition-delay: 80ms;
+}
+.pointbar-level2 {
+  --pointbar-color: #59B292;
+  --pointbar-transition-delay: 160ms;
+}
+.pointbar-level3 {
+  --pointbar-color: #FA6781;
+  --pointbar-transition-delay: 240ms;
+}
+.pointbar-level4 {
+  --pointbar-color: #4E56C0;
+  --pointbar-transition-delay: 240ms;
+}
+.pointbar-level5 {
+  --pointbar-color: #DA4848;
+  --pointbar-transition-delay: 240ms;
+}
+
+.pointbar-last {
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.11, 1.03, 0.55, 1);
+}
+
+.actions > * {
+  text-decoration: none;
+  transition-duration: 70ms;
+  transition-property: transform;
+  font-size: 6rem;
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+}
+
+.action-list:hover {
+  transform: scale(1.05, 1.15);
+}
+
+.action-back:hover {
+  transform: translateX(-8%) scaleX(1.08);
+}
+
+.action-redo:hover {
+  transform: rotate(45deg);
+}
+
+.action-next:hover {
+  transform: translateX(8%) scaleX(1.08);
+}

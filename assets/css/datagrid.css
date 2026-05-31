@@ -1,0 +1,367 @@
+:root {
+    /*
+    |--------------------------------------------------------------------------
+    | Palette
+    |--------------------------------------------------------------------------
+    */
+
+    --bg: #ffffff;
+    --fg: #1f1f1f;
+
+    --muted: #8a8a8a;
+    --rule: #d7d7d7;
+
+    --hover: rgba(0, 0, 0, 0.025);
+
+    /*
+    |--------------------------------------------------------------------------
+    | Sizing
+    |--------------------------------------------------------------------------
+    */
+
+    --grid-width: 100%;
+    --grid-height: 80vh;
+
+    --font-size: 14px;
+    --row-height: 1.5em;
+    --divider-height: 0.5em;
+
+    --pad-x: 1ch;
+
+    --gutter-width: 5ch;
+
+    /* to be set by the code */
+    /* --column-widths: none; */
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scrollbar
+    |--------------------------------------------------------------------------
+    */
+
+    --scrollbar-thumb: #c2c2c2;
+    --scrollbar-thumb-hover: #a8a8a8;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Shell
+|--------------------------------------------------------------------------
+*/
+
+.grid-shell * {
+    box-sizing: border-box;
+}
+
+.grid-shell {
+    width: var(--grid-width);
+    height: var(--grid-height);
+
+    font-family:
+        /* "JetBrains Mono", */
+        /* "IBM Plex Mono", */
+        /* "Iosevka", */
+        /* "Fira Code", */
+        monospace;
+
+    font-size: var(--font-size);
+    line-height: var(--row-height);
+
+    font-variant-numeric: tabular-nums;
+
+    overflow: hidden;
+
+    background: var(--bg);
+    color: var(--fg);
+
+    /* user-select: none; */
+}
+
+/*
+|--------------------------------------------------------------------------
+| Scroll Viewport
+|--------------------------------------------------------------------------
+*/
+
+.grid-scroll {
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+
+    position: relative;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+/* Note that following scollbar styling does not apply on edge - windows native webkit */
+
+.grid-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.grid-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.grid-scroll::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+}
+
+.grid-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/*
+|--------------------------------------------------------------------------
+| Sticky Top Region
+|--------------------------------------------------------------------------
+|
+| Header + divider behave as one frozen block.
+|
+*/
+
+.grid-top {
+    position: sticky;
+    top: 0;
+
+    z-index: 40;
+
+    width: max-content;
+    min-width: 100%;
+
+    background: var(--bg);
+    isolation: isolate;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Shared Row Structure
+|--------------------------------------------------------------------------
+|
+| Frozen gutter + scrollable content.
+|
+*/
+
+.grid-header,
+.grid-divider,
+.grid-row {
+    display: grid;
+
+    grid-template-columns:
+        var(--gutter-width)
+        auto;
+
+    min-width: max-content;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Sticky Gutter
+|--------------------------------------------------------------------------
+*/
+
+.grid-gutter {
+    position: sticky;
+    left: 0;
+
+    z-index: 30;
+
+    background: var(--bg);
+
+    color: var(--muted);
+
+    text-align: right;
+
+    user-select: none;
+
+    padding: 0 var(--pad-x);
+}
+
+/*
+|--------------------------------------------------------------------------
+| Top Gutter
+|--------------------------------------------------------------------------
+*/
+
+.grid-top .grid-gutter {
+    z-index: 50;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Content Region
+|--------------------------------------------------------------------------
+*/
+
+.grid-content {
+    display: grid;
+
+    grid-template-columns: var(--column-widths, repeat(32, max-content));
+
+    min-width: max-content;
+
+    align-items: center;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Header
+|--------------------------------------------------------------------------
+*/
+
+.grid-header {
+    color: var(--muted);
+}
+
+.grid-header-cell {
+    padding: 0 var(--pad-x);
+
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Divider
+|--------------------------------------------------------------------------
+*/
+
+.grid-divider {
+    color: var(--rule);
+
+    user-select: none;
+    pointer-events: none;
+
+    line-height: var(--divider-height);
+}
+
+.grid-divider-cell {
+    /* outline: solid red 2px;
+    outline-offset: -2px; */
+
+    padding: 0 var(--pad-x);
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* .grid-divider-line {
+    letter-spacing: -0.05em;
+} */
+
+/*
+|--------------------------------------------------------------------------
+| Rows
+|--------------------------------------------------------------------------
+*/
+
+.grid-row {
+    min-height: calc(var(--row-height) + 0.15em);
+}
+
+.grid-row:hover {
+    background: var(--hover);
+}
+
+/*
+|--------------------------------------------------------------------------
+| Cells
+|--------------------------------------------------------------------------
+*/
+
+.grid-cell {
+    padding: 0 var(--pad-x);
+
+    overflow: hidden;
+    text-overflow: clip;
+
+    white-space: nowrap;
+}
+
+/* prevents empty cells not showing front column separator
+    by inserting non breaking space in empty cells.
+    note that if the cell contains normal white spaces only, this selector will be skipped
+    resulting in space collapse -> empty div -> no ::before -> no separator
+*/
+.grid-cell:empty::after {
+    content: "\00a0";
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Alignment
+|--------------------------------------------------------------------------
+*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Markdown Separator Mode
+|--------------------------------------------------------------------------
+*/
+
+.markdown-mode .grid-header-cell,
+.markdown-mode .grid-cell {
+    position: relative;
+}
+
+.markdown-mode .grid-header-cell::before,
+.markdown-mode .grid-cell::before {
+    content: "|";
+
+    position: absolute;
+
+    left: -0.5ch;
+
+    color: var(--rule);
+}
+
+.markdown-mode .grid-header-cell:first-child::before,
+.markdown-mode .grid-cell:first-child::before {
+    content: "";
+}
+
+/*
+|--------------------------------------------------------------------------
+| Focus Placeholder
+|--------------------------------------------------------------------------
+*/
+
+.grid-cell:focus {
+    outline: none;
+
+    background: rgba(0,0,0,0.04);
+
+    caret-color: currentColor;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Density Modes
+|--------------------------------------------------------------------------
+*/
+
+.grid-shell[data-density="compact"] {
+    --row-height: 1.35em;
+}
+
+.grid-shell[data-density="comfortable"] {
+    --row-height: 1.75em;
+}
