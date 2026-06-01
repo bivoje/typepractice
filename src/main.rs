@@ -20,32 +20,11 @@ enum Route {
     ErrorPage { errmsg: String },
 }
 
-use dioxus_desktop::{Config, WindowBuilder, LogicalSize};
+mod platform;
+mod utils;
 
 fn main() {
-    match db::Database::open() {
-        Ok(db) => {
-            dioxus::LaunchBuilder::new()
-            .with_context(db)
-            .with_cfg(desktop! {
-                Config::new()
-                .with_menu(None)
-                .with_window(
-                    WindowBuilder::new()
-                    .with_title("typepractice")
-                    .with_inner_size(LogicalSize::new(900, 600))
-                    .with_min_inner_size(LogicalSize::new(900, 600))
-                    // don't know why but min_inner_size.height being 20px smaller makes it correct fit
-                )
-            })
-            .launch(App);
-        }
-
-        Err(err) => 
-            dioxus::LaunchBuilder::new()
-            .with_context(format!("{err}"))
-            .launch(LaunchError),
-    }
+    platform::launch_builder().launch(DBProvider);
 }
 
 #[component]
@@ -54,6 +33,23 @@ fn LaunchError() -> Element {
     rsx! {
         ErrorPage { errmsg }
     }
+}
+
+#[component]
+fn DBProvider() -> Element {
+    let db = use_resource(platform::DataFetch::open);
+
+    let ret = match &*db.read() {
+        Some(Ok(db)) => {
+            use_context_provider(|| db.clone());
+
+            rsx! {
+                App {}
+            }
+        }
+        Some(Err(e)) => rsx! { "DB error: {e}" },
+        None => rsx! { "Opening DB..." },
+    }; ret
 }
 
 const FONT_SCHOOL_R: Asset = asset!("assets/fonts/HakgyoansimAllimjangTTF-R.woff2");
@@ -72,6 +68,7 @@ fn App() -> Element {
 
         // document::Link { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" }
 
+        // we need this hardcoded font definitions to make font files dioxus assets
         style { "
             @font-face {{
                 font-family: 'SchoolSafetyNotification';
@@ -209,41 +206,33 @@ fn SeoberlsikList() -> Element {
 
     let mut db_refresh_token = use_signal(|| 0);
 
-    let db = consume_context::<db::Database>();
-    let from_db: Resource<anyhow::Result<_>> = use_resource(move || {
+    let db = consume_context::<platform::DataFetch>();
+    let from_db: Resource<Result<_, platform::DataFetchError>> = use_resource(move || {
         let _ = db_refresh_token();
 
         let db = db.clone();
         async move {
-            let summaries = tokio::task::spawn_blocking(move || {
-                db.get_all_practice_result_summaries()
-            }).await??;
+            let summaries = db.get_all_practice_result_summaries(allow_del()).await?;
 
             let mut title = vec![];
             let mut num_w = vec![];
             let mut points = vec![];
             let mut date = vec![];
-            for summary in summaries.0 { // allow_del = false
+            for summary in summaries { // allow_del = false
                 title.push((summary.title, summary.id));
                 num_w.push(summary.num_words);
                 points.push((summary.points, summary.id));
                 date.push(summary.date);
             }
 
-            let mut points_ = vec![];
-            let mut date_ = vec![];
-            for summary in summaries.1 { // allow_del = true
-                points_.push((summary.points, summary.id));
-                date_.push(summary.date);
-            }
-            Ok((title, num_w, points, date, points_, date_))
+            Ok((title, num_w, points, date))
         }
     });
 
     let data: Memo<Option<Result<_,_>>> = use_memo(move || match &*from_db.read() {
         None => None,
         Some(Err(e)) => Some(Err(format!("{e}"))),
-        Some(Ok((title, num_w, points, date, points_, date_))) => Some(Ok(GridData {
+        Some(Ok((title, num_w, points, date))) => Some(Ok(GridData {
             title: Column {
                 decl: ColumnDecl {
                     name: "Title".to_string(),
@@ -285,7 +274,7 @@ fn SeoberlsikList() -> Element {
                     width: 10,
                 },
                 data: ColumnData {
-                    inner: if allow_del() { points_ } else { points } .clone(),
+                    inner: points.clone(),
                     render: |(p, id)| rsx! { if let Some(p) = p {{
                         let coef = utils::progress_coef(*p);
                         let (level, c) = utils::progress_bar(coef, 5);
@@ -311,7 +300,7 @@ fn SeoberlsikList() -> Element {
                     width: 16,
                 },
                 data: ColumnData {
-                    inner: if allow_del() { date_ } else { date } .clone(),
+                    inner: date.clone(),
                     render: |d| rsx! {
                         if let Some(d) = d {{
                             format!("{}", d.format("%Y-%m-%d %H:%M"))
@@ -350,15 +339,15 @@ fn SeoberlsikList() -> Element {
                         title: "clear all progress {i+1}",
                         onclick: move |_| {
                             del_confirm.write()[i] ^= true;
-                            if del_confirm.read().iter().all(|b|*b) {
-                                let db = consume_context::<db::Database>();
-                                // TODO make async
-                                // TODO need to wait for frightned-icon5
-                                if let Err(err) = db.clear_practice_history(allow_del()) {
-                                    nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                            async move {
+                                if del_confirm.read().iter().all(|b|*b) {
+                                    let db = consume_context::<platform::DataFetch>();
+                                    if let Err(err) = db.clear_practice_history(allow_del()).await {
+                                        nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                                    }
+                                    del_confirm.write().iter_mut().for_each(|b| *b = false);
+                                    db_refresh_token += 1;
                                 }
-                                del_confirm.write().iter_mut().for_each(|b| *b = false);
-                                db_refresh_token += 1;
                             }
                         },
                         "{icon}"
@@ -510,8 +499,9 @@ struct WordViewerProps {
     onreset: EventHandler,
 }
 
-use tokio::time::{sleep, Duration};
-use std::time::Instant;
+// use tokio::time::{sleep, Duration};
+use platform::time::{Instant, Duration};
+use platform::sleep_future;
 
 #[component]
 fn SeoberlsikPractice(id: u32) -> Element {
@@ -537,19 +527,17 @@ fn SeoberlsikPractice(id: u32) -> Element {
             loop {
                 // elapsed.set(start.elapsed().as_secs());
                 current_time.set(Instant::now());
-                sleep(Duration::from_secs(1)).await;
+                sleep_future(Duration::from_secs(1)).await;
             }
         });
     });
 
-    let db = consume_context::<db::Database>();
+    let db = consume_context::<platform::DataFetch>();
     // this too will be called only once
-    let from_db: Resource<anyhow::Result<_>> = use_resource(move || {
+    let from_db: Resource<Result<_, platform::DataFetchError>> = use_resource(move || {
         let db = db.clone();
         async move {
-            let (title, content, num_words) = tokio::task::spawn_blocking(move || {
-                db.get_practice_content(id)
-            }).await??;
+            let (title, content, num_words) = db.get_practice_content(id).await?;
             let words = content.split_whitespace().map(|s| s.into()).collect::<Vec<String>>();
             Ok((title, words, num_words))
         }
@@ -654,21 +642,23 @@ fn SeoberlsikPractice(id: u32) -> Element {
                                     prev_answer.set(s);
                                 }
 
-                                if idx == num_words - 1 {
-                                    let mut status = utils::Status {
-                                        wrong: wrong_count(),
-                                        finished: word_idx() as u32,
-                                        secs: start_time().map(|_| elapsed),
-                                        typed: typing_count(),
-                                        points: 0,
-                                    };
-                                    status.set_points();
+                                async move {
+                                    if idx == num_words - 1 {
+                                        let mut status = utils::Status {
+                                            wrong: wrong_count(),
+                                            finished: word_idx() as u32,
+                                            secs: start_time().map(|_| elapsed),
+                                            typed: typing_count(),
+                                            points: 0,
+                                        };
+                                        status.set_points();
 
-                                    let db = consume_context::<db::Database>();
-                                    if let Err(err) = db.put_practice_result(id, allow_del(), status) {
-                                        nav.push(Route::ErrorPage { errmsg: format!("{err}") });
-                                    } else {
-                                        nav.push(Route::PracticeResult { id });
+                                        let db = consume_context::<platform::DataFetch>();
+                                        if let Err(err) = db.put_practice_result(id, allow_del(), status).await {
+                                            nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                                        } else {
+                                            nav.push(Route::PracticeResult { id });
+                                        }
                                     }
                                 }
                             },
@@ -860,8 +850,6 @@ fn StatusLine(status: utils::Status) -> Element {
 
 #[component]
 fn PracticeResult(id: u32) -> Element {
-    let db = consume_context::<db::Database>();
-
     let default_status = utils::Status {
         wrong: 0,
         finished: 0,
@@ -870,48 +858,60 @@ fn PracticeResult(id: u32) -> Element {
         points: 0,
     };
 
+    let allow_del = use_context::<Signal<bool>>();
+
     let nav = use_navigator();
 
-    // TODO make async
-    match db.get_last_practice_result(id) {
-        Ok(o_status) => {
-            let status = o_status.unwrap_or(default_status);
-    
-            rsx! {
-                div { class: "package",
-
-                    tabindex: 0, // to make focusable
-
-                    onmounted: move |e| {
-                        spawn(async move {
-                            _ = e.set_focus(true).await;
-                        });
-                    },
-
-                    onkeydown: move |e: Event<KeyboardData>| {
-                        match e.code() {
-                            Code::Escape => {
-                                nav.push(Route::SeoberlsikList {});
-                            }
-                            Code::Backspace => {
-                                nav.push(Route::SeoberlsikPractice { id });
-                            }
-                            Code::Space => {
-                                nav.push(Route::SeoberlsikPractice { id: id+1 });
-                            }
-                            _ => (),
-                        }
-                    },
-
-                    StatusLine { status }
-                    ResultViewer { id, status }
-                }
-            }
+    let o_status = use_resource(move || {
+        let db = consume_context::<platform::DataFetch>();
+        async move {
+            db.get_best_practice_result(id, allow_del()).await
         }
+    });
 
-        Err(err) => {
-            nav.push(Route::ErrorPage { errmsg: format!("{err}") });
-            rsx! {}
+    return rsx! {
+        div { class: "package",
+
+            tabindex: 0, // to make focusable
+
+            onmounted: move |e| {
+                spawn(async move {
+                    _ = e.set_focus(true).await;
+                });
+            },
+
+            onkeydown: move |e: Event<KeyboardData>| {
+                match e.code() {
+                    Code::Escape => {
+                        nav.push(Route::SeoberlsikList {});
+                    }
+                    Code::Backspace => {
+                        nav.push(Route::SeoberlsikPractice { id });
+                    }
+                    Code::Space => {
+                        nav.push(Route::SeoberlsikPractice { id: id+1 });
+                    }
+                    _ => (),
+                }
+            },
+
+            if let Some(o_status) = &*o_status.read() {
+                // async loaded
+                match o_status {
+                    Ok(o_status) => {
+                        // db query success
+                        let status = o_status.unwrap_or(default_status); // in case no record
+                        rsx! {
+                            StatusLine { status }
+                            ResultViewer { id, status }
+                        }
+                    }
+                    Err(err) => {
+                        nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                        rsx! {}
+                    }
+                }
+            } // show nothing when not loaded
         }
     }
 }
@@ -934,7 +934,7 @@ fn ResultViewer(id: u32, status: utils::Status) -> Element {
 
     use_effect(move || {
         spawn(async move {
-            tokio::time::sleep(Duration::from_millis(200)).await;
+            sleep_future(Duration::from_millis(200)).await;
             apply_width.set(true);
         });
     });
@@ -974,344 +974,5 @@ fn ErrorPage(errmsg: String) -> Element {
             h1 { "Error!" }
             p { "{errmsg}" }
         }
-    }
-}
-
-
-mod db {
-    const DEFAULT_DB: &[u8] = include_bytes!("../assets/app.db");
-
-    use std::sync::{Arc, Mutex};
-    use anyhow::Result;
-
-    #[derive(Clone)]
-    pub struct Database(Arc<Mutex<rusqlite::Connection>>);
-
-    impl Database {
-        pub fn open() -> Result<Self> {
-            let app_dir = if let Some(data_dir) = dirs::data_dir() {
-                data_dir.join("typepractice")
-            } else { std::path::Path::new(".").to_path_buf() };
-            std::fs::create_dir_all(&app_dir)?;
-            let db_path = app_dir.join("app.db");
-
-            if ! db_path.exists() {
-                std::fs::write(&db_path, DEFAULT_DB)?;
-            }
-
-            let conn = rusqlite::Connection::open(db_path)?;
-            conn.execute("PRAGMA foreign_keys = ON;", [])?;
-            Ok(Database(Arc::new(Mutex::new(conn))))
-        }
-
-        pub fn get_practice_content(&self, id: u32) -> Result<(String, String, usize)> {
-            let conn = self.0.lock()
-                .map_err(|e| anyhow::anyhow!("DB mutex poisoned: {e}"))?;
-
-            let mut stmt = conn.prepare(
-                "SELECT title, content, num_words FROM practice WHERE id = ?1 LIMIT 1"
-            )?;
-            let mut rows= stmt.query_map([id], |row| {
-                let title = row.get::<usize, String>(0)?;
-                let content = row.get::<usize, String>(1)?;
-                let num_words = row.get::<usize, u32>(2)? as usize;
-                Ok((title, content, num_words))
-            })?;
-            let ret = rows.next().ok_or(anyhow::anyhow!("no practice with id {id}"))??;
-            Ok(ret)
-        }
-
-        pub fn put_practice_result(&self, id: u32, allow_del: bool, status: super::utils::Status) -> Result<()> {
-            let conn = self.0.lock()
-                .map_err(|e| anyhow::anyhow!("DB mutex poisoned: {e}"))?;
-
-            let now = match std::time::UNIX_EPOCH.elapsed() {
-                Ok(after) => after.as_secs() as i32,
-                Err(before) => - (before.duration().as_secs() as i32),
-            };
-
-            conn.execute("
-                INSERT INTO practice_history (
-                    practice_id, created_at,
-                    wrong_cnt, word_cnt, seconds, typing_cnt, points,
-                    allow_del
-                ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
-                ", (
-                    id, now,
-                    status.wrong, status.finished, status.secs.unwrap_or(0) as u32, status.typed, status.points,
-                    allow_del,
-                )
-            )?;
-
-            Ok(())
-        }
-
-        pub fn get_last_practice_result(&self, id: u32) -> Result<Option<super::utils::Status>> {
-            let conn = self.0.lock()
-                .map_err(|e| anyhow::anyhow!("DB mutex poisoned: {e}"))?;
-
-            let mut stmt = conn.prepare("
-                SELECT
-                    wrong_cnt, word_cnt, seconds, typing_cnt, points
-                FROM practice_history
-                WHERE practice_id = ?1
-                ORDER BY created_at DESC
-                LIMIT 1
-                "
-            )?;
-            let mut rows = stmt.query_map([id], |row| {
-                let wrong = row.get(0)?;
-                let finished = row.get(1)?;
-                let secs = Some(row.get::<usize, u32>(2)? as u64);
-                let typed = row.get(3)?;
-                let points = row.get(4)?;
-                Ok(super::utils::Status {
-                    wrong, finished, secs, typed, points
-                })
-            })?;
-            let ret = rows.next().transpose()?;
-            Ok(ret)
-        }
-
-        pub fn get_all_practice_result_summaries(&self) -> Result<(Vec<ResultSummary>, Vec<ResultSummary>)> {
-            let conn = self.0.lock()
-                .map_err(|e| anyhow::anyhow!("DB mutex poisoned: {e}"))?;
-
-            let mut stmt = conn.prepare("
-                SELECT
-                    p.id,
-                    p.title,
-                    p.num_words,
-                    ranked.points,
-                    ranked.created_at,
-                    ranked.allow_del
-                FROM practice p
-                LEFT JOIN (
-                    SELECT *
-                    FROM (
-                        SELECT 
-                            ph.*,
-                            ROW_NUMBER() OVER (
-                                PARTITION BY practice_id
-                                ORDER BY points DESC, created_at DESC
-                            ) AS rn
-                        FROM practice_history ph
-                        WHERE allow_del = ?1
-                    )
-                    WHERE rn = 1
-                ) ranked
-                ON p.id = ranked.practice_id
-                ORDER BY p.id ASC;
-                "
-            )?;
-
-            fn extract_result_summary(row: &rusqlite::Row) -> std::result::Result<ResultSummary, rusqlite::Error> {
-                let id = row.get::<_, u32>(0)?;
-                let title = row.get::<_, String>(1)?;
-                let num_words = row.get::<_, u32>(2)?;
-                let points = row.get::<_, Option<u32>>(3)?;
-                let date = row.get::<_, Option<i32>>(4)?
-                    .and_then(|date| chrono::DateTime::from_timestamp_secs(date as i64))
-                    .map(|date| date.with_timezone(&chrono::Local));
-                Ok(ResultSummary { id, title, num_words, points, date })
-            }
-
-            let rows = stmt.query_map([false], extract_result_summary)?;
-            let data1 = rows.collect::<std::result::Result<Vec<_>,_>>()?;
-            let rows = stmt.query_map([true], extract_result_summary)?;
-            let data2 = rows.collect::<std::result::Result<Vec<_>,_>>()?;
-            Ok((data1, data2))
-        }
-
-        pub fn clear_practice_history(&self, allow_del: bool) -> Result<()> {
-            let conn = self.0.lock()
-                .map_err(|e| anyhow::anyhow!("DB mutex poisoned: {e}"))?;
-
-            conn.execute("
-                DELETE FROM practice_history
-                WHERE allow_del = ?1
-            ", (allow_del,))?;
-
-            Ok(())
-        }
-    }
-
-    pub struct ResultSummary {
-        pub id: u32,
-        pub title: String,
-        pub num_words: u32,
-        pub points: Option<u32>,
-        pub date: Option<chrono::DateTime<chrono::Local>>,
-    }
-
-}
-
-mod utils {
-    #[derive(Debug, Clone, Copy, PartialEq)]
-    pub struct Status {
-        // used in status line display
-        pub wrong: u32,
-        pub finished: u32,
-        pub secs: Option<u64>, // None when not started yet
-        pub typed: u32,
-        pub points: u32,
-    }
-
-    impl Status {
-        pub fn set_points(&mut self) {
-            let speed = self.speed();
-            let coef = self.accuracy_coef();
-            self.points = (speed * coef) as u32;
-        }
-
-        pub fn speed(&self) -> f32 {
-            match self.secs {
-                Some(secs) => {
-                    let elapsed = if secs > 0 { secs } else { 1 };
-                    self.typed as f32 / (elapsed as f32) * 60.0
-                }
-                _ => 0.0,
-            }
-        }
-
-        pub fn accuracy_coef(&self) -> f32 {
-            let accuracy = self.accuracy();
-            1.0 - (1.0 - accuracy.powi(4)).sqrt()
-        }
-
-        pub fn accuracy(&self) -> f32 {
-            if self.typed > 0 {
-                (self.typed - self.wrong) as f32 / self.typed as f32
-            } else { 1.0 }
-        }
-    }
-
-    pub fn progress_coef(points: u32) -> f32 {
-        // this quintic polynoial maps points to progress coefficient
-        // it was selected after hand-tuning for desirable curve shape with following criteria
-        // - maps [0,600] to [0,1]
-        // - steep with low points to encourage beginners
-        // - steep with high points to raise discrimination
-        // Note that the returned value may go outside the unit range; the caller should appropriately clamp it.
-        let x = points as f32;
-        0.34 * (x - 300.0) / 302.0 + (0.7 * (x - 300.0) / 302.0).powi(5) + 0.5
-    }
-
-    pub fn progress_bar(coef: f32, num: usize) -> (usize, f32) {
-        let interval = 1.0 / num as f32;
-        let v = coef / interval;
-        (v.floor() as usize, v.fract())
-    }
-
-    pub const SCRIPT_CLEAR_INPUT_CONTENT: &str = r#"
-        const el = document.getElementById('input');
-        el.value = '';
-    "#;
-
-    pub const SCRIPT_FIX_INPUT_CURSOR_END: &str = r#"
-        const el = document.getElementById('input');
-        el.focus();
-        const length = el.value.length;
-        el.setSelectionRange(length, length);
-    "#;
-
-    const  CHO_DEC_BASE: u32 = 0x1100;
-    const JUNG_DEC_BASE: u32 = 0x1161;
-    const JONG_DEC_BASE: u32 = 0x11A7;
-
-    const  CHO_TASU: [u32; 19] = [1,2,1,1,2,1,1,1,2,1,2,1,1,2,1,1,1,1,1];
-    const JUNG_TASU: [u32; 21] = [1,1,1,2,1,1,1,1,1,2,2,2,1,1,2,2,2,1,1,1,1];
-    const JONG_TASU: [u32; 28] = [0,1,2,2,1,3,1,2,1,2,2,2,2,3,3,2,1,1,2,1,1,1,2,2,2,2,2,1];
-
-    fn hangul_decompose(orig: &str) -> Vec<u32> {
-        let mut ret = vec![];
-
-        for c in orig.chars() {
-            let codepoint = c as u32;
-            if ! (0xAC00..=0xD7A3).contains(&codepoint) {
-                // put non-hangul char as is
-                ret.push(codepoint); continue;
-            }
-
-            let ord = codepoint - 0xAC00;
-            let cho = ord / 588;
-            let jung = (ord % 588) / 28;
-            let jong = ord % 28;
-
-            ret.push( cho +  CHO_DEC_BASE);
-            ret.push(jung + JUNG_DEC_BASE);
-            if jong > 0 {
-                ret.push(jong + JONG_DEC_BASE);
-            }
-        }
-
-        ret
-    }
-
-    fn tasu_decomposed(codepoint: u32) -> u32 {
-        match codepoint {
-            codepoint if ( CHO_DEC_BASE.. CHO_TASU.len() as u32).contains(&codepoint) =>  CHO_TASU[(codepoint -  CHO_DEC_BASE) as usize],
-            codepoint if (JUNG_DEC_BASE..JUNG_TASU.len() as u32).contains(&codepoint) => JUNG_TASU[(codepoint - JUNG_DEC_BASE) as usize],
-            codepoint if (JONG_DEC_BASE..JONG_TASU.len() as u32).contains(&codepoint) => JONG_TASU[(codepoint - JONG_DEC_BASE) as usize],
-            _ => 1,
-        }
-    }
-
-    // returns (str_a exclusive tasu count, common tasu count, str_b exclusive tasu count)
-    pub fn tasu_compare(str_a: &str, str_b: &str) -> (u32, u32, u32) {
-        let str_a = hangul_decompose(str_a);
-        let str_b = hangul_decompose(str_b);
-
-        // lcs
-
-        let m = str_a.len();
-        let n = str_b.len();
-        let mut dp = vec![vec![0usize; n + 1]; m + 1];
-
-        for i in 0 ..m {
-            for j in 0..n {
-                dp[i+1][j+1] =
-                    if str_a[i] == str_b[j] {
-                        dp[i][j] + 1
-                    } else {
-                        dp[i+1][j].max(dp[i][j+1])
-                    };
-            }
-        }
-
-        // backtrack
-
-        let mut tasu_a = 0;
-        let mut tasu_b = 0;
-        let mut tasu_c = 0; // c for common
-
-        let mut i = m;
-        let mut j = n;
-
-        while i > 0 && j > 0 {
-            if str_a[i-1] == str_b[j-1] {
-                tasu_c += tasu_decomposed(str_a[i-1]);
-                i -= 1;
-                j -= 1;
-            } else if dp[i-1][j] >= dp[i][j-1] {
-                tasu_a += tasu_decomposed(str_a[i-1]);
-                i -= 1;
-            } else {
-                tasu_b += tasu_decomposed(str_b[j-1]);
-                j -= 1;
-            }
-        }
-
-        while i > 0 {
-            tasu_a += tasu_decomposed(str_a[i-1]);
-            i -= 1;
-        }
-
-        while j > 0 {
-            tasu_b += tasu_decomposed(str_b[j-1]);
-            j -= 1;
-        }
-
-        (tasu_a, tasu_c, tasu_b)
     }
 }

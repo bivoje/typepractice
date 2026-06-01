@@ -661,3 +661,15 @@ conn.commit()
 
 # %%
 conn.close()
+
+# %%
+import sqlite3
+
+dbpath = "../assets/app.db"
+conn = sqlite3.connect(dbpath)
+cursor = conn.cursor()
+# %%
+import json
+data = cursor.execute("SELECT id, title, content, num_words FROM practice ORDER BY id ASC").fetchall()
+with open("../assets/appdb.json", "wt") as f:
+    json.dump(data, f)
