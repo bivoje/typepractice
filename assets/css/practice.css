@@ -11,6 +11,7 @@ body{
   --neutral-color: midnightblue;
   --wrong-color: maroon;
   --correct-color: darkolivegreen;
+  --paused-status-color: #d1beb0;
 }
 
 
@@ -136,7 +137,7 @@ body{
 }
 
 .status-time.paused span {
-  color: #d1beb0;
+  color: var(--paused-status-color);
 }
 
 /* @media (width < 60rem) {
@@ -180,13 +181,14 @@ body{
 }
 
 .word-and-input:not(.current) {
-/*   outline: 5px solid cyan;
+  /* outline: 5px solid cyan;
   outline-offset: -5px; */
 
   /* IMPORTANT for clipping */
   flex: 1 1 0;
   font-size: 0.6em;
-  overflow: hidden;
+  overflow-x: hidden;
+  padding-top: 0.3em;
 }
 
 .word-and-input.prev-word {
@@ -208,11 +210,11 @@ body{
 
 .next-word {
   text-align: left;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .given {
-/*   outline: 5px solid red;
+  /* outline: 5px solid red;
   outline-offset: -5px;
   background-color: white; */
   
@@ -240,12 +242,25 @@ body{
   white-space: nowrap;
 }
 
+.word_speed {
+  /* outline: solid red 3px;
+  outline-offset: -3px; */
+
+  color: var(--paused-status-color);
+  font-size: 0.4em;
+  /* direction: ltr; */
+  text-align: right;
+  position: absolute;
+  top: 0;
+}
+
 .current .answer {
   left: 0;
 }
 
 .prev-word .answer {
   right: 0;
+  top: 1.3em; /* 0.3 for .word_speed */
 }
 
 .answer:focus {

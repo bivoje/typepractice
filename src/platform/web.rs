@@ -42,7 +42,7 @@ mod db {
         pub created_at: i32,
         pub wrong_cnt: u32,
         pub word_cnt: u32,
-        pub seconds: u32,
+        pub millis: u128,
         pub typing_cnt: u32,
         pub points: u32,
     }
@@ -123,7 +123,7 @@ mod db {
                 created_at: now,
                 wrong_cnt: status.wrong,
                 word_cnt: status.finished,
-                seconds: status.secs.unwrap_or(0) as u32,
+                millis: status.millis,
                 typing_cnt: status.typed,
                 points: status.points,
             };
@@ -159,7 +159,8 @@ mod db {
             Ok(record.map(|rec| Status {
                 wrong: rec.wrong_cnt,
                 finished: rec.word_cnt,
-                secs: Some(rec.seconds as u64),
+                millis: rec.millis,
+                time_active: false,
                 typed: rec.typing_cnt,
                 points: rec.points,
             }))

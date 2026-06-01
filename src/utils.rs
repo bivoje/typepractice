@@ -3,7 +3,8 @@ pub struct Status {
     // used in status line display
     pub wrong: u32,
     pub finished: u32,
-    pub secs: Option<u64>, // None when not started yet
+    pub millis: u128,
+    pub time_active: bool,
     pub typed: u32,
     pub points: u32,
 }
@@ -16,13 +17,8 @@ impl Status {
     }
 
     pub fn speed(&self) -> f32 {
-        match self.secs {
-            Some(secs) => {
-                let elapsed = if secs > 0 { secs } else { 1 };
-                self.typed as f32 / (elapsed as f32) * 60.0
-            }
-            _ => 0.0,
-        }
+        let elapsed = if self.millis > 0 { self.millis } else { 1 };
+        self.typed as f32 / (elapsed as f32 / 1000.0) * 60.0
     }
 
     pub fn accuracy_coef(&self) -> f32 {
@@ -32,7 +28,7 @@ impl Status {
 
     pub fn accuracy(&self) -> f32 {
         if self.typed > 0 {
-            (self.typed - self.wrong) as f32 / self.typed as f32
+            self.typed.saturating_sub(self.wrong) as f32 / self.typed as f32
         } else { 1.0 }
     }
 }

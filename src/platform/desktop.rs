@@ -91,12 +91,12 @@ mod db {
             conn.execute("
                 INSERT INTO practice_history (
                     practice_id, created_at,
-                    wrong_cnt, word_cnt, seconds, typing_cnt, points,
+                    wrong_cnt, word_cnt, millis, typing_cnt, points,
                     allow_del, word_time
                 ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
                 ", (
                     id, now,
-                    status.wrong, status.finished, status.secs.unwrap_or(0) as u32, status.typed, status.points,
+                    status.wrong, status.finished, status.millis as u32, status.typed, status.points,
                     config.allow_del, config.word_time,
                 )
             )?;
@@ -110,7 +110,7 @@ mod db {
 
             let mut stmt = conn.prepare("
                 SELECT
-                    wrong_cnt, word_cnt, seconds, typing_cnt, points
+                    wrong_cnt, word_cnt, millis, typing_cnt, points
                 FROM practice_history
                 WHERE practice_id = ?1 AND allow_del = ?2 AND word_time = ?3
                 ORDER BY created_at DESC
@@ -121,11 +121,11 @@ mod db {
             let mut rows = stmt.query_map((id, config.allow_del, config.word_time), |row| {
                 let wrong = row.get(0)?;
                 let finished = row.get(1)?;
-                let secs = Some(row.get::<usize, u32>(2)? as u64);
+                let millis = row.get::<usize, u32>(2)? as u128;
                 let typed = row.get(3)?;
                 let points = row.get(4)?;
                 Ok(Status {
-                    wrong, finished, secs, typed, points
+                    wrong, finished, millis, typed, points, time_active: false,
                 })
             })?;
 

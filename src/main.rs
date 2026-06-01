@@ -533,6 +533,7 @@ struct WordViewerProps {
     next: Option<String>,
     current: Option<String>,
     prev_answer: String,
+    prev_speed: u32,
 
     onsubmit: EventHandler<String>,
     oninput: EventHandler,
@@ -550,9 +551,11 @@ fn SeoberlsikPractice(id: u32) -> Element {
     let mut word_idx = use_signal(|| 0usize);
     let mut typing_count = use_signal(|| 0u32);
     let mut wrong_count = use_signal(|| 0u32);
+    let mut prev_speed = use_signal(|| 0);
 
-    let mut start_time = use_signal(|| None);
-    let mut current_time = use_signal(Instant::now);
+    let mut start_time: Signal<Option<Instant>> = use_signal(|| None);
+    let mut cur_acc_time = use_signal(|| Duration::from_secs(0));
+    let mut acc_time = use_signal(|| Duration::from_secs(0));
 
     let config = use_context::<Signal<utils::UserConfig>>();
 
@@ -562,12 +565,12 @@ fn SeoberlsikPractice(id: u32) -> Element {
     // letting it run once when the component mounts
     use_effect(move || {
         spawn(async move {
-            // let start = Instant::now();
-
             loop {
-                // elapsed.set(start.elapsed().as_secs());
-                current_time.set(Instant::now());
-                sleep_future(Duration::from_secs(1)).await;
+                if let Some(start) = &*start_time.peek() {
+                    cur_acc_time.set(start.elapsed());
+                }
+
+                sleep_future(Duration::from_millis(200)).await;
             }
         });
     });
@@ -608,6 +611,8 @@ fn SeoberlsikPractice(id: u32) -> Element {
         typing_count.set(0);
         wrong_count.set(0);
         start_time.set(None);
+        cur_acc_time.set(Duration::from_secs(0));
+        acc_time.set(Duration::from_secs(0));
 
         words_ord_seed += 1;
     };
@@ -615,17 +620,14 @@ fn SeoberlsikPractice(id: u32) -> Element {
     let oninput = move || {
         if start_time().is_none() {
             start_time.set(Some(Instant::now()))
-        }
+        } // un-pause timer
     };
-
-    let elapsed = if let Some(start) = start_time() {
-        current_time().duration_since(start).as_secs()
-    } else { 0 };
 
     let status = utils::Status {
         wrong: wrong_count(),
         finished: word_idx() as u32,
-        secs: start_time().map(|_| elapsed),
+        millis: (acc_time() + cur_acc_time()).as_millis(),
+        time_active: start_time().is_some(),
         typed: typing_count(),
         points: 0,
     };
@@ -670,16 +672,29 @@ fn SeoberlsikPractice(id: u32) -> Element {
                             next: if idx + 1 < num_words { Some(words[words_ord[idx+1]].clone()) } else { None },
                             current: current.clone(),
                             prev_answer: prev_answer.read(),
+                            prev_speed: prev_speed(),
 
                             onsubmit: move |s: String| {
                                 if let Some(current) = current.as_ref() {
-                                    let (left, common, right) = utils::tasu_compare(s.as_str(), current.as_str());
+                                    let (left, common, right) = utils::tasu_compare(current.as_str(), s.as_str());
                                     let wrong = left.max(right);
+                                    let cur_typed = common + right;
                                     *wrong_count.write() += wrong;
-                                    *typing_count.write() += common + right; // Note for later: wpm = 5 * cpm
+                                    *typing_count.write() += cur_typed;
+                                    // Note for later: wpm = 5 * cpm
 
                                     word_idx.set(idx + 1);
                                     prev_answer.set(s);
+
+                                    acc_time += cur_acc_time();
+                                    prev_speed.set((cur_typed as f32 / cur_acc_time().as_millis() as f32 * 60_000.0) as u32);
+                                    cur_acc_time.set(Duration::from_secs(0));
+
+                                    if config().word_time {
+                                        start_time.set(None); // pause timer
+                                    } else {
+                                        start_time.set(Some(Instant::now())); // pause timer
+                                    }
                                 }
 
                                 async move {
@@ -687,7 +702,8 @@ fn SeoberlsikPractice(id: u32) -> Element {
                                         let mut status = utils::Status {
                                             wrong: wrong_count(),
                                             finished: word_idx() as u32,
-                                            secs: start_time().map(|_| elapsed),
+                                            millis: (acc_time() + cur_acc_time()).as_millis(),
+                                            time_active: start_time().is_some(),
                                             typed: typing_count(),
                                             points: 0,
                                         };
@@ -744,6 +760,10 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                     "wrong"
                 },
 
+                span {
+                    class: "word_speed",
+                    if props.prev_speed > 0 { "{props.prev_speed}" } else { "" }
+                }
                 span { class: "given",
                     {props.prev}
                 }
@@ -778,12 +798,15 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                     onkeydown: move |e| {
 
                         let mut submit = || {
+                            // oninput must be called `before` `onsubmit`
+                            // to prevent overwriting start_timer set to None by onsubmit
+                            props.oninput.call(()); 
+
                             if ! input().is_empty() {
                                 props.onsubmit.call(input());
                                 input.set("".to_string());
                                 document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
                             }
-                            props.oninput.call(());
                             e.prevent_default();
                         };
 
@@ -863,21 +886,19 @@ fn StatusLine(status: utils::Status) -> Element {
             }
 
             div { class: "status-time",
-                class: if status.secs.is_none() { "paused" },
+                class: if ! status.time_active { "paused" },
                 "시간 "
-                span { // id: "time",
-                    if let Some(secs) = status.secs {{
-                        let time_hrs = secs / 3600;
-                        let time_min = secs / 60 % 60;
-                        let time_sec = secs % 60;
+                span {{ // id: "time",
+                    let decs = (status.millis % 1000) / 10;
+                    let secs = status.millis / 1000;
+                    let time_hrs = secs / 3600;
+                    let time_min = secs / 60 % 60;
+                    let time_sec = secs % 60;
 
-                        if secs >= 3600 { format!("{time_hrs}:{time_min:02}:{time_sec:02}") }
-                        else if secs >= 60 { format!("{time_min}:{time_sec:02}") }
-                        else { format!("{time_sec}") }
-                    }} else {
-                        "0"
-                    }
-                }
+                    if secs >= 3600 { format!("{time_hrs}:{time_min:02}:{time_sec:02}") }
+                    else if secs >= 60 { format!("{time_min}:{time_sec:02}") }
+                    else { format!("{time_sec}.{decs:02}") }
+                }}
             }
 
             div { class: "status-speed",
@@ -895,7 +916,8 @@ fn PracticeResult(id: u32) -> Element {
     let default_status = utils::Status {
         wrong: 0,
         finished: 0,
-        secs: None,
+        millis: 0,
+        time_active: false,
         typed: 0,
         points: 0,
     };
@@ -942,7 +964,8 @@ fn PracticeResult(id: u32) -> Element {
                 match o_status {
                     Ok(o_status) => {
                         // db query success
-                        let status = o_status.unwrap_or(default_status); // in case no record
+                        let mut status = o_status.unwrap_or(default_status); // in case no record
+                        status.time_active = true;
                         rsx! {
                             StatusLine { status }
                             ResultViewer { id, status }

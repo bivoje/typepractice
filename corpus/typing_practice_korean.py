@@ -635,7 +635,7 @@ CREATE TABLE IF NOT EXISTS practice_history (
 
     wrong_cnt   INTEGER NOT NULL,
     word_cnt    INTEGER NOT NULL,
-    seconds     INTEGER NOT NULL,
+    millis      INTEGER NOT NULL,
     typing_cnt  INTEGER NOT NULL,
     points      INTEGER NOT NULL,
 
