@@ -39,16 +39,29 @@ fn LaunchError() -> Element {
 fn DBProvider() -> Element {
     let db = use_resource(platform::DataFetch::open);
 
-    let ret = match &*db.read() {
-        Some(Ok(db)) => {
+    let config: Resource<Result<Option<_>, platform::DataFetchError>> = use_resource(move || async move {
+        let db = if let Some(Ok(db)) = &*db.read() {
+            Some(db.clone())
+        } else { None };
+        Ok(if let Some(db) = db {
+            Some(db.get_userconfig().await?.unwrap_or(utils::UserConfig::default()))
+        } else { None })
+    });
+
+    let ret = match (&*db.read(), &*config.read()) {
+        (Some(Ok(db)), Some(Ok(Some(config)))) => {
             use_context_provider(|| db.clone());
+            let config = use_signal(|| config.clone());
+            use_context_provider(|| config);
 
             rsx! {
                 App {}
             }
         }
-        Some(Err(e)) => rsx! { "DB error: {e}" },
-        None => rsx! { "Opening DB..." },
+
+        (Some(Err(e)), _) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        (_, Some(Err(e))) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        _ => rsx! { "Loading" },
     }; ret
 }
 
@@ -59,8 +72,6 @@ const FONT_MATERIAL: Asset = asset!("assets/fonts/materialsymbolsoutlined_v339.w
 
 #[component]
 fn App() -> Element {
-
-    use_context_provider(|| Signal::new(false)); // allow_del
     use_context_provider(|| Signal::new(0.0)); // list_scroll_y
 
     rsx! {
@@ -202,23 +213,25 @@ fn SeoberlsikList() -> Element {
 
     let nav = use_navigator();
 
-    let mut allow_del = use_context::<Signal<bool>>();
+    let mut config = use_context::<Signal<utils::UserConfig>>();
 
     let mut db_refresh_token = use_signal(|| 0);
 
-    let db = consume_context::<platform::DataFetch>();
+    let db_a = consume_context::<platform::DataFetch>();
+    let db_b = consume_context::<platform::DataFetch>();
+    let db_c = consume_context::<platform::DataFetch>();
     let from_db: Resource<Result<_, platform::DataFetchError>> = use_resource(move || {
         let _ = db_refresh_token();
 
-        let db = db.clone();
+        let db = db_a.clone();
         async move {
-            let summaries = db.get_all_practice_result_summaries(allow_del()).await?;
+            let summaries = db.get_all_practice_result_summaries(config()).await?;
 
             let mut title = vec![];
             let mut num_w = vec![];
             let mut points = vec![];
             let mut date = vec![];
-            for summary in summaries { // allow_del = false
+            for summary in summaries {
                 title.push((summary.title, summary.id));
                 num_w.push(summary.num_words);
                 points.push((summary.points, summary.id));
@@ -316,6 +329,9 @@ fn SeoberlsikList() -> Element {
 
     let confirm_level = del_confirm.read().iter().filter(|b|**b).count();
 
+    let allow_del = config().allow_del;
+    let word_time = config().word_time;
+
     let ret = match &*data.read() {
         None => rsx ! {},
         Some(Err(err)) => {
@@ -325,11 +341,35 @@ fn SeoberlsikList() -> Element {
         Some(Ok(data)) => rsx! {
             div {
                 class: "menubar",
+
                 button {
-                    class: if allow_del() { "allow-del" } else { "disallow-del" },
-                    title: if allow_del() { "backspace enabled" } else { "backspace disabled" },
-                    onclick: move |_| allow_del.toggle(),
+                    class: if allow_del { "allow-del" } else { "disallow-del" },
+                    title: if allow_del { "backspace enabled" } else { "backspace disabled" },
+                    onclick: move |_| {
+                        let db = db_b.clone();
+                        async move {
+                            config.write().allow_del = !allow_del;
+                            if let Err(err) = db.put_userconfig(config()).await {
+                                nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                            }
+                        }
+                    },
                     "backspace"
+                }
+
+                button {
+                    class: if word_time { "allow-del" } else { "disallow-del" },
+                    title: if word_time { "ignore interval time" } else { "measure whole time" },
+                    onclick: move |_| {
+                        let db = db_c.clone();
+                        async move {
+                            config.write().word_time = !word_time;
+                            if let Err(err) = db.put_userconfig(config()).await {
+                                nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                            }
+                        }
+                    },
+                    "avg_pace"
                 }
 
                 for (i, icon) in DEL_ICONS.iter().enumerate() {
@@ -342,7 +382,7 @@ fn SeoberlsikList() -> Element {
                             async move {
                                 if del_confirm.read().iter().all(|b|*b) {
                                     let db = consume_context::<platform::DataFetch>();
-                                    if let Err(err) = db.clear_practice_history(allow_del()).await {
+                                    if let Err(err) = db.clear_practice_history(config()).await {
                                         nav.push(Route::ErrorPage { errmsg: format!("{err}") });
                                     }
                                     del_confirm.write().iter_mut().for_each(|b| *b = false);
@@ -514,7 +554,7 @@ fn SeoberlsikPractice(id: u32) -> Element {
     let mut start_time = use_signal(|| None);
     let mut current_time = use_signal(Instant::now);
 
-    let allow_del = use_context::<Signal<bool>>();
+    let config = use_context::<Signal<utils::UserConfig>>();
 
     // timer spwaner
     // use_effect is rerun when rerender.
@@ -604,7 +644,7 @@ fn SeoberlsikPractice(id: u32) -> Element {
                     if let Some(Ok((title, _, _))) = &*from_db.read() {
                         "{title}",
                     }
-                    span { class: "material-symbols-outlined", class: if allow_del() {"allow-del"} else {"disallow-del"}, "backspace" }
+                    span { class: "material-symbols-outlined", class: if config().allow_del {"allow-del"} else {"disallow-del"}, "backspace" }
                 }
             }
 
@@ -654,7 +694,7 @@ fn SeoberlsikPractice(id: u32) -> Element {
                                         status.set_points();
 
                                         let db = consume_context::<platform::DataFetch>();
-                                        if let Err(err) = db.put_practice_result(id, allow_del(), status).await {
+                                        if let Err(err) = db.put_practice_result(id, config(), status).await {
                                             nav.push(Route::ErrorPage { errmsg: format!("{err}") });
                                         } else {
                                             nav.push(Route::PracticeResult { id });
@@ -688,7 +728,7 @@ fn Toolbar(id: u32, onreset: EventHandler) -> Element {
 #[component]
 fn WordsViewer(props: WordViewerProps) -> Element {
     let mut input = use_signal(|| "".to_string());
-    let allow_del = use_context::<Signal<bool>>();
+    let config = use_context::<Signal<utils::UserConfig>>();
 
     let nav = use_navigator();
 
@@ -749,7 +789,7 @@ fn WordsViewer(props: WordViewerProps) -> Element {
 
                         match e.code() {
                             // On backspace, we can't prevent IME's handling for it. So we just submit current (probably incorrect value)
-                            Code::Backspace if !allow_del() => submit(),
+                            Code::Backspace if !config().allow_del => submit(),
 
                             // ignore keys in mid-composition, especially backspace/enter
                             _ if e.key() == Key::Process => {
@@ -778,6 +818,8 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                                 input.set("".to_string());
                                 document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
                                 props.onreset.call(());
+                                e.prevent_default();
+                                e.stop_propagation();
                             }
 
                             _ => props.oninput.call(()),
@@ -858,14 +900,14 @@ fn PracticeResult(id: u32) -> Element {
         points: 0,
     };
 
-    let allow_del = use_context::<Signal<bool>>();
+    let config = use_context::<Signal<utils::UserConfig>>();
 
     let nav = use_navigator();
 
     let o_status = use_resource(move || {
         let db = consume_context::<platform::DataFetch>();
         async move {
-            db.get_best_practice_result(id, allow_del()).await
+            db.get_best_practice_result(id, config()).await
         }
     });
 

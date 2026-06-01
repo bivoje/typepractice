@@ -640,10 +640,24 @@ CREATE TABLE IF NOT EXISTS practice_history (
     points      INTEGER NOT NULL,
 
     allow_del INTEGER NOT NULL CHECK (allow_del IN (0,1)),
+    word_time INTEGER NOT NULL CHECK (allow_del IN (0,1)),
     created_at INTEGER NOT NULL,
 
     FOREIGN KEY (practice_id)
         REFERENCES practice(id)
+)
+""")
+
+conn.commit()
+
+# %%
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS user_config (
+    id INTEGER PRIMARY KEY,
+
+    allow_del INTEGER NOT NULL CHECK (allow_del IN (0,1)),
+    word_time INTEGER NOT NULL CHECK (allow_del IN (0,1)),
+    max_speed INTEGER NOT NULL
 )
 """)
 
@@ -663,11 +677,13 @@ conn.commit()
 conn.close()
 
 # %%
+# from app.db, generate web version asset (appdb.json)
 import sqlite3
 
 dbpath = "../assets/app.db"
 conn = sqlite3.connect(dbpath)
 cursor = conn.cursor()
+
 # %%
 import json
 data = cursor.execute("SELECT id, title, content, num_words FROM practice ORDER BY id ASC").fetchall()

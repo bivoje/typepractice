@@ -173,3 +173,20 @@ pub fn tasu_compare(str_a: &str, str_b: &str) -> (u32, u32, u32) {
 
     (tasu_a, tasu_c, tasu_b)
 }
+
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+pub struct UserConfig {
+    pub allow_del: bool,
+    pub word_time: bool,
+    pub max_speed: u32,
+}
+
+impl Default for UserConfig {
+    fn default() -> Self {
+        UserConfig {
+            allow_del: true,
+            word_time: false,
+            max_speed: 600,
+        }
+    }
+}

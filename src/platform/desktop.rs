@@ -31,7 +31,7 @@ mod db {
 
     use std::sync::{Arc, Mutex};
     type Result<T> = std::result::Result<T, Error>;
-    use crate::utils::{Status, ResultSummary};
+    use crate::utils::{Status, ResultSummary, UserConfig};
 
     #[derive(Clone)]
     pub struct Database(Arc<Mutex<rusqlite::Connection>>);
@@ -79,7 +79,7 @@ mod db {
             Ok(ret)
         }
 
-        pub async fn put_practice_result(&self, id: u32, allow_del: bool, status: Status) -> Result<()> {
+        pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
             let conn = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
@@ -92,19 +92,19 @@ mod db {
                 INSERT INTO practice_history (
                     practice_id, created_at,
                     wrong_cnt, word_cnt, seconds, typing_cnt, points,
-                    allow_del
+                    allow_del, word_time
                 ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
                 ", (
                     id, now,
                     status.wrong, status.finished, status.secs.unwrap_or(0) as u32, status.typed, status.points,
-                    allow_del,
+                    config.allow_del, config.word_time,
                 )
             )?;
 
             Ok(())
         }
 
-        pub async fn get_best_practice_result(&self, id: u32, allow_del: bool) -> Result<Option<Status>> {
+        pub async fn get_best_practice_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
             let conn = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
@@ -112,13 +112,13 @@ mod db {
                 SELECT
                     wrong_cnt, word_cnt, seconds, typing_cnt, points
                 FROM practice_history
-                WHERE practice_id = ?1 and allow_del = ?2
+                WHERE practice_id = ?1 AND allow_del = ?2 AND word_time = ?3
                 ORDER BY created_at DESC
                 LIMIT 1
                 "
             )?;
 
-            let mut rows = stmt.query_map((id, allow_del), |row| {
+            let mut rows = stmt.query_map((id, config.allow_del, config.word_time), |row| {
                 let wrong = row.get(0)?;
                 let finished = row.get(1)?;
                 let secs = Some(row.get::<usize, u32>(2)? as u64);
@@ -133,7 +133,7 @@ mod db {
             Ok(ret)
         }
 
-        pub async fn get_all_practice_result_summaries(&self, allow_del: bool) -> Result<Vec<ResultSummary>> {
+        pub async fn get_all_practice_result_summaries(&self, config: UserConfig) -> Result<Vec<ResultSummary>> {
             let conn = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
@@ -143,8 +143,7 @@ mod db {
                     p.title,
                     p.num_words,
                     ranked.points,
-                    ranked.created_at,
-                    ranked.allow_del
+                    ranked.created_at
                 FROM practice p
                 LEFT JOIN (
                     SELECT *
@@ -156,7 +155,7 @@ mod db {
                                 ORDER BY points DESC, created_at DESC
                             ) AS rn
                         FROM practice_history ph
-                        WHERE allow_del = ?1
+                        WHERE allow_del = ?1 AND word_time = ?2
                     )
                     WHERE rn = 1
                 ) ranked
@@ -176,19 +175,59 @@ mod db {
                 Ok(ResultSummary { id, title, num_words, points, date })
             }
 
-            let rows = stmt.query_map([allow_del], extract_result_summary)?;
+            let rows = stmt.query_map([config.allow_del, config.word_time], extract_result_summary)?;
             let data = rows.collect::<std::result::Result<Vec<_>,_>>()?;
             Ok(data)
         }
 
-        pub async fn clear_practice_history(&self, allow_del: bool) -> Result<()> {
+        pub async fn clear_practice_history(&self, config: UserConfig) -> Result<()> {
             let conn = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
             conn.execute("
                 DELETE FROM practice_history
-                WHERE allow_del = ?1
-            ", (allow_del,))?;
+                WHERE allow_del = ?1 AND word_time = ?2
+            ", (config.allow_del, config.word_time))?;
+
+            Ok(())
+        }
+
+        pub async fn get_userconfig(&self) -> Result<Option<UserConfig>> {
+            let conn = self.0.lock()
+                .map_err(|e| format!("DB mutex poisoned: {e}"))?;
+
+            let mut stmt = conn.prepare("
+                SELECT
+                    allow_del, word_time, max_speed
+                FROM user_config
+                WHERE id = ?1
+                LIMIT 1
+                "
+            )?;
+
+            let mut rows = stmt.query_map((1,), |row| {
+                let allow_del = row.get(0)?;
+                let word_time = row.get(1)?;
+                let max_speed = row.get(2)?;
+                Ok(UserConfig { allow_del, word_time, max_speed })
+            })?;
+            
+            let ret = rows.next().transpose()?;
+            Ok(ret)
+        }
+
+        pub async fn put_userconfig(&self, config: UserConfig) -> Result<()> {
+            let conn = self.0.lock()
+                .map_err(|e| format!("DB mutex poisoned: {e}"))?;
+
+            conn.execute("
+                INSERT OR REPLACE INTO user_config (
+                    id, allow_del, word_time, max_speed
+                ) VALUES (?1, ?2, ?3, ?4)
+                ", (
+                    1, config.allow_del, config.word_time, config.max_speed,
+                )
+            )?;
 
             Ok(())
         }
