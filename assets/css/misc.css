@@ -15,7 +15,7 @@
 .grid-cell-custom-points > div {
     height: 6px;
     border-radius: 3px;
-    background-color: lightgrey;
+    background-color: var(--pointbar-color);
 }
 
 .grid-cell-custom-points > div > div {

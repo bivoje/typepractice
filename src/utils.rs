@@ -53,9 +53,13 @@ pub fn progress_coef(points: u32) -> f32 {
 }
 
 pub fn progress_bar(coef: f32, num: usize) -> (usize, f32) {
-    let interval = 1.0 / num as f32;
-    let v = coef / interval;
-    (v.floor() as usize, v.fract())
+    if coef >= 1.0 {
+        (num-1, 1.0)
+    } else {
+        let interval = 1.0 / num as f32;
+        let v = coef / interval;
+        (v.floor() as usize, v.fract())
+    }
 }
 
 pub const SCRIPT_CLEAR_INPUT_CONTENT: &str = r#"

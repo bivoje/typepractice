@@ -293,10 +293,12 @@ fn SeoberlsikList() -> Element {
                         let (level, c) = utils::progress_bar(coef, 5);
                         rsx! { Link {
                             to: Route::PracticeResult { id: *id },
-                            class: "grid-cell-custom-points pointbar-level{level+1}",
+                            class: "grid-cell-custom-points",
                             title: "{p}",
                             div {
+                                class: "pointbar-level{level}",
                                 div {
+                                    class: "pointbar-level{level+1}",
                                     style: "--bar-percentage: {(c * 100.0) as u32}%",
                                 }
                             }

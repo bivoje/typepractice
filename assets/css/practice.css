@@ -316,6 +316,10 @@ body{
 }
 
 /*use --pointbar-color, --pointbar-transition-delay, --pointbar-background */
+.pointbar-level0 {
+  --pointbar-color: lightgrey;
+  --pointbar-transition-delay: 0ms;
+}
 .pointbar-level1 {
   --pointbar-color: #FFC94D;
   --pointbar-transition-delay: 80ms;
