@@ -93,7 +93,7 @@ mod db {
                     practice_id, created_at,
                     wrong_cnt, word_cnt, millis, typing_cnt, points,
                     allow_del, word_time
-                ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
+                ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)
                 ", (
                     id, now,
                     status.wrong, status.finished, status.millis as u32, status.typed, status.points,
