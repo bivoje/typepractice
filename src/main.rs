@@ -613,6 +613,7 @@ fn SeoberlsikPractice(id: u32) -> Element {
         start_time.set(None);
         cur_acc_time.set(Duration::from_secs(0));
         acc_time.set(Duration::from_secs(0));
+        prev_speed.set(0);
 
         words_ord_seed += 1;
     };

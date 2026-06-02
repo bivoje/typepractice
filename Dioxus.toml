@@ -1,6 +1,7 @@
 [application]
 
 [web.app]
+base_path = "/typepractice/"
 
 # HTML title tag content
 title = "typepractice"
