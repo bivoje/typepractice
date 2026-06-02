@@ -616,13 +616,18 @@ fn SeoberlsikPractice(id: u32) -> Element {
         cur_acc_time.set(Duration::from_secs(0));
         acc_time.set(Duration::from_secs(0));
         prev_speed.set(0);
+        document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
 
         words_ord_seed += 1;
     };
 
     let oninput = move || {
         if start_time().is_none() {
-            start_time.set(Some(Instant::now()))
+            start_time.set(Some(Instant::now()));
+            // for some reason, on web version, when you press space to go to next practice on result page,
+            // spacebar character is inserted into the input box.
+            // this will ensure starting typing for a word with empty input box.
+            document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
         } // un-pause timer
     };
 
@@ -733,7 +738,6 @@ fn SeoberlsikPractice(id: u32) -> Element {
 
 #[component]
 fn Toolbar(id: u32, onreset: EventHandler) -> Element {
-    // FIXME onreset cannot clear the input box
     rsx! {
         div { class: "toolbar",
             Link { class: "material-symbols-outlined toolbar-list", to: Route::SeoberlsikList {}, "list" }
@@ -842,7 +846,7 @@ fn WordsViewer(props: WordViewerProps) -> Element {
 
                             Code::F5 => {
                                 input.set("".to_string());
-                                document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
+                                // document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT); // done in onreset
                                 props.onreset.call(());
                                 e.prevent_default();
                                 e.stop_propagation();
