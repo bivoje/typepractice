@@ -11,7 +11,7 @@ cargo binstall dioxus-cli --force
 
 For desktop version,
 ```
-dx bundle --relase 
+dx bundle --relase
 ```
 then serch `target/dx/typepractice/release/app` for portable version, `target/dx/typepractice/bundle` for installer.
 
@@ -32,3 +32,4 @@ This project uses gatherd text from:
 - 산업 사회와 그 미래 translated by 허태성 [link](http://arirang.snu.ac.kr/~saturn/unabomber/una_kr.html)
 - 세계 인권 선언 [link](https://www.ohchr.org/en/human-rights/universal-declaration/translations/korean-hankuko)
 with typo fixes.
+- 언어 정보 나눔터 온용어 [link](https://kli.korean.go.kr/term)
