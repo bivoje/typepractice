@@ -73,8 +73,12 @@ impl AssetData {
         Ok(AssetData { wordset: words?, practice_sets: utils::PracticeSets { sets: p_sets } })
     }
 
-    pub fn get_practice(&self, id: u32, layout: utils::KeyboardLayout) -> &utils::Practice {
-        &self.practice_sets.sets[layout as usize][id as usize]
+    pub fn get_practice(&self, id: u32, config: &utils::UserConfig) -> &utils::Practice {
+        &self.practice_sets.sets[config.layout as usize][id as usize]
+    }
+
+    pub fn num_practices(&self, config: &utils::UserConfig) -> usize {
+        self.practice_sets.sets[config.layout as usize].len()
     }
 }
 
@@ -659,13 +663,13 @@ fn PracticeExam(id: u32) -> Element {
     });
 
     let assetdata = consume_context::<std::sync::Arc<AssetData>>();
-    let practice = assetdata.get_practice(id, config().layout);
+    let practice = assetdata.get_practice(id, &config());
 
     let mut words_ord_seed = use_signal(rand::random);
 
     let words = use_memo(move || {
         let assetdata = consume_context::<std::sync::Arc<AssetData>>();
-        let practice = assetdata.get_practice(id, config().layout);
+        let practice = assetdata.get_practice(id, &config());
         let mut rng = rand::rngs::SmallRng::seed_from_u64(words_ord_seed());
         practice.sample_words(&assetdata.wordset, &mut rng)
     });
@@ -990,6 +994,8 @@ fn PracticeResult(id: u32) -> Element {
     };
 
     let config = use_context::<Signal<utils::UserConfig>>();
+    let assetdata = use_context::<std::sync::Arc<AssetData>>();
+    let is_last = id as usize + 1 == assetdata.num_practices(&config.read());
 
     let nav = use_navigator();
 
@@ -1019,7 +1025,7 @@ fn PracticeResult(id: u32) -> Element {
                     Code::Backspace => {
                         nav.push(Route::PracticeExam { id });
                     }
-                    Code::Space => {
+                    Code::Space if ! is_last => {
                         nav.push(Route::PracticeExam { id: id+1 });
                     }
                     _ => (),
@@ -1035,7 +1041,7 @@ fn PracticeResult(id: u32) -> Element {
                         status.time_active = true;
                         rsx! {
                             StatusLine { status }
-                            ResultViewer { id, status }
+                            ResultViewer { id, status, is_last }
                         }
                     }
                     Err(err) => {
@@ -1049,7 +1055,7 @@ fn PracticeResult(id: u32) -> Element {
 }
 
 #[component]
-fn ResultViewer(id: u32, status: utils::Status) -> Element {
+fn ResultViewer(id: u32, status: utils::Status, is_last: bool) -> Element {
     const NUM_BARS: usize = 5;
     let mut widths = [0; NUM_BARS];
 
@@ -1087,9 +1093,17 @@ fn ResultViewer(id: u32, status: utils::Status) -> Element {
             }
             div { class: "actions",
                 Link { class: "action-list material-symbols-outlined", to: Route::PracticeList {}, "list" }
-                Link { class: "action-back material-symbols-outlined", to: Route::PracticeExam { id: id-1 }, "arrow_back" } // TODO conditionally disable?
+                if id == 0 {
+                    span { class: "action-back material-symbols-outlined inactive", "arrow_back" }
+                } else {
+                    Link { class: "action-back material-symbols-outlined", to: Route::PracticeExam { id: id-1 }, "arrow_back" } // TODO conditionally disable?
+                }
                 Link { class: "action-redo material-symbols-outlined", to: Route::PracticeExam { id }, "refresh" }
-                Link { class: "action-next material-symbols-outlined", to: Route::PracticeExam { id: id+1 }, "arrow_forward" }
+                if is_last {
+                    span { class: "action-next material-symbols-outlined inactive", "arrow_forward" }
+                } else {
+                    Link { class: "action-next material-symbols-outlined", to: Route::PracticeExam { id: id+1 }, "arrow_forward" }
+                }
                 // span { class: "action-next material-symbols-outlined", onclick: move |_| {
                 //     apply_width.toggle();
                 // },
