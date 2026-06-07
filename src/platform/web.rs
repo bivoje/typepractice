@@ -36,17 +36,6 @@ mod db {
 
     impl From<String> for Error { fn from(value: String) -> Self { Error::Str(value) } }
 
-    #[derive(Clone, Debug, serde::Serialize, serde::Deserialize)]
-    struct PracticeHistoryRecord {
-        pub practice_id: u32,
-        pub created_at: i32,
-        pub wrong_cnt: u32,
-        pub word_cnt: u32,
-        pub millis: u128,
-        pub typing_cnt: u32,
-        pub points: u32,
-    }
-
     // since app.db is only 84kb, it's reasonable to just include_bytes!("practice.json")
     // desktop version will still use db though.
     // use indexed db for userdata
@@ -113,20 +102,13 @@ mod db {
         }
 
         pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
+
             let now = super::time::UNIX_EPOCH
                 .elapsed()
                 .map(|d| d.as_secs() as i32)
                 .unwrap_or_else(|e| -(e.duration().as_secs() as i32));
 
-            let record = PracticeHistoryRecord {
-                practice_id: id,
-                created_at: now,
-                wrong_cnt: status.wrong,
-                word_cnt: status.finished,
-                millis: status.millis,
-                typing_cnt: status.typed,
-                points: status.points,
-            };
+            let record = PracticeHistoryRecord::from_status(id, now, &status);
 
             let store_name = Self::storename(config);
             let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readwrite).build()?;
@@ -156,14 +138,7 @@ mod db {
             let record: Option<PracticeHistoryRecord> = store.get(id).serde()?.await?;
             tx.commit().await?;
 
-            Ok(record.map(|rec| Status {
-                wrong: rec.wrong_cnt,
-                finished: rec.word_cnt,
-                millis: rec.millis,
-                time_active: false,
-                typed: rec.typing_cnt,
-                points: rec.points,
-            }))
+            Ok(record.map(PracticeHistoryRecord::to_status))
         }
 
         pub async fn get_all_practice_result_summaries(&self, config: UserConfig) -> Result<Vec<ResultSummary>> {

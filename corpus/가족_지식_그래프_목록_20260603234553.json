@@ -1,0 +1,4923 @@
+{
+  "termList" : [ {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "초상",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "혈통관계",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "유교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "상복제도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "참최",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "자최",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "대공",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "소공",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "시마",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오복",
+    "end_word" : "유복친등도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "가족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "세종실록",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "김",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "이",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "박",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "창씨개명",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "혈연",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "인연",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "입양",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "부모",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "자녀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "조부모",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "양친",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "핵가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "직계^가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "방계^가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "동성애 가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "입양^가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가족",
+    "end_word" : "국제결혼 가족",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "길일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "절일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "제례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "사시제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "시사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "시향",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "절사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시제",
+    "end_word" : "묘제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사시제",
+    "end_word" : "사중시제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사시제",
+    "end_word" : "정제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "주자",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "천신제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "천신제",
+    "end_word" : "속절제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "천신제",
+    "end_word" : "절사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "혼인",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "남녀",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "통과^의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "사회결혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사회결혼",
+    "end_word" : "예식장",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "의혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "대례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "후례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "의혼",
+    "end_word" : "납채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "의혼",
+    "end_word" : "연길",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "연길",
+    "end_word" : "택일단자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "연길",
+    "end_word" : "날받이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "신식혼례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼례",
+    "end_word" : "구식혼례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "친인척",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "증빙",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "민간 족보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "민간 족보",
+    "end_word" : "15세기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "자녀보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성화보",
+    "end_word" : "안동 권씨",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "안동 권씨",
+    "end_word" : "신사보",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "안동 권씨",
+    "end_word" : "갑오보",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "보학",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "문보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문보",
+    "end_word" : "문과",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "족보",
+    "end_word" : "무보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무보",
+    "end_word" : "무과",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "신부",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "시댁",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "인사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "혼례의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "구고례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "대추",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "밤",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "술",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "폐백",
+    "end_word" : "절",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "호칭",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "풍속",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "아호",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "당호",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "백운거사어록",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "백운거사어록",
+    "end_word" : "이규보",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "소처이호",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "소지이호",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "소우이호",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "소축이호",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "호변",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "호기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호",
+    "end_word" : "호보",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "일생 의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "통과^의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "죽음 의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "고려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "고인",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "영혼",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "조상신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상례",
+    "end_word" : "상주",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "상례",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "고인돌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "고분",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "고인돌",
+    "end_word" : "선사시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "고분",
+    "end_word" : "선사시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "장사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장사",
+    "end_word" : "양사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장사",
+    "end_word" : "양례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장사",
+    "end_word" : "양봉",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장사",
+    "end_word" : "폄례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "고인",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장례",
+    "end_word" : "삼일장",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "숭배",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "유교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "천지",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "제천",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "제사직",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "제산천임택",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "흠향",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "흠향",
+    "end_word" : "음식",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "제례",
+    "end_word" : "효",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "명절",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "제사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "절사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "명절",
+    "end_word" : "추석",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "채사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "차사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "삭망차례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "사절차례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "천신차례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삭망차례",
+    "end_word" : "보름날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사절차례",
+    "end_word" : "추석",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "천신차례",
+    "end_word" : "대보름날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "차례",
+    "end_word" : "무축단헌",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "세계화",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "이주화",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "국제결혼",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "혼혈 가족",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "2003년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "혼혈아",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "다문화가족",
+    "end_word" : "이중문화가족",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "이성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "사회^현상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "봉사혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "구매혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "솔서혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "만혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "연애혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "혼인",
+    "end_word" : "중매혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "솔서혼",
+    "end_word" : "데릴사위^제도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "정절",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "죽음",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "여성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "열부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "유교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "수절",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "설씨녀",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "도미",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "고려사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "정표정책",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "열녀",
+    "end_word" : "삼강행실도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상여",
+    "end_word" : "상구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상여",
+    "end_word" : "장례",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상여",
+    "end_word" : "장지",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상여",
+    "end_word" : "시신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상여",
+    "end_word" : "운구",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "운구",
+    "end_word" : "유거",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "운구",
+    "end_word" : "재곽거",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "운구",
+    "end_word" : "대여",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "운구",
+    "end_word" : "소여",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "대여",
+    "end_word" : "유거",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "대여",
+    "end_word" : "방산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "봄",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "가을",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "민간 의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "배례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "조상숭배",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "전묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "배분",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "배소례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "상묘의",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조상숭배",
+    "end_word" : "묘제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "사위",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "큰동서",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "작은동서",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "신분관계",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "호주",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "신분",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "공문서",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "가족^관계^등록부",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "고대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "장적",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장적",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "호적",
+    "end_word" : "고려사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "남자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "부부",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "가장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "세대주",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "가부장권",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "대표권",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "재산권",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "가독권",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "아내",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "자부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "시집살이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "조카며느리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "손자며느리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "여사서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "소학",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "계녀서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "고부^갈등",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "혈연관계",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "인척관계",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "사회적용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "친속",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "부계친",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "모계친",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부계친",
+    "end_word" : "아버지",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "모계친",
+    "end_word" : "어머니",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친족",
+    "end_word" : "처계친",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처계친",
+    "end_word" : "아내",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "남자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "성인식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "유교의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "전통의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "갓",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "가례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "초례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "자관자례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례",
+    "end_word" : "분리의례",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "초례",
+    "end_word" : "술",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "초례",
+    "end_word" : "경과의례",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "초례",
+    "end_word" : "정화의례",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자관자례",
+    "end_word" : "통합의례",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "관례",
+    "end_word" : "혼례",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "사람",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "분묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "방형분",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "원형분",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "전방후원분",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "토장묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "지석묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "적석총",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "석총",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "토총",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "전축분",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "석관묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "석곽묘 돌덧널무덤",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "목관묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "옹관묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "도관묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "무덤",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "돌기둥",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "망두석",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "망주석표",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "석망주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "석주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "망주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "화표주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "전죽석",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "전죽석",
+    "end_word" : "조선왕조실록",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "표지",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "괘릉",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "흥덕왕릉",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "기둥",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "망주석",
+    "end_word" : "대석",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "남자 형제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "외숙",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "외숙부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "외숙님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "아저씨",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "부부",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "미혼 자녀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "소가족",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "청소년가장",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "독거노인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "미혼모",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "핵가족",
+    "end_word" : "다문화^가정",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "신령",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "글",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "의례",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "서문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "본문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "결문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "축식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "축문",
+    "end_word" : "기도문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "장례",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "상례의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "견전",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "곡",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "절",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "발인",
+    "end_word" : "발인제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "오라범댁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "큰올케",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "작은올케",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "초상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "상례",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "초종",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "부음",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "고부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "부문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "통부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "흉보",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "부고",
+    "end_word" : "휘음",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "제사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "부계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "혈연^집단",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "종중",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "대문중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "파문중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "소문중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "조상숭배의식",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "족보",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "신분제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "종답",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "종위토",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "문중답",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문중",
+    "end_word" : "제전",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형수",
+    "end_word" : "새아지매",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형수",
+    "end_word" : "아주머니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형수",
+    "end_word" : "형수씨",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형수",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형수",
+    "end_word" : "여성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "혼인",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "중혼",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "신라시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "동성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "근친혼",
+    "end_word" : "이성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주단자",
+    "end_word" : "정혼",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주단자",
+    "end_word" : "사주",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주단자",
+    "end_word" : "간지",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주단자",
+    "end_word" : "주단 거래",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주",
+    "end_word" : "생년",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주",
+    "end_word" : "월",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주",
+    "end_word" : "일",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주",
+    "end_word" : "시",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사주단자",
+    "end_word" : "손^없는^날",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "분묘",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "봉분",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "석물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "상돌",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "장방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "성묘",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "제사",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "혼유석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상석",
+    "end_word" : "향로석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "향로석",
+    "end_word" : "향안석",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "향로석",
+    "end_word" : "석상",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "이름",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "날짜",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "단",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "묘",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "원",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "절",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "목주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "영위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "위판",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "신주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "주신",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "위패",
+    "end_word" : "받침대",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "민가",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "제사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "신주",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "건축물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "가묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "종묘",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종묘",
+    "end_word" : "왕실",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "신알례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "출입고",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "삭참",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "망참",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "정조참",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "동지참",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "속절다례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "천신례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사당",
+    "end_word" : "유사고",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "숙부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "삼촌",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "아재",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "방계",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "성인",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "쪽",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "여자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "비녀",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "사례편람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계례",
+    "end_word" : "혼인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이혼",
+    "end_word" : "가족^해체",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이혼",
+    "end_word" : "혼인제도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이혼",
+    "end_word" : "협의이혼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "협의이혼",
+    "end_word" : "민법",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "협의이혼",
+    "end_word" : "가정^법원",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동성동본불혼",
+    "end_word" : "성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동성동본불혼",
+    "end_word" : "본",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동성동본불혼",
+    "end_word" : "제도",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성",
+    "end_word" : "남계혈통",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본",
+    "end_word" : "시조",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본",
+    "end_word" : "중시조",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본",
+    "end_word" : "동조",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동성동본불혼",
+    "end_word" : "혼인풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동성동본불혼",
+    "end_word" : "윤리규범",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "부계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "친족모임",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "화수회",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "종회",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "족보",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "제사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "장학^사업",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "신년하례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친회",
+    "end_word" : "구휼사업",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "인척",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "처계친",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "손위처남",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "맏처남",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "손아래처남",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "작은 처남",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "도련님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "서방님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상속",
+    "end_word" : "친족관계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상속",
+    "end_word" : "가계 계승",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상속",
+    "end_word" : "재산^상속",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재산^상속",
+    "end_word" : "제자녀균분상속",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재산^상속",
+    "end_word" : "장자우대상속",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "장자우대상속",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "혼인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "여자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "안사람",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "집사람",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "처",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "내자",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "내권",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "졸처",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "형처",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "가인",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "마누라",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "여편네",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "시조",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "혈통관계",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "신분",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "관습제도",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "향관",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "본적",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "관적",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "성관",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "본",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "세종실록",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "혼인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "인척",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "남성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "새아재",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "서방형부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "백부님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "맏아배",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "큰아버님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "큰아범",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "맏아버님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "백부주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "중부주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "사람",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "60년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "회갑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "화갑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "환갑잔치",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "풍악",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "줄타기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "땅재주놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "가무",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "주갑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "갑년",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "환력",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "촌수",
+    "end_word" : "숫자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "촌수",
+    "end_word" : "가족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "촌수",
+    "end_word" : "친소",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "액땜",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "보",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "풍습",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "정조 관념",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "재가금지제도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "약탈혼",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "봉분",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "부장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "합폄",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "단독장",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "부부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "근대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "유교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "여성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "도덕규범",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "삼종지덕",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "예기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "교특생",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "의례",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "상복전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "부계친",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "모계친",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "처계친",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "종족",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "동종",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "종친",
+    "end_word" : "동족",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동족",
+    "end_word" : "종중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동족",
+    "end_word" : "문중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "친족용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "배우자",
+    "end_word" : "이모부",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자녀",
+    "end_word" : "이종형제",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자녀",
+    "end_word" : "이종누이",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "고모",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "고모",
+    "end_word" : "혈족",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "인족",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "외척",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "남자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "동생",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "계림유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "계림유사",
+    "end_word" : "손목",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "언니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "오라비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형",
+    "end_word" : "형님",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이산가족",
+    "end_word" : "분단",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이산가족",
+    "end_word" : "가족",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이산가족",
+    "end_word" : "1950년대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "1950년대",
+    "end_word" : "납북자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이산가족",
+    "end_word" : "1980년대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "1980년대",
+    "end_word" : "월남인",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이산가족",
+    "end_word" : "2000년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "2000년",
+    "end_word" : "월북인",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "2000년",
+    "end_word" : "국군^포로",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "2000년",
+    "end_word" : "납북어부",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "제사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "목욕재계",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "재사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "재궁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "분암",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "종묘",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "왕릉",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "무덤",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "묘제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "성균관",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "향교",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "서원",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "선산",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "위토",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "묘지기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "재실",
+    "end_word" : "산지기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "아내",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "유교^사상",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "칠출",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "칠거",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "이혼제도",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠출",
+    "end_word" : "시부모",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠출",
+    "end_word" : "무자",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠출",
+    "end_word" : "질투",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠출",
+    "end_word" : "유전병",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "칠거지악",
+    "end_word" : "삼불거",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "부모상",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "상주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "무덤",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "여막",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "삼년상",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "3년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "여묘살이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "시묘살이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "자공",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "정몽주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "여묘일기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여묘일기",
+    "end_word" : "김근추",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "효행",
+    "relate_line_nm" : "판단하다",
+    "group_nm" : "평가"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시묘",
+    "end_word" : "양화장",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "양화장",
+    "end_word" : "논어",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "삼년상",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "상주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "무덤",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "움막",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "시묘살이",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "여차",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "여소",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "여묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "의려",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "여",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "효",
+    "relate_line_nm" : "판단하다",
+    "group_nm" : "평가"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상주",
+    "end_word" : "고석",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상주",
+    "end_word" : "고침",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상주",
+    "end_word" : "엄신",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여막",
+    "end_word" : "의려도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오라버니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오라비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오라범",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오라방",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "올배",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오랍시",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오랍동생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "오라버님",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "조선어사전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "오빠",
+    "end_word" : "큰사전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조선어사전",
+    "end_word" : "문세영",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰사전",
+    "end_word" : "한글학회",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "남자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "부명",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "호",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "복명속",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "실명경피속",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "총지",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "총지",
+    "end_word" : "설총",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "원정",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "원정",
+    "end_word" : "세종",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "자",
+    "end_word" : "여해",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여해",
+    "end_word" : "이순신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "개항기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "일본",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "양규의숙",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "신사임당",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "신여성",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "모던걸",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "천직론",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "천분론",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "양처현모",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현모양처",
+    "end_word" : "현처양모",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "양처현모",
+    "end_word" : "일본",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "현처양모",
+    "end_word" : "중국",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "시신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "유골",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "장법",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "다비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "불교",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "매장",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "매장",
+    "end_word" : "음택",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "화장",
+    "end_word" : "양택",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "음택",
+    "end_word" : "풍수지리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "음택",
+    "end_word" : "묏자리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "납채",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "문명",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "납길",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "납징",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "청기",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "육례",
+    "end_word" : "친영",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납채",
+    "end_word" : "채택",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "문명",
+    "end_word" : "성명",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성명",
+    "end_word" : "어머니",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "어머니",
+    "end_word" : "신부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납길",
+    "end_word" : "길흉",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납징",
+    "end_word" : "폐물",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "청기",
+    "end_word" : "날짜",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "친영",
+    "end_word" : "결혼예식",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "포대기",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "기저귀",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "배내옷",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "포대기",
+    "end_word" : "친정",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "산실",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "산실",
+    "end_word" : "삼신상",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "산실",
+    "end_word" : "삼신끈",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "삼갈기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "출생",
+    "end_word" : "금줄",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "금줄",
+    "end_word" : "남아",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "금줄",
+    "end_word" : "여아",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남아",
+    "end_word" : "고추",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남아",
+    "end_word" : "숯덩이",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여아",
+    "end_word" : "미역",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여아",
+    "end_word" : "솔잎",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여아",
+    "end_word" : "종이",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "신방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "첫날밤",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "첫날밤",
+    "end_word" : "혼인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "신랑",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "신부",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "문구멍",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "혼례의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "조혼",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "마령",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "신부집",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "신방엿보기",
+    "end_word" : "어린이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사돈",
+    "end_word" : "혼인",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사돈",
+    "end_word" : "친족호칭",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사돈",
+    "end_word" : "인척관계",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사돈",
+    "end_word" : "안사돈",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "사돈",
+    "end_word" : "바깥사돈",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "신랑",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "신부집",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "혼인풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "서옥제",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "서옥제",
+    "end_word" : "고구려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "서류부가혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "데릴사위혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "솔서혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "친영혼",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "서옥제",
+    "end_word" : "부방거주제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "전안례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "잔치",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남귀여가",
+    "end_word" : "상견례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상견례",
+    "end_word" : "교배례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상견례",
+    "end_word" : "동뢰연",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "상견례",
+    "end_word" : "합근례",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "3월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "10월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "제례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "묘",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "시사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "시향제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "성묘",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "제의",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "묘제",
+    "end_word" : "토신제",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "재배",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성묘",
+    "end_word" : "벌초",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "누나",
+    "end_word" : "큰시누이",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여동생",
+    "end_word" : "작은시누이",
+    "relate_line_nm" : "준하다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시누이",
+    "end_word" : "시누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시누이",
+    "end_word" : "시뉘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "큰올케",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "올케",
+    "end_word" : "작은올케",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰올케",
+    "end_word" : "오라범댁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은올케",
+    "end_word" : "오라빗댁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "수절",
+    "end_word" : "여성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "수절",
+    "end_word" : "정절",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "수절",
+    "end_word" : "절개",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "정절",
+    "end_word" : "열녀전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "정절",
+    "end_word" : "정",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "정절",
+    "end_word" : "절",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "정",
+    "end_word" : "순결",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "절",
+    "end_word" : "의무",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여성",
+    "end_word" : "정부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여성",
+    "end_word" : "절부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "여성",
+    "end_word" : "열부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "김장생",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "1599년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "예법",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "가례",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례",
+    "end_word" : "주자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "희원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "사계",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "문원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "송익필",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "이이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "목판본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "가례집람",
+    "end_word" : "규장각",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "근사록석의",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "경서변의",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "김장생",
+    "end_word" : "상례비요",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조혼",
+    "end_word" : "어린아이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조혼",
+    "end_word" : "풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조혼",
+    "end_word" : "후사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조혼",
+    "end_word" : "공녀",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "공녀",
+    "end_word" : "원나라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "조혼",
+    "end_word" : "민며느리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "혼례의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "정혼",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "신부집",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "서신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "폐물",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "육례",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "서신",
+    "end_word" : "사자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "납폐",
+    "end_word" : "함",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "함",
+    "end_word" : "함부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "성씨",
+    "end_word" : "혈통",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "사체",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "무덤",
+    "end_word" : "사체",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "합장",
+    "end_word" : "시신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "지위",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "삼종지도",
+    "end_word" : "역할",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "환갑",
+    "end_word" : "생일",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "처녀",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "보쌈",
+    "end_word" : "남자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "출자지",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "본관",
+    "end_word" : "거주지",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "남편",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "남자형제",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "남동생",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "자매",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "형제",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "동서",
+    "end_word" : "배우자",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "아내",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "며느리",
+    "end_word" : "아들",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "외삼촌",
+    "end_word" : "어머니",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "작은아버지",
+    "end_word" : "큰아버지",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처남",
+    "end_word" : "처",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "처",
+    "end_word" : "남자형제",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "남편",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시동생",
+    "end_word" : "남동생",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "남동생",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "아내",
+    "end_word" : "남편",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "형부",
+    "end_word" : "언니",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "큰아버지",
+    "end_word" : "아버지",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "어머니",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "어머니",
+    "end_word" : "자매",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "이모부",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "이모",
+    "end_word" : "자녀",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시누이",
+    "end_word" : "남편",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "누나",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "남편",
+    "end_word" : "여동생",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "가족",
+    "start_word" : "시누이",
+    "end_word" : "올케",
+    "relate_line_nm" : "친족 관계이다",
+    "group_nm" : "관계"
+  } ]
+}

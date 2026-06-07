@@ -1,0 +1,5391 @@
+{
+  "termList" : [ {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "사령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "무속^신앙",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "유교",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "도교",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "불교",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "잡귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "객귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "여귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "신명",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "신령",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀신",
+    "end_word" : "신인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "종교^체험",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "무속",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "강신무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "무병",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "무당",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "강신무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "세습무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "신병",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "세습",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "학습",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "꿈",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "병고",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재",
+    "end_word" : "수재",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재",
+    "end_word" : "화재",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재",
+    "end_word" : "풍재",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재",
+    "end_word" : "재해",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재",
+    "end_word" : "삼재년",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재년",
+    "end_word" : "삼재운",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재년",
+    "end_word" : "들삼재",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재년",
+    "end_word" : "누울삼재",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재년",
+    "end_word" : "날삼재",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼재년",
+    "end_word" : "액년",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "종교^용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "악귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "복",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "종이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "경면주사",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "영사",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "괴황지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "창호지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "부적",
+    "end_word" : "원시^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "종교^용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "길흉화복",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "팔자",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "10간",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "12지",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "만세력",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "명리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사주",
+    "end_word" : "추명",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "명리",
+    "end_word" : "운세",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "추명",
+    "end_word" : "길흉화복",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "당사주",
+    "end_word" : "민간의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "당사주",
+    "end_word" : "길흉",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "당사주",
+    "end_word" : "점법",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천귀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천액",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천권",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천파",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천간",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천복",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천역",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천고",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천인",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천예",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "12성",
+    "end_word" : "천수",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무속",
+    "end_word" : "무당",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무속",
+    "end_word" : "종교^현상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "신병",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "영통력",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "굿",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "제의",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "종교^현상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "지도자",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "강신무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "세습무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "신병",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "혈통",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "장군신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "왕신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "산신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "천신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "칠성신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "용신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "귀신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "금기",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "처벌",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "동토",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "잡귀",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동티",
+    "end_word" : "살",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을보신경",
+    "end_word" : "독경문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을보신경",
+    "end_word" : "앉은굿",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을보신경",
+    "end_word" : "법사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을보신경",
+    "end_word" : "잡귀잡신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을보신경",
+    "end_word" : "태을",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을",
+    "end_word" : "천제",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "태을",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "법사",
+    "end_word" : "굿",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀잡신",
+    "end_word" : "해",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀잡신",
+    "end_word" : "굿",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "민속종교",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민속종교",
+    "end_word" : "전통",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민속종교",
+    "end_word" : "민족적",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민속종교",
+    "end_word" : "원시성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민속종교",
+    "end_word" : "서민",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민속종교",
+    "end_word" : "대중",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "신화",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "의례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "주술",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "제사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "행사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "마을신앙",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "가정신앙",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "통과^의례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "장제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "점복",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "금기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "풍수",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "무속",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "조상숭배",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "동제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "신흥^종교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "민간신앙",
+    "end_word" : "민간의료",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "귀신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "도채비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "독각귀",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "독갑이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "허주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "허체",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "망량",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "영감",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "등불도깨비",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "달걀도깨비",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "멍석도깨비",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도깨비",
+    "end_word" : "홑이불도깨비",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "매개자",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "상",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "사자밥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사자밥",
+    "end_word" : "임종",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "망자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "저승세계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "십대왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승사자",
+    "end_word" : "죽음관",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "한",
+    "end_word" : "좌절",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "한",
+    "end_word" : "정서",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "한",
+    "end_word" : "슬픔",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "한",
+    "end_word" : "응어리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "한",
+    "end_word" : "원한",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "수명",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "재물",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "별",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "남두칠성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "북두칠성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "북두칠성",
+    "end_word" : "칠성신앙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성신앙",
+    "end_word" : "민간신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성신앙",
+    "end_word" : "불교신앙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "신앙행위",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "우물물",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "정안수",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "제수",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "신령",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "치성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "주술물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "정화수",
+    "end_word" : "정화력",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "종교인",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "집전",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "무인",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "무",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "무격",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "무녀",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "단골",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "심방",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "영매자",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "신병",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신병",
+    "end_word" : "종교^현상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "굿",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "자연신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "인격신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "산신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "칠성신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "지신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "용신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인격신",
+    "end_word" : "장군신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인격신",
+    "end_word" : "대감신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인격신",
+    "end_word" : "왕신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "산제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "산제사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "산치성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "마을제사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "수호신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "헌주",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "축문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "음식",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "제구",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "놀이",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "풍년",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "안녕",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신제",
+    "end_word" : "화합",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "제의",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "신",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "신도",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "무당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "굿",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "비손",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제의",
+    "end_word" : "제천의식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제천의식",
+    "end_word" : "영고",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제천의식",
+    "end_word" : "동맹",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제천의식",
+    "end_word" : "무천",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "무신제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "가제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿",
+    "end_word" : "동제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "아기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "산육",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "가신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "산신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "삼신할머니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "삼승할망",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신",
+    "end_word" : "삼신상",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신상",
+    "end_word" : "밥",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신상",
+    "end_word" : "미역국",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신상",
+    "end_word" : "산모",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신상",
+    "end_word" : "아이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신상",
+    "end_word" : "건강",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "박수",
+    "end_word" : "박수무당",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "박수",
+    "end_word" : "호칭",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "박수",
+    "end_word" : "여장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "기운",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "잡기잡신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "흉신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "살신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "흉신악살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "풍수지리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "살",
+    "end_word" : "민간",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무",
+    "end_word" : "주당살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무",
+    "end_word" : "상문살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무",
+    "end_word" : "살풀이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "풍수지리",
+    "end_word" : "무시살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "풍수지리",
+    "end_word" : "황천살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "풍수지리",
+    "end_word" : "팔요살",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "하늘",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "하늘님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "하느님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "하나님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "천지왕",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "옥황상제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "제석",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "아버지 상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "대부신상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "해모수",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "시조^신화",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "시조^신화",
+    "end_word" : "김수로왕",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "시조^신화",
+    "end_word" : "박혁거세왕",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "사후세계",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "차생",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "후생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "타계",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "명부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "음부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "명도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "황천",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "극락",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "저승",
+    "end_word" : "지옥",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "극락",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "극락",
+    "end_word" : "불교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지옥",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지옥",
+    "end_word" : "불교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "황천",
+    "end_word" : "중국",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "극락",
+    "end_word" : "안락",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "극락",
+    "end_word" : "안양",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "극락",
+    "end_word" : "무량청정토",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "신당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "서낭신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "돌무더기",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "성황당",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "누석단",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "헝겊",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "당집",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "입석",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "서낭당",
+    "end_word" : "신앙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "신목",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "목상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "석상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "통나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "수문신",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "수호신",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "경계표",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "이정표",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "신앙대상물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "얼굴",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "글씨",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승",
+    "end_word" : "장승제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "장승제",
+    "end_word" : "동제",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "민간의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "제사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "안녕",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "음력 10월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "동고사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "당고사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "서낭고사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "금줄",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "황토",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고사",
+    "end_word" : "제물",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제물",
+    "end_word" : "시루떡",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제물",
+    "end_word" : "술",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "위성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "종교상징물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "조석간만",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "어로^작업",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "농경생활",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "삭",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "반달",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "달",
+    "end_word" : "망",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삭",
+    "end_word" : "초하루",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "반달",
+    "end_word" : "7일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "망",
+    "end_word" : "보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "의례도구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "굿",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "점",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "제의도구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "무악기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "도검류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무구",
+    "end_word" : "무점구",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무악기",
+    "end_word" : "장구",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무악기",
+    "end_word" : "징",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무악기",
+    "end_word" : "제금",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도검류",
+    "end_word" : "신칼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도검류",
+    "end_word" : "작두",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무점구",
+    "end_word" : "엽전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무점구",
+    "end_word" : "산통",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "대관령서낭",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "마을축제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "대관령서낭",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "제의",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "축제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "단오굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "단양제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "헌주",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강릉단오제",
+    "end_word" : "무악",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "무속신격",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "무당",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "영력",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "산신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "최영장군",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "일광보살",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "월광보살",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "칠성신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "보호신",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "허주",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몸주",
+    "end_word" : "귀신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "기운",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "혼령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "혼백",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "영혼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "얼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "넋",
+    "end_word" : "초월성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "무당",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "신굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "명두굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "강신제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "치유",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "성무",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "제의형식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "본굿",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "내림굿",
+    "end_word" : "뒷전거리",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "오방신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "오방장군",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "방위",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "제왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "동물",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "색채",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "고유신앙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "주작",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "백호",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "현무",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "청룡",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "무속",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "도교",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두타기",
+    "end_word" : "굿거리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두타기",
+    "end_word" : "무당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두타기",
+    "end_word" : "작두",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두타기",
+    "end_word" : "춤",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두타기",
+    "end_word" : "공수",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "작두",
+    "end_word" : "쌍날",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "춤",
+    "end_word" : "도무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "강신무",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성당",
+    "end_word" : "신당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성당",
+    "end_word" : "칠성신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성신",
+    "end_word" : "수명장수",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성당",
+    "end_word" : "칠성각",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성신",
+    "end_word" : "북두칠성",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성당",
+    "end_word" : "가신신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "칠성신",
+    "end_word" : "칠성풀이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "진도^씻김굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "진도^씻김굿",
+    "end_word" : "천도굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "진도^씻김굿",
+    "end_word" : "극락왕생",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "씻김굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "귀향풀이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "오구굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "진오귀굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "새남굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천도굿",
+    "end_word" : "다리굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "전라도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "귀향풀이",
+    "end_word" : "제주도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오구굿",
+    "end_word" : "경상도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "진오귀굿",
+    "end_word" : "황해도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "새남굿",
+    "end_word" : "서울",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "다리굿",
+    "end_word" : "평안도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신신앙",
+    "end_word" : "민간신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신신앙",
+    "end_word" : "산신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신",
+    "end_word" : "산",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신신앙",
+    "end_word" : "자연신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신신앙",
+    "end_word" : "산악신앙",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산악신앙",
+    "end_word" : "단군^신화",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산악신앙",
+    "end_word" : "수로신화",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "굿거리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "타살군웅굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "군웅신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "생 타살굿",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "익은 타살굿",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "타살굿",
+    "end_word" : "동물",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "신앙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "신령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "객귀",
+    "end_word" : "혼령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "객귀",
+    "end_word" : "잡귀",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "객귀",
+    "end_word" : "객사귀",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "영혼",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "천지신령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "산신령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신령",
+    "end_word" : "노인",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신령",
+    "end_word" : "호랑이",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "영지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "영산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "산천지령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "정령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "불가시성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "변신술",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "원령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신령",
+    "end_word" : "원신령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "새끼줄",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "금기도구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "인줄",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "문",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "사내아이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "계집아이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사내아이",
+    "end_word" : "숯",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사내아이",
+    "end_word" : "고추",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "계집아이",
+    "end_word" : "생솔가지",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "계집아이",
+    "end_word" : "숯",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "출산",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "독",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "터전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "고사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금줄",
+    "end_word" : "푸닥거리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "무당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "종교인",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "신병",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "중부",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "강신무",
+    "end_word" : "이북지방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "무속^용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "귀신",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "넋",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "인간",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "충혈",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "홍조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "떨림",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "신지핌",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "신바람",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신지핌",
+    "end_word" : "접신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신지핌",
+    "end_word" : "빙의상태",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신지핌",
+    "end_word" : "신령",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신지핌",
+    "end_word" : "영접",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "공수",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신명",
+    "end_word" : "예언",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "무속신격",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "장군",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "무속",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "도교",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "오방오제설",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "오방신장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신장",
+    "end_word" : "무당",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "작두",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "사슬세우기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "군웅굿",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "청제신장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "백제신장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "적제신장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "흑제신장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오방신장",
+    "end_word" : "황제신장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "마을굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "남부동해안",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "풍요",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "번창",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "중요무형문화재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "중요문형문화재",
+    "end_word" : "국가무형유산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "풍어제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "풍어굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "골매기당제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "세습무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "동제",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "제주",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동해안별신굿",
+    "end_word" : "제물",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제주",
+    "end_word" : "생기복덕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제물",
+    "end_word" : "술",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "전라도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "영혼",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "천도굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "진도^씻김굿",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "오구물림",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "고풀이",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "씻김",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김굿",
+    "end_word" : "길닦음",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오구물림",
+    "end_word" : "바리데기",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "고풀이",
+    "end_word" : "무명필",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김",
+    "end_word" : "물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김",
+    "end_word" : "쑥물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "씻김",
+    "end_word" : "향물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "동신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "제사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "동신제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "건강",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "풍농",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "풍어",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "산신제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "서낭제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "용신제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "당산제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "도당굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "동제",
+    "end_word" : "당굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "당산제",
+    "end_word" : "호남지방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "도당굿",
+    "end_word" : "중부^지방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "당굿",
+    "end_word" : "제주지방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "가신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "성조신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "대들보",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "건물",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "건물",
+    "end_word" : "안채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "건물",
+    "end_word" : "사랑채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "건물",
+    "end_word" : "변소",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "건물",
+    "end_word" : "헛간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "신당",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "배",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "대주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "상량식",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "성주받이굿",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주받이굿",
+    "end_word" : "성주맞이굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성주",
+    "end_word" : "안택",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "성역",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "경계",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "수호신",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "신목",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "짐대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "소줏대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "표줏대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "솔대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "수살목",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "서낭대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "풍년",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "수호",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "행운",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "소도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "솟대",
+    "end_word" : "동제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "가신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "수명",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "자손",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "운명",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "농업",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "삼불^제석",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "환인제석",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "환인제석",
+    "end_word" : "단군^신화",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "인드라",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인드라",
+    "end_word" : "희견성",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인드라",
+    "end_word" : "천상신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인드라",
+    "end_word" : "아수라",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "인드라",
+    "end_word" : "거울",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제석",
+    "end_word" : "제석거리",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "굿거리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "혼례식",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "허재비",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "오구굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "씻김굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "지노귀굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "망묵이굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "허재비굿",
+    "end_word" : "수오아굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "오구굿",
+    "end_word" : "원령",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "원령",
+    "end_word" : "객사",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "원령",
+    "end_word" : "수사",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "혼례식",
+    "end_word" : "초례청",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "황해도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "큰마을굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "만수대탁굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "만구대탯굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "대탁굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "번창",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "불로장생",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "왕생극락",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "봄",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "가을",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "마을잔치",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "철물이굿",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "대택굿",
+    "end_word" : "지노귀굿",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "무속신격",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "사도세자",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "연산군",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "광해군",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "무신도",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "신당",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "서울",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "경기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "상산거리",
+    "relate_line_nm" : "등장하다",
+    "group_nm" : "등장인물"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "대감거리",
+    "relate_line_nm" : "등장하다",
+    "group_nm" : "등장인물"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "이씨별상",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "홍씨별상",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별상",
+    "end_word" : "뒤주대왕",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무복",
+    "end_word" : "의례복",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무복",
+    "end_word" : "신",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "중부",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "호남",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "영남",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "영동",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "제주도",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지역",
+    "end_word" : "북부",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "중부",
+    "end_word" : "남철릭",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "호남",
+    "end_word" : "신입석",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "영남",
+    "end_word" : "쾌자",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "영동",
+    "end_word" : "활옷",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "제주도",
+    "end_word" : "관디",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "북부",
+    "end_word" : "칠성옷",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성기숭배",
+    "end_word" : "신앙행위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성기숭배",
+    "end_word" : "민속^신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성기숭배",
+    "end_word" : "물건",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "물건",
+    "end_word" : "생식기",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "생식기",
+    "end_word" : "여성기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "생식기",
+    "end_word" : "남녀성기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "생식기",
+    "end_word" : "남성기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남성기",
+    "end_word" : "남근석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "여성기",
+    "end_word" : "여근석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남녀성기",
+    "end_word" : "남녀근석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "선바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "선돌",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "여근석",
+    "end_word" : "공알바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "여근석",
+    "end_word" : "보지바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남녀근석",
+    "end_word" : "미륵님",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "종교화",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "무화",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "무속화",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "화분",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "족자",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "당목",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "한지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "금어",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "금어",
+    "end_word" : "탱화",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무신도",
+    "end_word" : "탱화",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "무당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무당",
+    "end_word" : "세습무",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "종교인",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "호남",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "당골네",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "당골에미",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "강신무",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "신도",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골",
+    "end_word" : "단골판",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "단골판",
+    "end_word" : "고부세습형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "손각시",
+    "end_word" : "귀신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "손각시",
+    "end_word" : "처녀",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "손각시",
+    "end_word" : "손말명",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "손각시",
+    "end_word" : "왕신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "손각시",
+    "end_word" : "처녀귀신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "왕신",
+    "end_word" : "가신",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "왕신",
+    "end_word" : "문갑",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "돌",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "성기",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "성기",
+    "end_word" : "남자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "자지바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "좆바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "돛대바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "삿갓바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "총각바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "아들바위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "기자",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "풍년",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "풍어",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "자손만복",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "남근^숭배",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남근석",
+    "end_word" : "선돌",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "종교건축물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "신",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "사당",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "당",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "당산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "신사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "당집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "굿당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "용신당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "산신각",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신당",
+    "end_word" : "동제당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿당",
+    "end_word" : "할미당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "굿당",
+    "end_word" : "국사당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신각",
+    "end_word" : "대관령^산신당",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신각",
+    "end_word" : "보현산신각",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "마을굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "벨신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "벨순",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "배생이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "별손",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "뱃선",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "동해안^지역",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "풍농제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "풍어제",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "풍농제",
+    "end_word" : "농촌",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "풍어제",
+    "end_word" : "어촌",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "난장굿",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "난장굿",
+    "end_word" : "시장",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "별신굿",
+    "end_word" : "세습무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산별신제",
+    "end_word" : "마을축제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산별신제",
+    "end_word" : "은산리",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산리",
+    "end_word" : "은산면",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산면",
+    "end_word" : "부여군",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "중요무형문화재",
+    "end_word" : "국가무형유산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산별신제",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산별신제",
+    "end_word" : "장군제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "은산별신제",
+    "end_word" : "신",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "복신",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신",
+    "end_word" : "도침",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "천상신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "산신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "지신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "수신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "화신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "암석신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "수목신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연신",
+    "end_word" : "동물신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천상신",
+    "end_word" : "천신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천상신",
+    "end_word" : "일월신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "천신",
+    "end_word" : "환인",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신",
+    "end_word" : "단군",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "산신",
+    "end_word" : "석탈해",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "수신",
+    "end_word" : "하백",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "중부지역",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "재복",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "창성",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "수복",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "진오기굿",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "천신맞이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "경사굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "안택굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "철물이굿",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "정초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "봄",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재수굿",
+    "end_word" : "가을",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "정성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "종교^용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "산신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "절",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "소원",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "산치성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "백일치성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "노구메^정성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "쌀밥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "정화수",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "반찬",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "치성",
+    "end_word" : "주부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "민간신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "재례",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "재례",
+    "end_word" : "남성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "부인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "조령^신앙",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "삼신신왕",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "성주신왕",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신신앙",
+    "end_word" : "조왕신앙",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "조령^신앙",
+    "end_word" : "신체",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신체",
+    "end_word" : "조석오가리",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신체",
+    "end_word" : "세존단지",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "삼신^신앙",
+    "end_word" : "기자신앙",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "귀신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "총각",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "도령귀신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "총각귀신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "삼태귀신",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "원귀",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "몽달귀신",
+    "end_word" : "사혼식",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사혼식",
+    "end_word" : "처녀귀신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무경",
+    "end_word" : "경전",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무경",
+    "end_word" : "경객",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무경",
+    "end_word" : "축사경",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무경",
+    "end_word" : "가신봉안경",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "무경",
+    "end_word" : "축원문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "축사경",
+    "end_word" : "옥추보경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "축사경",
+    "end_word" : "옥갑경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "축사경",
+    "end_word" : "불설천지팔양신주경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신봉안경",
+    "end_word" : "성조경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신봉안경",
+    "end_word" : "조상경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "가신봉안경",
+    "end_word" : "지신경",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "축원문",
+    "end_word" : "신장축원문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "축원문",
+    "end_word" : "가신축원문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "귀신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "외계신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "사귀",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사귀",
+    "end_word" : "악신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "사령",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "역신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡귀",
+    "end_word" : "잡신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사령",
+    "end_word" : "객귀",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사령",
+    "end_word" : "손각시",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "사령",
+    "end_word" : "몽달귀신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "역신",
+    "end_word" : "호구신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "역신",
+    "end_word" : "우두지신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡신",
+    "end_word" : "도깨비",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡신",
+    "end_word" : "수배신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "잡신",
+    "end_word" : "두억시니",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "무속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "강신무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "경기^지역",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "황해도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "지노귀새남",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "진오귀굿",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "씻김굿",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "오구굿",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "영실",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "시왕",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "사재",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "말미",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "도령",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지노귀굿",
+    "end_word" : "다리가르기",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "부모",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "무당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "굿",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "강신무",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "단골네",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "심방",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "남자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남자",
+    "end_word" : "악사",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "여자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "여자",
+    "end_word" : "족내혼",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "단군^신화",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "환웅",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "신목",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "삼국유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "제왕운기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "천신^숭배^사상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "수목신앙",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "서낭나무",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "당산나무",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "세계수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "신단수",
+    "end_word" : "무수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "11월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "세습무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "마을굿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "남부지역",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남부지역",
+    "end_word" : "이북지역",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "이북지역",
+    "end_word" : "강신무",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "남무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "세습무",
+    "end_word" : "여무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "남무",
+    "end_word" : "화랭이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "여무",
+    "end_word" : "미지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "육자배기토리",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "중요무형문화재",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "중요무형문화재",
+    "end_word" : "국가무형유산",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "경기도^도당굿",
+    "end_word" : "당주굿",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연숭배",
+    "end_word" : "자연",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연숭배",
+    "end_word" : "애니미즘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연숭배",
+    "end_word" : "지리",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연숭배",
+    "end_word" : "물체",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "자연숭배",
+    "end_word" : "동물",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지리",
+    "end_word" : "천체",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지리",
+    "end_word" : "기상",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지리",
+    "end_word" : "산",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지리",
+    "end_word" : "물",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "지리",
+    "end_word" : "땅",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "물체",
+    "end_word" : "바위",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "물체",
+    "end_word" : "나무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민간신앙",
+    "start_word" : "물체",
+    "end_word" : "곡식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  } ]
+}

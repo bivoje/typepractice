@@ -1,0 +1,1701 @@
+{
+  "termList" : [ {
+    "task_nm" : "주생활",
+    "start_word" : "삼칠일",
+    "end_word" : "기간",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼칠일",
+    "end_word" : "아이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼칠일",
+    "end_word" : "세이레",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼칠일",
+    "end_word" : "금줄",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "세이레",
+    "end_word" : "삼신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "고래",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "구조물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "방바닥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "온돌",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "아궁이",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "고래",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "구들",
+    "end_word" : "굴뚝",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌",
+    "end_word" : "난방방식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "성주운보기",
+    "end_word" : "민간의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "성주운보기",
+    "end_word" : "집",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "성주운보기",
+    "end_word" : "운",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "성주운보기",
+    "end_word" : "문복쟁이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "성주운보기",
+    "end_word" : "운수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "나무반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "종이반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "나무반자",
+    "end_word" : "평반자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "나무반자",
+    "end_word" : "고미^반자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "나무반자",
+    "end_word" : "우물^반자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "단열",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "장식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "평반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "반자",
+    "end_word" : "고미^반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "우물^반자",
+    "end_word" : "천장구조",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "우물^반자",
+    "end_word" : "평반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "우물^반자",
+    "end_word" : "소란^반자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇마루",
+    "end_word" : "마루",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇간",
+    "end_word" : "고주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇간",
+    "end_word" : "평주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇마루",
+    "end_word" : "통로",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇마루",
+    "end_word" : "공간",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "툇마루",
+    "end_word" : "우물마루",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "백일",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "백일",
+    "end_word" : "태어난 날",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "백일",
+    "end_word" : "잔치",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "백일",
+    "end_word" : "풍습",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "잔치",
+    "end_word" : "삼신상",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "미역국",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "흰밥",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "건강",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "수명",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "복",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "강릉^오죽헌",
+    "end_word" : "율곡 이이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "강릉^오죽헌",
+    "end_word" : "주택",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "강릉^오죽헌",
+    "end_word" : "몽룡실",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "강릉^오죽헌",
+    "end_word" : "검은 대나무",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "검은 대나무",
+    "end_word" : "오죽헌",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "오죽헌",
+    "end_word" : "조선 중기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "오죽헌",
+    "end_word" : "사대부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "오죽헌",
+    "end_word" : "최응현 고택",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "건축^용어",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "지붕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "서까래",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "부연",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "평고대",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "추녀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "사래",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "방공",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "홑처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "겹처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "박공처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "합각박공처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "처마모서리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "귀처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "선자연처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "말굽연처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "평행서까래귀처마",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀처마",
+    "end_word" : "배치모양",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "선자연처마",
+    "end_word" : "배치모양",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "말굽연처마",
+    "end_word" : "배치모양",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "평행서까래귀처마",
+    "end_word" : "배치모양",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "건축 부재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "산자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "서까래개판",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "원형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "장방형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서까래",
+    "end_word" : "물매",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "건축물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "움막",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "움막집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "수혈^주거",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "신석기시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "살림집",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "김치깍",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "움집",
+    "end_word" : "깍지우리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "주택^임대차",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "보증금",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "계약^기간",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "집",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "강화도조약",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "집주인",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "세입자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "전세",
+    "end_word" : "월세",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "건축물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "주거",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "공간",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "움집",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "귀틀집",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "고상식주거",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "상류주택",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "서민주택",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "상류주택",
+    "end_word" : "기와집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "서민주택",
+    "end_word" : "초가",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "가옥",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "저택",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "주택",
+    "end_word" : "한옥",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "지붕",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "까치박공",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "기와지붕",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "치미",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "취두",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "수두",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "처마",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "처마",
+    "end_word" : "추녀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "팔작지붕",
+    "end_word" : "마구리",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마구리",
+    "end_word" : "합각",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "합각",
+    "end_word" : "삼각상",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "건축 부재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "기둥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "지붕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "도리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "대들보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "종보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "충량",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "퇴보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "보",
+    "end_word" : "우미량",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "대들보",
+    "end_word" : "장방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "종보",
+    "end_word" : "장방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "충량",
+    "end_word" : "저울대보",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "퇴보",
+    "end_word" : "홍예보",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "퇴보",
+    "end_word" : "훌치기",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "솥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "흙",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "부엌",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "화덕",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "고구려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "난방",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "부뚜막",
+    "end_word" : "조리",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "주거 공간",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "주택",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "궁전",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "창고",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "집채",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "행랑방",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "마구간",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "방",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "광",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑방",
+    "end_word" : "온돌구조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "광",
+    "end_word" : "마루구조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "행랑채",
+    "end_word" : "충효당",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "충효당",
+    "end_word" : "一자형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "연죽",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "연관",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "연배",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "담배통",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "물부리",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "설대",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "담배",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "대꼬바리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "꼬불통",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "물추리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "빨부리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "장죽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담뱃대",
+    "end_word" : "곰방대",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배",
+    "end_word" : "일본",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "구리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "놋쇠",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "백통",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "담배통",
+    "end_word" : "도자기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "쇠뿔",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "수정",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "호박",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "물부리",
+    "end_word" : "옥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "흙",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "강회",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "백토",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "공간",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "출입공간",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "연결통로",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "창고",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "긴봉당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "ㄱ자형봉당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "토방공간",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "봉당",
+    "end_word" : "곳간",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "첫 생일",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "생일",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "돌잔치",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "삼신상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "미역국",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "삼신상",
+    "end_word" : "쌀밥",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "돌상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌상",
+    "end_word" : "떡",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌상",
+    "end_word" : "과일",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "돌",
+    "end_word" : "돌잡히기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "지붕",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "재료",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "짚",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "풀잎",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "새",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "서민가옥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "초가지붕",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가지붕",
+    "end_word" : "초가",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "볏짚",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "보릿짚",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "억새",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "갈대",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "왕골",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "창포",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "이엉",
+    "end_word" : "삼대",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "건축물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "통나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "귀",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "지붕",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "방틀집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "목채집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "틀목집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "투방집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "귀틀집",
+    "end_word" : "투막집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "지붕",
+    "end_word" : "까치구멍집",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "지붕",
+    "end_word" : "우진각",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "지붕",
+    "end_word" : "맞배지붕",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "생활^공간",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "방",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "바깥주인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "손님",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "작업 공간",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "남자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "한담",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "대가족^제도",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "유교^사상",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑",
+    "end_word" : "사랑채",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑채",
+    "end_word" : "사랑방",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑채",
+    "end_word" : "툇마루",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "사랑채",
+    "end_word" : "대청마루",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "여성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "살림집",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "사랑채",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "침전",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "시어머니",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "며느리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "가사일",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "취미",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "익랑",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "안채",
+    "end_word" : "내행랑",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "기와집",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "볏집",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "샛집",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "샛집",
+    "end_word" : "새",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "똬리집",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "까치구멍집",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "기와집",
+    "end_word" : "사대부",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "기와집",
+    "end_word" : "토호",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "마름",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "초가",
+    "end_word" : "노비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌문화",
+    "end_word" : "주거문화",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌문화",
+    "end_word" : "바닥^난방",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌문화",
+    "end_word" : "온돌",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌",
+    "end_word" : "열원",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "열원",
+    "end_word" : "바닥",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌",
+    "end_word" : "난방^방식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌",
+    "end_word" : "좌식",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "온돌문화",
+    "end_word" : "국가^무형^문화재",
+    "relate_line_nm" : "판단하다",
+    "group_nm" : "평가"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "공간",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "목재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "대청",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "마루방",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "쪽마루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "툇마루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "마루",
+    "end_word" : "누마루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "공동^주택",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "주거형식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "카훈",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "카훈",
+    "end_word" : "집단주거",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "합숙소",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "합숙소",
+    "end_word" : "집단수용",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "코트형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "주생활",
+    "start_word" : "연립주택",
+    "end_word" : "평행형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  } ]
+}

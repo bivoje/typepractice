@@ -1,0 +1,6471 @@
+{
+  "termList" : [ {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "동물",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "쥐띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "소띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "범띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "토끼띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "용띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "뱀띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "말띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "양띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "잔나비띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "닭띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "개띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "돼지띠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "불교",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "띠",
+    "end_word" : "고리",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처서",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처서",
+    "end_word" : "음력 7월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처서",
+    "end_word" : "양력 8월 23일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처서",
+    "end_word" : "벌초",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처서",
+    "end_word" : "포쇄",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "음력 7월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "양력 8월 8일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "가을",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "화성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "미성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입추",
+    "end_word" : "가을채비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "하지",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "하지",
+    "end_word" : "망종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "하지",
+    "end_word" : "소서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "하지",
+    "end_word" : "동지",
+    "relate_line_nm" : "대립하다",
+    "group_nm" : "대립"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "하지",
+    "end_word" : "기우제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "초복",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "중복",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "말복",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "여름철",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "개장국",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "닭백숙",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "팥죽",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복날",
+    "end_word" : "탁족",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "음력 8월 15일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "가배",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "가위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "한가위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "중추절",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "보름달",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "추석빔",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "차례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "송편",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "공휴일",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "소놀이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "거북놀이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "백주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백주",
+    "end_word" : "신도주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "황계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동지",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동지",
+    "end_word" : "양력 12월 22일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동지",
+    "end_word" : "팥죽",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팥죽",
+    "end_word" : "붉은색",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동지",
+    "end_word" : "아세",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동지",
+    "end_word" : "작은 설",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팥죽",
+    "end_word" : "시절식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팥죽",
+    "end_word" : "동지^두죽",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팥죽",
+    "end_word" : "동지^시식",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팥죽",
+    "end_word" : "역신",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용띠",
+    "end_word" : "진년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용띠",
+    "end_word" : "동남동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동남동",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용띠",
+    "end_word" : "토",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용띠",
+    "end_word" : "백양좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백양좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "뱀띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "뱀띠",
+    "end_word" : "사년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "뱀띠",
+    "end_word" : "남남동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "뱀띠",
+    "end_word" : "화",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "뱀띠",
+    "end_word" : "황소좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남남동",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "화",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "황소좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "사령",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "왕권",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "왕위",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "미르",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "이무기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "이시미",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "영노",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "꽝철이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "바리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "수신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "물",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용",
+    "end_word" : "용신신앙",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "섣달",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "주기전승의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "세시",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "세사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "월령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "시령",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "세시의례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "농경의례",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "24절후",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "농경",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "연등",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세시풍속",
+    "end_word" : "관등",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잔나비띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잔나비띠",
+    "end_word" : "신년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잔나비띠",
+    "end_word" : "서남서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잔나비띠",
+    "end_word" : "금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잔나비띠",
+    "end_word" : "사자좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "서남서",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "수릿날",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "천중절",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "강릉^단오굿",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "중오절",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "단양",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "초닷새",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "기풍제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기풍제",
+    "end_word" : "풍년",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "그네뛰기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "씨름",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "석전",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오",
+    "end_word" : "활쏘기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네뛰기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "씨름",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "석전",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "활쏘기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "운수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "행운",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "복조리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "조리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "수",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "부",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "귀",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복",
+    "end_word" : "다남자",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "개띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "개띠",
+    "end_word" : "술년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "개띠",
+    "end_word" : "서북서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "개띠",
+    "end_word" : "금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "개띠",
+    "end_word" : "천칭자리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "서북서",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "천칭자리",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양띠",
+    "end_word" : "미년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양띠",
+    "end_word" : "남남서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양띠",
+    "end_word" : "토",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양띠",
+    "end_word" : "게좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남남서",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "게좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토끼띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토끼띠",
+    "end_word" : "묘년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토끼띠",
+    "end_word" : "정동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토끼띠",
+    "end_word" : "목",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토끼띠",
+    "end_word" : "물고기좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "정동",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "목",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "물고기좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐띠",
+    "end_word" : "자년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐띠",
+    "end_word" : "정북",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐띠",
+    "end_word" : "수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐띠",
+    "end_word" : "사수좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "정북",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "수",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사수좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "범띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "범띠",
+    "end_word" : "인년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "범띠",
+    "end_word" : "동북동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "범띠",
+    "end_word" : "목",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "범띠",
+    "end_word" : "수병좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동북동",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "목",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "수병좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "음력 7월 15일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "백종",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "중원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "망혼일",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "우란분절",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "우란분재",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "중원",
+    "end_word" : "도가",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "백중장",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중장",
+    "end_word" : "장",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말띠",
+    "end_word" : "오년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말띠",
+    "end_word" : "정남",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말띠",
+    "end_word" : "화",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말띠",
+    "end_word" : "쌍둥이좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "정남",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "화",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쌍둥이좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "춘분",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "춘분",
+    "end_word" : "양력 3월 21일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "춘분",
+    "end_word" : "음력 2월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "춘분",
+    "end_word" : "파종",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "파종",
+    "end_word" : "화초",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "춘분",
+    "end_word" : "농사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소띠",
+    "end_word" : "축년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소띠",
+    "end_word" : "북북동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소띠",
+    "end_word" : "토",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소띠",
+    "end_word" : "산양좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "북북동",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "토",
+    "end_word" : "오행",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "산양좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "음력 1월 1일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "설날",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "원일",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "원단",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "정조",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "세수",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "연수",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "연시",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "구정",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설날",
+    "end_word" : "차례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "차례",
+    "end_word" : "조상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "세찬",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세찬",
+    "end_word" : "떡국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설날",
+    "end_word" : "설빔",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "떡국",
+    "end_word" : "가래떡",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "닭띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "닭띠",
+    "end_word" : "축년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "닭띠",
+    "end_word" : "정서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "닭띠",
+    "end_word" : "금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "닭띠",
+    "end_word" : "처녀좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "정서",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "처녀좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소만",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소만",
+    "end_word" : "음력 4월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소만",
+    "end_word" : "양력 5월 21일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소만",
+    "end_word" : "모내기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소만",
+    "end_word" : "여름",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "여름",
+    "end_word" : "보리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "여름",
+    "end_word" : "밀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "돼지띠",
+    "end_word" : "띠",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "돼지띠",
+    "end_word" : "해년생",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "돼지띠",
+    "end_word" : "북북서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "돼지띠",
+    "end_word" : "수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "돼지띠",
+    "end_word" : "전갈좌",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "북북서",
+    "end_word" : "방위",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "전갈좌",
+    "end_word" : "별자리",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "음력 1월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "양력 2월 4일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "태양",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "황경",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "봄",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "새해",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘",
+    "end_word" : "입춘첩",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘첩",
+    "end_word" : "춘축",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입춘첩",
+    "end_word" : "입춘축",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "사령",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사령",
+    "end_word" : "기린",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사령",
+    "end_word" : "거북",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "봉",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "황",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉",
+    "end_word" : "수컷",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "황",
+    "end_word" : "암컷",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "천자",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "덕치",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "성천자",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "새",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "장식",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "봉소",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉황",
+    "end_word" : "봉미선",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "정월 초하루",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "윷가락",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "말",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "승부",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "사희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷놀이",
+    "end_word" : "설날놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷가락",
+    "end_word" : "모",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷가락",
+    "end_word" : "윷",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷가락",
+    "end_word" : "개",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷가락",
+    "end_word" : "걸",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷가락",
+    "end_word" : "도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "모",
+    "end_word" : "말",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윷",
+    "end_word" : "소",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "걸",
+    "end_word" : "양",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "도",
+    "end_word" : "돼지",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "달",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "치윤법",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "여벌달",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "공달",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "덤달",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "윤달",
+    "end_word" : "생전예수재",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "생전예수재",
+    "end_word" : "풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "생전예수재",
+    "end_word" : "제주도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "생전예수재",
+    "end_word" : "극락왕생",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "생전예수재",
+    "end_word" : "불공",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "대보름날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "줄",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "승부",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "성인남녀놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "경기놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "삭전",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "조리지희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "갈전",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "단체놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄",
+    "end_word" : "짚",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄",
+    "end_word" : "칡",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "힘",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "줄다리기노래",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄다리기",
+    "end_word" : "벼농사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "설날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "옷",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "세장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "바지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "저고리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "두루마기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "치마저고리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "치마저고리",
+    "end_word" : "부녀자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "버선",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설빔",
+    "end_word" : "대님",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설날",
+    "end_word" : "한복",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설날",
+    "end_word" : "세배",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "사자",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "뿔",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "시비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "선악",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "해치",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "해치관",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해치관",
+    "end_word" : "법",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해치관",
+    "end_word" : "관모",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "신수",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "광화문",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "해태",
+    "end_word" : "근정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "대보름날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "영월",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "망월",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "쥐불놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "횃불싸움",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달맞이",
+    "end_word" : "점법",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "점법",
+    "end_word" : "열양세시기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "점법",
+    "end_word" : "동국세시기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "점법",
+    "end_word" : "농사",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "24절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "우수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "춘분",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "개구리알",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "흙일",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "흙일",
+    "end_word" : "벽",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "흙일",
+    "end_word" : "담",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경칩",
+    "end_word" : "수액",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "수액",
+    "end_word" : "위장병",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "수액",
+    "end_word" : "성병",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "24절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "소만",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "하지",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "모내기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "보리 그을음",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "망종",
+    "end_word" : "망종보기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우",
+    "end_word" : "24절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우",
+    "end_word" : "청명",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우",
+    "end_word" : "입하",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우",
+    "end_word" : "곡우물",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우물",
+    "end_word" : "산다래",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우물",
+    "end_word" : "자작나무",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우물",
+    "end_word" : "박달나무",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "자작나무",
+    "end_word" : "거자수",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "거자수",
+    "end_word" : "남자물",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남자물",
+    "end_word" : "여자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곡우",
+    "end_word" : "조기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "조기",
+    "end_word" : "곡우살이",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "주작",
+    "end_word" : "사신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사신",
+    "end_word" : "신령",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "주작",
+    "end_word" : "주조",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "주작",
+    "end_word" : "남관",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남관",
+    "end_word" : "오관",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "오관",
+    "end_word" : "오궁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "주작",
+    "end_word" : "남방칠수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "정",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "귀",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "유",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "성",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "장",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "익",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남방칠수",
+    "end_word" : "진",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "음력 3월 3일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "답청절",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "삼월^삼질",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "속절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "상사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "원사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "중삼",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "상제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "답청절",
+    "end_word" : "꽃놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "각시놀음",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "활쏘기놀음",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "닭쌈놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "삼짇날",
+    "end_word" : "화전",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "음력 7월 7일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "견우",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "직녀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "음력 7월 7일",
+    "end_word" : "길일",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "견우",
+    "end_word" : "오작교",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "직녀",
+    "end_word" : "오작교",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "오작교",
+    "end_word" : "까막까치",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "수명장수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "밭제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "걸교제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석",
+    "end_word" : "칠석차례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠석차례",
+    "end_word" : "우물고사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "걸교제",
+    "end_word" : "바느질",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "밭제",
+    "end_word" : "풍작",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "사신",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "북쪽",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "신령",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "거북",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "뱀",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "현무",
+    "end_word" : "무용총",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "사신",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "사수",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "용",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "동쪽",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "수호신",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "사신도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "태세신",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청룡",
+    "end_word" : "좌청룡",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "초파일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "대보름밤",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "성인남자놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "낙화유",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "줄불놀이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "불꽃",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "흥",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "장관",
+    "relate_line_nm" : "판단하다",
+    "group_nm" : "평가"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "낙동강",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙화놀이",
+    "end_word" : "부용대",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "낙동강",
+    "end_word" : "적병강",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "부용대",
+    "end_word" : "적벽",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "음력 1월 15일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "상원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상원",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "줄다리기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "약밥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "오곡밥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "부럼",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "별신굿",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "쥐불놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "사자놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "설",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "대보름",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "한식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "초파일",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "단오",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "유두",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "백중",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "추석",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "동지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "한가위",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한가위",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "차례",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "세배",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "설",
+    "end_word" : "성묘",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "상원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "부럼",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "귀밝이술",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "오곡밥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대보름",
+    "end_word" : "나물",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "초파일",
+    "end_word" : "불교문화",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "초파일",
+    "end_word" : "연등",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "청유",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "백종일",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백중",
+    "end_word" : "호미씻이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "가배일",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "가윗날",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "삼대명절",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "씨름",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "강강술래",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "거북놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "추석",
+    "end_word" : "소놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상달",
+    "end_word" : "10월",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상달",
+    "end_word" : "제천의식",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상달",
+    "end_word" : "동제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상달",
+    "end_word" : "가신제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동제",
+    "end_word" : "동신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동제",
+    "end_word" : "제사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상달",
+    "end_word" : "시월상달",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동제",
+    "end_word" : "무당",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청명",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청명",
+    "end_word" : "음력 3월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청명",
+    "end_word" : "양력 4월 5일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청명",
+    "end_word" : "동국세시기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "청명",
+    "end_word" : "농사력",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "더위팔기",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "더위팔기",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "더위팔기",
+    "end_word" : "매서",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대한",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대한",
+    "end_word" : "절후",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "우수",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "우수",
+    "end_word" : "정월 중기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "투호",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "투호",
+    "end_word" : "항아리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "투호",
+    "end_word" : "화살",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "투호",
+    "end_word" : "도박",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "투호",
+    "end_word" : "고려사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "굿^놀이",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "음악",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "무용",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "체육",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "연극",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "경기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "묘기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "미술",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "연희",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "놀이",
+    "end_word" : "오락",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잡희",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "탈놀이",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "검무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "오기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "처용무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백희",
+    "end_word" : "무애무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잡희",
+    "end_word" : "악삭",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잡희",
+    "end_word" : "농환",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "잡희",
+    "end_word" : "기악",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장치기 놀이",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "승경도놀이",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소한",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소한",
+    "end_word" : "음력 12월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소한",
+    "end_word" : "양력 1월 5일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "딱지치기",
+    "end_word" : "딱지",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "딱지",
+    "end_word" : "종이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "딱지치기",
+    "end_word" : "어린이놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "딱지치기",
+    "end_word" : "때기치기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "딱지치기",
+    "end_word" : "표치기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "마작",
+    "end_word" : "마장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "마작",
+    "end_word" : "패",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "마작",
+    "end_word" : "파이줘",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "마작",
+    "end_word" : "사이쯔",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "마작",
+    "end_word" : "초우마",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "패",
+    "end_word" : "상아",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "패",
+    "end_word" : "골재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "패",
+    "end_word" : "대",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "패",
+    "end_word" : "문자",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "패",
+    "end_word" : "그림",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "파이줘",
+    "end_word" : "탁자",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "초우마",
+    "end_word" : "막대기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사이쯔",
+    "end_word" : "주사위",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "장기판",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "알",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "상희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "기박",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기박",
+    "end_word" : "바둑",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "고려사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "장기",
+    "end_word" : "연려실기술",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "정초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "지신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "풍작",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "다복",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "벽사진경",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "마을행사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "마당밟기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "매구",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "걸립",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "걸궁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "민속악기",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속악기",
+    "end_word" : "꽹과리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속악기",
+    "end_word" : "징",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속악기",
+    "end_word" : "북",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속악기",
+    "end_word" : "장구",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속악기",
+    "end_word" : "쇠납",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "지신밟기",
+    "end_word" : "지신풀이가사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "가뭄",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "비",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "용신",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "제사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "국가 의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "농사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "왕",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "고려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "분화",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "시장 옮기기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "천지",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "산천",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "종묘",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "부처",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "취무도우",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "취무도우",
+    "end_word" : "무당",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "고려사절요",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기우제",
+    "end_word" : "조선왕조실록",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "섣달 그믐날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "궁중",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "잡귀",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "궁궐의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "구나",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "대나",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "나희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "벽사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "벽사",
+    "end_word" : "처용무",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "닭",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "황토우",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "나례청",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "관상감",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "인정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "사정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "나례",
+    "end_word" : "명정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "돌",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "어린이 놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "오주연문장전산고",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "짜게받기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "살구",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "닷짝걸이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "좌돌리기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "조개질",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "공기놀이",
+    "end_word" : "좌질",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소서",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소서",
+    "end_word" : "음력 6월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소서",
+    "end_word" : "논매기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입동",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입동",
+    "end_word" : "상강",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입동",
+    "end_word" : "소설",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입동",
+    "end_word" : "김장",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "입동",
+    "end_word" : "시루떡",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "설날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "단오",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "추석",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "널빤지",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "짚단",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "가마니",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "성인여자놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "초판희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "판무",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "도판희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "경도잡지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "널뛰기",
+    "end_word" : "조선상식문답",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "조선상식문답",
+    "end_word" : "최남선",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "말판",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "말",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "꼬누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "고니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "꼬니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "꼰",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고누",
+    "end_word" : "줄고누",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "우물고누",
+    "end_word" : "샘고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "우물고누",
+    "end_word" : "강고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "네줄고누",
+    "end_word" : "사선고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "네줄고누",
+    "end_word" : "사마고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "네줄고누",
+    "end_word" : "정자고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곤질고누",
+    "end_word" : "참고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곤질고누",
+    "end_word" : "짤고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "곤질고누",
+    "end_word" : "꽂을고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "호박고누",
+    "end_word" : "돼지고누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "10월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "제천의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "삼국지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "후한서",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "팔관회",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팔관회",
+    "end_word" : "고려 말기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "정초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "동명",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동맹",
+    "end_word" : "제주도 동제",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백로",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백로",
+    "end_word" : "음력 8월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "백로",
+    "end_word" : "양력 9월 9일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "음력 4월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "소녀",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "여인",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "봉선화",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "손톱",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "지염",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "미용법",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "봉선화^물들이기",
+    "end_word" : "민간신앙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세종대왕^태실지",
+    "end_word" : "사천시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세종대왕^태실지",
+    "end_word" : "태",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세종대왕^태실지",
+    "end_word" : "태실터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세종대왕^태실지",
+    "end_word" : "경상남도 기념물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀신날",
+    "end_word" : "음력 1월 16일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀신날",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀신날",
+    "end_word" : "널뛰기",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀신날",
+    "end_word" : "윷놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "생활 문화",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민속학",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민간",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "최남선",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "손진태",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "송석하",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "한자^문화권",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민생",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민습",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민심",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속",
+    "end_word" : "민간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "과학",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "민족^문화",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "액",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "액운",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "민속의례",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "도액",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "제액",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "매그림",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "호랑이그림",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액막이",
+    "end_word" : "부적",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "오쟁이 다리놓기",
+    "end_word" : "노두",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "매성이 심기",
+    "end_word" : "팥알",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "액연",
+    "end_word" : "방연",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "용왕 공드리기",
+    "end_word" : "무안",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어부슴",
+    "end_word" : "흰밥",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어부슴",
+    "end_word" : "어부심",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "줄꾼",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "줄광대",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "전문인 놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "광대줄타기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "어름줄타기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "광대줄타기",
+    "end_word" : "정재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄광대",
+    "end_word" : "나례도감",
+    "relate_line_nm" : "활동하다",
+    "group_nm" : "소속"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄광대",
+    "end_word" : "재인청",
+    "relate_line_nm" : "활동하다",
+    "group_nm" : "소속"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "남사당패",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "인류무형유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "국가^무형^문화재",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "고환",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "무환",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "환희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "주삭",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "승기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "희승",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "새연삭",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "답삭희",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "줄타기",
+    "end_word" : "답삭",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "광대줄타기",
+    "end_word" : "지배층",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "서민층",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "광대줄타기",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "광대줄타기",
+    "end_word" : "관아",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "광대줄타기",
+    "end_word" : "삼현육각",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "꽹과리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "징",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "북",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "장구",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어름줄타기",
+    "end_word" : "날라리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기차기",
+    "end_word" : "정초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기차기",
+    "end_word" : "제기",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기차기",
+    "end_word" : "어린이놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기",
+    "end_word" : "엽전",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기",
+    "end_word" : "주화",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기",
+    "end_word" : "한지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기",
+    "end_word" : "비단",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제기",
+    "end_word" : "놀이기구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "땅강아지",
+    "end_word" : "땅지기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "어지자지",
+    "end_word" : "양발지기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "헐랭이",
+    "end_word" : "들지기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "상고^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "예",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "제천의식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "하늘",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "제사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "음력 10월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "춤",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "노래",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "명절행사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "위지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "후한서",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "무천",
+    "end_word" : "추수감사",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소설",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소설",
+    "end_word" : "입동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소설",
+    "end_word" : "대설",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "소설",
+    "end_word" : "소춘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "단오",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "나무",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "줄",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "발판",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "성인여자놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "추천",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "근데",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "군데",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "근듸",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "군듸",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "근의",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "그리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "구리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "재물보",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "재물보",
+    "end_word" : "이성지",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "재물보",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "훈몽자회",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "훈몽자회",
+    "end_word" : "최세진",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "두시언해",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "외 그네뛰기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "그네",
+    "end_word" : "쌍 그네뛰기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "불",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "달맞이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "쥐불놀이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "달집태우기",
+    "end_word" : "횃불싸움",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "주지놀음",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "사지놀음",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "사자놀음",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "사자탈",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자탈",
+    "end_word" : "나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자탈",
+    "end_word" : "대광주리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자탈",
+    "end_word" : "종이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "풍물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "향악잡영",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "향악잡영",
+    "end_word" : "최치원",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사자놀이",
+    "end_word" : "신악부",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "신악부",
+    "end_word" : "백낙천",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "정월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "연",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "경도잡지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경도잡지",
+    "end_word" : "유득공",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "열양세시기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "열양세시기",
+    "end_word" : "김매순",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "연날리기",
+    "end_word" : "동국세시기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상강",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상강",
+    "end_word" : "한로",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "상강",
+    "end_word" : "입동",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "광주광역시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "성인남자놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "중요무형문화재",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "고",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "고싸움놀이",
+    "end_word" : "농경의식",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "광대",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "땅재주",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "전문인놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "광대놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "지예",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "장기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "남사당패",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "남사당패",
+    "end_word" : "연예집단",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "솟대쟁이패",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "솟대쟁이패",
+    "end_word" : "연예집단",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "기예",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "기예",
+    "end_word" : "살판쇠",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "재담",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "재담",
+    "end_word" : "살판쇠",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "재담",
+    "end_word" : "매호씨",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "꽹과리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "징",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "북",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "장구",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "날라리",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "칠채가락",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "덩더궁이",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "살판",
+    "end_word" : "자진가락",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "겨울철",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "얼음판",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "팽이",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "박달나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "소나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "뺑이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "핑딩",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "뺑돌이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "도래기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "패이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "팽돌이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "빼리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "뺑생이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "봉애",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세리",
+    "end_word" : "포애",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "역어유해",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "역어유해",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "한청문감",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한청문감",
+    "end_word" : "조선",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "벽돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "기왓장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "장구팽이",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이",
+    "end_word" : "줄팽이",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "오래돌리기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "멀리치기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "빨리돌아오기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "부딪쳐돌아오기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "팽이치기",
+    "end_word" : "찌게돌리기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "설날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "벽",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "보은",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "담양",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "원주",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "복조리",
+    "end_word" : "서산",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세배",
+    "end_word" : "정월 초하룻날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세배",
+    "end_word" : "윗사람",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세배",
+    "end_word" : "절",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "세배",
+    "end_word" : "새해 인사",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "남사당패",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "대접",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "쳇바퀴",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "대야",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "막대기",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "전문인놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "광대놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "버나",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "덩더궁이 장단",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "버나잡이",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "매호씨",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "매호씨",
+    "end_word" : "소리꾼",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "매호씨",
+    "end_word" : "매화타령",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "버나돌리기",
+    "end_word" : "사위",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "던질사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "때릴사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "다리사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "무지개사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "자새버나",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "칼버나",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "바늘버나",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "도깨비^대동강^건너가기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "정봉산성",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "단발령넘는사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "삼동",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "놋대야 돌리기",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "낙화사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "꼬바리사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사위",
+    "end_word" : "물주리 사위",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐불놀이",
+    "end_word" : "정월 상자일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐불놀이",
+    "end_word" : "쥐",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐불놀이",
+    "end_word" : "불",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐불놀이",
+    "end_word" : "소년놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "쥐불놀이",
+    "end_word" : "훈서화",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "홍석모",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "세시풍속지",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "일반세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "명절세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "농경세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "신앙세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "놀이세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "음식세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "언어세시",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "경도잡지",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "경도잡지",
+    "end_word" : "유득공",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "경부",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "도애",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "홍희준",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "남원부사",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "장악원 첨정",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "연세대본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "동국세시기",
+    "end_word" : "광문회본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "홍석모",
+    "end_word" : "이자유",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "생활^양식",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "정신문화",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "학문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "민속학",
+    "end_word" : "한국 민속학",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "사회민속",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "생업민속",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "의식주 민속",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "민속^신앙",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "일생의례",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "세시풍속",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "민속^문학",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "민속^예술",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "손진태",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한국 민속학",
+    "end_word" : "송석하",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "추석",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "전라남도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "노래",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "무용",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "놀이",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "중요무형문화재",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "강강수월래",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "이순신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "강강술래",
+    "end_word" : "민속놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "소설",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "동지",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "음력 11월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "양력 12월 7일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "중국",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "초후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "중후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대설",
+    "end_word" : "말후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "초후",
+    "end_word" : "산박쥐",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "중후",
+    "end_word" : "범",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "말후",
+    "end_word" : "여지",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "음력 6월 15일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "유둣날",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "유두잔치",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두잔치",
+    "end_word" : "폭포",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "동류수두목욕",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "물맞이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "유두천신",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두천신",
+    "end_word" : "사당",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "유두면",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "수단",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "건단",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유두",
+    "end_word" : "상화병",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "정월^대보름",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "귀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "이명주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "유롱주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "유롱주",
+    "end_word" : "치롱주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "제화초복",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "한약재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "귀밝이술",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "절기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "소서",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "입추",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "음력 6월",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "양력 7월 23일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "더위",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "논김",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "밭김",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "장마",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "참외",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "수박",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "햇밀",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "대서",
+    "end_word" : "보리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "단옷날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "임금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "재상",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "시종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "부채",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "공조",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "단오진선",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오진선",
+    "end_word" : "경상도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오진선",
+    "end_word" : "전라도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "단오사선",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "대나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "백첩선",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "단오선",
+    "end_word" : "칠첩선",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "칠첩선",
+    "end_word" : "옻칠",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "비사치기",
+    "end_word" : "비석",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "비사치기",
+    "end_word" : "어린이놀이",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "비사치기",
+    "end_word" : "비석치기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "비사치기",
+    "end_word" : "비석차기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "비사치기",
+    "end_word" : "돌치기",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "사람",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "동물",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "논밭",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "조형물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사람",
+    "end_word" : "농부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "허숭아비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "허시아비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "허제비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "허사비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "허아비",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "사람",
+    "end_word" : "사냥꾼",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "나무막대기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "짚",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "새끼",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "허수아비",
+    "end_word" : "밀짚모자",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "설날",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "단오",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "명절",
+    "end_word" : "추석",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "청명절",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "양력 4월 5일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "양력 4월 5일",
+    "end_word" : "식목일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "제향",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제향",
+    "end_word" : "종묘",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "제향",
+    "end_word" : "능원",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "제사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "성묘",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "식수",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "민속인류",
+    "start_word" : "한식",
+    "end_word" : "사초",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  } ]
+}

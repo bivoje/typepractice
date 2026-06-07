@@ -1,7 +1,17 @@
+#![allow(unused)]
+
 use rand::prelude::SliceRandom;
 use rand::SeedableRng;
+use std::str::FromStr;
 
 use dioxus::prelude::*;
+
+mod platform;
+mod utils;
+
+fn main() {
+    platform::launch_builder().launch(DBProvider);
+}
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -10,21 +20,62 @@ enum Route {
 
     #[route("/")]
     Home {},
-    #[route("/3berlsik/list")]
-    SeoberlsikList {},
-    #[route("/3berlsik/practice/:id")]
-    SeoberlsikPractice { id: u32 },
-    #[route("/3berlsik/result/:id")]
+    #[route("/list")]
+    PracticeList {},
+    #[route("/practice/:id")]
+    PracticeExam { id: u32 },
+    #[route("/result/:id")]
     PracticeResult { id: u32 },
     #[route("/error/:errmsg")]
     ErrorPage { errmsg: String },
 }
 
-mod platform;
-mod utils;
+struct AssetData {
+    practice_sets: utils::PracticeSets,
+    wordset: String,
+}
 
-fn main() {
-    platform::launch_builder().launch(DBProvider);
+use dioxus::asset_resolver::{read_asset_bytes, AssetResolveError};
+
+#[derive(Debug, thiserror::Error)]
+enum AssetDataError {
+    #[error("{0}")] Dare(#[from] AssetResolveError),
+    #[error("{0}")] Sfu8(#[from] std::string::FromUtf8Error),
+    #[error("{0}")] Json(#[from] serde_json::Error),
+}
+
+impl AssetData {
+    pub async fn load() -> Result<Self, AssetDataError> {
+        use futures_util::{join, future::join_all};
+
+        let words_fut = (|| async {
+            let asset = asset!("assets/data/wordset.list");
+            let bytes = read_asset_bytes(asset).await?;
+            let words = String::from_utf8(bytes)?;
+            Ok::<_, AssetDataError>(words)
+        }) ();
+
+        use strum::IntoEnumIterator;
+        let practices_futs = utils::KeyboardLayout::iter().map(|layout| async move {
+            let asset = match layout {
+                utils::KeyboardLayout::Gong390   => asset!("assets/data/practices_kong390.json"),
+                utils::KeyboardLayout::Semoe2018 => asset!("assets/data/practices_semoe2018.json"),
+            };
+            let bytes = read_asset_bytes(asset).await?;
+            let practices: Vec<utils::Practice> = serde_json::from_slice(&bytes)?;
+            Ok::<_, AssetDataError>(practices)
+        });
+        let practices_fut = join_all(practices_futs);
+
+        let (words, p_sets) = join!(words_fut, practices_fut);
+        let p_sets = p_sets.into_iter().collect::<Result<_,_>>()?;
+
+        Ok(AssetData { wordset: words?, practice_sets: utils::PracticeSets { sets: p_sets } })
+    }
+
+    pub fn get_practice(&self, id: u32, layout: utils::KeyboardLayout) -> &utils::Practice {
+        &self.practice_sets.sets[layout as usize][id as usize]
+    }
 }
 
 #[component]
@@ -38,6 +89,10 @@ fn LaunchError() -> Element {
 #[component]
 fn DBProvider() -> Element {
     let db = use_resource(platform::DataFetch::open);
+    let wordset: Resource<Result<_, AssetDataError>> = use_resource(|| async {
+        let assetdata = AssetData::load().await?;
+        Ok(std::sync::Arc::new(assetdata))
+    });
 
     let config: Resource<Result<Option<_>, platform::DataFetchError>> = use_resource(move || async move {
         let db = if let Some(Ok(db)) = &*db.read() {
@@ -48,22 +103,25 @@ fn DBProvider() -> Element {
         } else { None })
     });
 
-    let ret = match (&*db.read(), &*config.read()) {
-        (Some(Ok(db)), Some(Ok(Some(config)))) => {
+    let ret = match (&*db.read(), &*config.read(), &*wordset.read()) {
+        (Some(Ok(db)), Some(Ok(Some(config))), Some(Ok(words))) => {
             use_context_provider(|| db.clone());
             let config = use_signal(|| config.clone());
             use_context_provider(|| config);
+            use_context_provider(|| words.clone());
 
             rsx! {
                 App {}
             }
         }
 
-        (Some(Err(e)), _) => rsx! { ErrorPage { errmsg: e.to_string() } },
-        (_, Some(Err(e))) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        (Some(Err(e)), _, _) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        // (_, Some(Err(e)), _) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        // (_, _, Some(Err(e))) => rsx! { ErrorPage { errmsg: e.to_string() } },
         _ => rsx! { "Loading" },
     }; ret
 }
+
 
 const FONT_SCHOOL_R: Asset = asset!("assets/fonts/HakgyoansimAllimjangTTF-R.woff2");
 const FONT_SCHOOL_B: Asset = asset!("assets/fonts/HakgyoansimAllimjangTTF-B.woff2");
@@ -137,7 +195,7 @@ fn App() -> Element {
 #[component]
 fn Home() -> Element {
     let nav = use_navigator();
-    nav.push(Route::SeoberlsikList {});
+    nav.push(Route::PracticeList {});
     rsx! {}
 }
 
@@ -209,23 +267,24 @@ impl GridData {
 }
 
 #[component]
-fn SeoberlsikList() -> Element {
+fn PracticeList() -> Element {
 
+    let assetdata = use_context::<std::sync::Arc<AssetData>>();
     let nav = use_navigator();
-
     let mut config = use_context::<Signal<utils::UserConfig>>();
-
     let mut db_refresh_token = use_signal(|| 0);
 
     let db_a = consume_context::<platform::DataFetch>();
     let db_b = consume_context::<platform::DataFetch>();
     let db_c = consume_context::<platform::DataFetch>();
+    let db_e = consume_context::<platform::DataFetch>();
     let from_db: Resource<Result<_, platform::DataFetchError>> = use_resource(move || {
         let _ = db_refresh_token();
 
         let db = db_a.clone();
+        let assetdata = assetdata.clone();
         async move {
-            let summaries = db.get_all_practice_result_summaries(config()).await?;
+            let summaries = db.get_all_practice_result_summaries(&assetdata.practice_sets, config()).await?;
 
             let mut title = vec![];
             let mut num_w = vec![];
@@ -256,7 +315,7 @@ fn SeoberlsikList() -> Element {
                 data: ColumnData {
                     inner: title.clone(),
                     render: |(title, id)| rsx! { Link {
-                        to: Route::SeoberlsikPractice { id: *id },
+                        to: Route::PracticeExam { id: *id },
                         class: "grid-cell-custom-title",
                         "{title}"
                         // span { class: "material-symbols-outlined", "backspace" } TODO
@@ -326,6 +385,8 @@ fn SeoberlsikList() -> Element {
         }))
     });
 
+    use strum::IntoEnumIterator;
+
     const DEL_ICONS: [&str; 5] = ["delete", "heart_broken", "delete_sweep", "contract_delete", "delete_forever"];
     let mut del_confirm = use_signal(|| [false; DEL_ICONS.len()]);
 
@@ -348,9 +409,9 @@ fn SeoberlsikList() -> Element {
                     class: if allow_del { "allow-del" } else { "disallow-del" },
                     title: if allow_del { "backspace enabled" } else { "backspace disabled" },
                     onclick: move |_| {
+                        config.write().allow_del = !allow_del;
                         let db = db_b.clone();
                         async move {
-                            config.write().allow_del = !allow_del;
                             if let Err(err) = db.put_userconfig(config()).await {
                                 nav.push(Route::ErrorPage { errmsg: format!("{err}") });
                             }
@@ -363,9 +424,9 @@ fn SeoberlsikList() -> Element {
                     class: if word_time { "allow-del" } else { "disallow-del" },
                     title: if word_time { "ignore interval time" } else { "measure whole time" },
                     onclick: move |_| {
+                        config.write().word_time = !word_time;
                         let db = db_c.clone();
                         async move {
-                            config.write().word_time = !word_time;
                             if let Err(err) = db.put_userconfig(config()).await {
                                 nav.push(Route::ErrorPage { errmsg: format!("{err}") });
                             }
@@ -395,6 +456,26 @@ fn SeoberlsikList() -> Element {
                         "{icon}"
                     }
                 }
+
+                select {
+                    onchange: move |e| {
+                        config.write().layout = utils::KeyboardLayout::from_str(&e.data().value()).unwrap();
+                        let db = db_e.clone();
+                        async move {
+                            if let Err(err) = db.put_userconfig(config()).await {
+                                nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                            }
+                        }
+                    },
+
+                    for layout in utils::KeyboardLayout::iter() {
+                        option {
+                            value: "{layout}",
+                            selected: config().layout == layout,
+                            "{layout}"
+                        }
+                    }
+                }
             }
             DataGrid { data: data.clone(), }
         }
@@ -407,7 +488,7 @@ fn SeoberlsikList() -> Element {
 fn DataGrid(data: GridData) -> Element {
     data.verify();
 
-    let column_widths: String = 
+    let column_widths: String =
         (0 .. data.num_cols()).map(|col_idx|
             format!("{}ch ", data.get_decl(col_idx).width + 2)
         ).collect();
@@ -461,7 +542,7 @@ fn DataGrid(data: GridData) -> Element {
                                         class: if column.align == HorizontalAlign::Left     { "text-left" },
                                         class: if column.align == HorizontalAlign::Center   { "text-center" },
                                         class: if column.align == HorizontalAlign::Right    { "text-right" },
-                                        
+
                                         "{column.name}"
                                         if column.sort > 0 {" ↑"}
                                         if column.sort < 0 {" ↓"}
@@ -494,7 +575,7 @@ fn DataGrid(data: GridData) -> Element {
                         }
                     }
                 }
-            
+
                 for row_idx in 0 .. data.num_rows() {
                     div {
                         class: "grid-row",
@@ -547,7 +628,7 @@ use platform::time::{Instant, Duration};
 use platform::sleep_future;
 
 #[component]
-fn SeoberlsikPractice(id: u32) -> Element {
+fn PracticeExam(id: u32) -> Element {
     // let mut elapsed = use_signal(|| 0);
     let mut prev_answer = use_signal(|| "".to_string());
     let mut word_idx = use_signal(|| 0usize);
@@ -577,33 +658,17 @@ fn SeoberlsikPractice(id: u32) -> Element {
         });
     });
 
-    let db = consume_context::<platform::DataFetch>();
-    // this too will be called only once
-    let from_db: Resource<Result<_, platform::DataFetchError>> = use_resource(move || {
-        let db = db.clone();
-        async move {
-            let (title, content, num_words) = db.get_practice_content(id).await?;
-            let words = content.split_whitespace().map(|s| s.into()).collect::<Vec<String>>();
-            Ok((title, words, num_words))
-        }
-    });
+    let assetdata = consume_context::<std::sync::Arc<AssetData>>();
+    let practice = assetdata.get_practice(id, config().layout);
 
     let mut words_ord_seed = use_signal(rand::random);
 
-    let words_ord = use_memo(move ||
-        if let Some(Ok((_, words, num_words))) = &*from_db.read() {
-            let mut rng = rand::rngs::SmallRng::seed_from_u64(words_ord_seed());
-            let mut words_ord = vec![];
-            while words_ord.len() < *num_words {
-                words_ord.extend(0 .. words.len());
-            }
-            words_ord.shuffle(&mut rng);
-            words_ord.truncate(*num_words);
-            words_ord
-        } else {
-            vec![]
-        }
-    );
+    let words = use_memo(move || {
+        let assetdata = consume_context::<std::sync::Arc<AssetData>>();
+        let practice = assetdata.get_practice(id, config().layout);
+        let mut rng = rand::rngs::SmallRng::seed_from_u64(words_ord_seed());
+        practice.sample_words(&assetdata.wordset, &mut rng)
+    });
 
     let nav = use_navigator();
 
@@ -640,6 +705,12 @@ fn SeoberlsikPractice(id: u32) -> Element {
         points: 0,
     };
 
+    let words = words.read();
+    let num_words = words.len();
+    let idx = word_idx();
+    // cannot use words in onsubmit callback, so we prepare here
+    let current = if idx < num_words { Some(words[idx].clone()) } else { None };
+
     rsx! {
         div {
             class: "package",
@@ -651,87 +722,67 @@ fn SeoberlsikPractice(id: u32) -> Element {
                 class: "practice-title",
                 span {
                     class: "practice-title-inner",
-                    if let Some(Ok((title, _, _))) = &*from_db.read() {
-                        "{title}",
-                    }
+                    "{practice.title}",
                     span { class: "material-symbols-outlined", class: if config().allow_del {"allow-del"} else {"disallow-del"}, "backspace" }
                 }
             }
 
             StatusLine { status: status },
 
-            { match &*from_db.read() {
-                None => rsx! {},
-                Some(Err(err)) => {
-                    nav.push(Route::ErrorPage { errmsg: format!("{err}") });
-                    rsx! {}
-                }
+            WordsViewer {
+                prev: if idx > 0 { Some(words[idx-1].clone()) } else { None },
+                next: if idx + 1 < num_words { Some(words[idx+1].clone()) } else { None },
+                current: current.clone(),
+                prev_answer: prev_answer.read(),
+                prev_speed: prev_speed(),
 
-                Some(Ok((_, words, _))) => {
-                    let words_ord = words_ord.read();
-                    let num_words = words_ord.len();
+                onsubmit: move |s: String| {
+                    if let Some(current) = current.as_ref() {
+                        let (left, common, right) = utils::tasu_compare(current.as_str(), s.as_str());
+                        let wrong = left.max(right);
+                        let cur_typed = common + right;
+                        *wrong_count.write() += wrong;
+                        *typing_count.write() += cur_typed;
+                        // Note for later: wpm = 5 * cpm
 
-                    let idx = word_idx();
-                    // cannot use words in onsubmit callback, so we prepare here 
-                    let current = if idx < num_words { Some(words[words_ord[idx]].clone()) } else { None };
-                    rsx! {
-                        WordsViewer { 
-                            prev: if idx > 0 { Some(words[words_ord[idx-1]].clone()) } else { None },
-                            next: if idx + 1 < num_words { Some(words[words_ord[idx+1]].clone()) } else { None },
-                            current: current.clone(),
-                            prev_answer: prev_answer.read(),
-                            prev_speed: prev_speed(),
+                        word_idx.set(idx + 1);
+                        prev_answer.set(s);
 
-                            onsubmit: move |s: String| {
-                                if let Some(current) = current.as_ref() {
-                                    let (left, common, right) = utils::tasu_compare(current.as_str(), s.as_str());
-                                    let wrong = left.max(right);
-                                    let cur_typed = common + right;
-                                    *wrong_count.write() += wrong;
-                                    *typing_count.write() += cur_typed;
-                                    // Note for later: wpm = 5 * cpm
+                        acc_time += cur_acc_time();
+                        prev_speed.set((cur_typed as f32 / cur_acc_time().as_millis() as f32 * 60_000.0) as u32);
+                        cur_acc_time.set(Duration::from_secs(0));
 
-                                    word_idx.set(idx + 1);
-                                    prev_answer.set(s);
-
-                                    acc_time += cur_acc_time();
-                                    prev_speed.set((cur_typed as f32 / cur_acc_time().as_millis() as f32 * 60_000.0) as u32);
-                                    cur_acc_time.set(Duration::from_secs(0));
-
-                                    if config().word_time {
-                                        start_time.set(None); // pause timer
-                                    } else {
-                                        start_time.set(Some(Instant::now())); // pause timer
-                                    }
-                                }
-
-                                async move {
-                                    if idx == num_words - 1 {
-                                        let mut status = utils::Status {
-                                            wrong: wrong_count(),
-                                            finished: word_idx() as u32,
-                                            millis: (acc_time() + cur_acc_time()).as_millis(),
-                                            time_active: start_time().is_some(),
-                                            typed: typing_count(),
-                                            points: 0,
-                                        };
-                                        status.set_points();
-
-                                        let db = consume_context::<platform::DataFetch>();
-                                        if let Err(err) = db.put_practice_result(id, config(), status).await {
-                                            nav.push(Route::ErrorPage { errmsg: format!("{err}") });
-                                        } else {
-                                            nav.push(Route::PracticeResult { id });
-                                        }
-                                    }
-                                }
-                            },
-
-                            oninput, onreset,
+                        if config().word_time {
+                            start_time.set(None); // pause timer
+                        } else {
+                            start_time.set(Some(Instant::now())); // pause timer
                         }
                     }
-                }
-            }}
+
+                    async move {
+                        if idx == num_words - 1 {
+                            let mut status = utils::Status {
+                                wrong: wrong_count(),
+                                finished: word_idx() as u32,
+                                millis: (acc_time() + cur_acc_time()).as_millis(),
+                                time_active: start_time().is_some(),
+                                typed: typing_count(),
+                                points: 0,
+                            };
+                            status.set_points();
+
+                            let db = consume_context::<platform::DataFetch>();
+                            if let Err(err) = db.put_practice_result(id, config(), status).await {
+                                nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                            } else {
+                                nav.push(Route::PracticeResult { id });
+                            }
+                        }
+                    }
+                },
+
+                oninput, onreset,
+            }
         }
     }
 }
@@ -740,10 +791,10 @@ fn SeoberlsikPractice(id: u32) -> Element {
 fn Toolbar(id: u32, onreset: EventHandler) -> Element {
     rsx! {
         div { class: "toolbar",
-            Link { class: "material-symbols-outlined toolbar-list", to: Route::SeoberlsikList {}, "list" }
-            // span { class: "material-symbols-outlined toolbar-back", onclick: move |_| {nav.push(Route::SeoberlsikPractice { id: id-1, allow_del });}, "arrow_back" }
+            Link { class: "material-symbols-outlined toolbar-list", to: Route::PracticeList {}, "list" }
+            // span { class: "material-symbols-outlined toolbar-back", onclick: move |_| {nav.push(Route::PracticeExam { id: id-1, allow_del });}, "arrow_back" }
             span { class: "material-symbols-outlined toolbar-restart", onclick: move |_| onreset.call(()), "refresh" }
-            // Link { class: "material-symbols-outlined toolbar-next", to: Route::SeoberlsikPractice { id: id+1, allow_del }, "arrow_forward" }
+            // Link { class: "material-symbols-outlined toolbar-next", to: Route::PracticeExam { id: id+1, allow_del }, "arrow_forward" }
         }
     }
 }
@@ -807,7 +858,7 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                         let mut submit = || {
                             // oninput must be called `before` `onsubmit`
                             // to prevent overwriting start_timer set to None by onsubmit
-                            props.oninput.call(()); 
+                            props.oninput.call(());
 
                             if ! input().is_empty() {
                                 props.onsubmit.call(input());
@@ -839,7 +890,7 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                             }
 
                             Code::Escape => {
-                                nav.push(Route::SeoberlsikList {});
+                                nav.push(Route::PracticeList {});
                             }
 
                             Code::Space | Code::Enter if e.key() != Key::Process => submit(),
@@ -851,6 +902,15 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                                 e.prevent_default();
                                 e.stop_propagation();
                             }
+
+                            // prevent accidental start of input timer for these keys
+                            Code::AltLeft | Code::AltRight |
+                            Code::ContextMenu |
+                            Code::ControlLeft | Code::ControlRight |
+                            Code::MetaLeft | Code::MetaRight |
+                            Code::F1 | Code::F2 | Code::F3 | Code::F4  |/*Code::F5|*/Code::F6 |
+                            Code::F7 | Code::F8 | Code::F9 | Code::F10 | Code::F11 | Code::F12
+                            => (),
 
                             _ => props.oninput.call(()),
                         }
@@ -954,13 +1014,13 @@ fn PracticeResult(id: u32) -> Element {
             onkeydown: move |e: Event<KeyboardData>| {
                 match e.code() {
                     Code::Escape => {
-                        nav.push(Route::SeoberlsikList {});
+                        nav.push(Route::PracticeList {});
                     }
                     Code::Backspace => {
-                        nav.push(Route::SeoberlsikPractice { id });
+                        nav.push(Route::PracticeExam { id });
                     }
                     Code::Space => {
-                        nav.push(Route::SeoberlsikPractice { id: id+1 });
+                        nav.push(Route::PracticeExam { id: id+1 });
                     }
                     _ => (),
                 }
@@ -1026,10 +1086,10 @@ fn ResultViewer(id: u32, status: utils::Status) -> Element {
                 }
             }
             div { class: "actions",
-                Link { class: "action-list material-symbols-outlined", to: Route::SeoberlsikList {}, "list" }
-                Link { class: "action-back material-symbols-outlined", to: Route::SeoberlsikPractice { id: id-1 }, "arrow_back" } // TODO conditionally disable?
-                Link { class: "action-redo material-symbols-outlined", to: Route::SeoberlsikPractice { id }, "refresh" }
-                Link { class: "action-next material-symbols-outlined", to: Route::SeoberlsikPractice { id: id+1 }, "arrow_forward" }
+                Link { class: "action-list material-symbols-outlined", to: Route::PracticeList {}, "list" }
+                Link { class: "action-back material-symbols-outlined", to: Route::PracticeExam { id: id-1 }, "arrow_back" } // TODO conditionally disable?
+                Link { class: "action-redo material-symbols-outlined", to: Route::PracticeExam { id }, "refresh" }
+                Link { class: "action-next material-symbols-outlined", to: Route::PracticeExam { id: id+1 }, "arrow_forward" }
                 // span { class: "action-next material-symbols-outlined", onclick: move |_| {
                 //     apply_width.toggle();
                 // },

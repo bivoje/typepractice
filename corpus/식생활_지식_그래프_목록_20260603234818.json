@@ -1,0 +1,4359 @@
+{
+  "termList" : [ {
+    "task_nm" : "식생활",
+    "start_word" : "삼신상",
+    "end_word" : "상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신상",
+    "end_word" : "신령",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "신령",
+    "end_word" : "아기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신상",
+    "end_word" : "삼신",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "환인",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "환웅",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "단군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼시랑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼신단지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼신할머니",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼신바가지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼신할아버지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "삼신",
+    "end_word" : "삼신판",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "죽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "동짓날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "붉은팥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "절식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "새알심",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지^팥죽",
+    "end_word" : "복죽",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "배추",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "오이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "지",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "저",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "딤채",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "수수보리지",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "순무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "동아",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "총각김치",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "오이소박이",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "동치미",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "배추김치",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "용인오이지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "겨울가지김치",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "영양가",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "기호성",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "저장성",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "간장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "된장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "청국장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "김치",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "젓갈",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "식초",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "보존",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효식품",
+    "end_word" : "신소재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "향토음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "편육",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "평양지방",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "소",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소",
+    "end_word" : "양지머리",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소",
+    "end_word" : "가슴살",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소",
+    "end_word" : "머리고기",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "닭고기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "육수",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어복쟁반",
+    "end_word" : "고명",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고명",
+    "end_word" : "계란지단",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고명",
+    "end_word" : "파",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고명",
+    "end_word" : "배",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고명",
+    "end_word" : "잣",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "전통음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "특산품",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "국밥",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "설렁탕",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "흑임자죽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "잣죽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "떡국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "비빔국수",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토음식",
+    "end_word" : "조과류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "과줄",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "강정",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "산자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "약과",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "만두과",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "조과류",
+    "end_word" : "들깨엿강정",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "쇠머리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "쇠족",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "쇠고기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "뼈",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "내장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "곰국",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "설농탕",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "설렁탕",
+    "end_word" : "서울",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "건조법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "저온^저장법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "염장법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "초절임법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "당장법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "훈연법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "가열살균법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식품저장법",
+    "end_word" : "가공저장법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건조법",
+    "end_word" : "건과법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건조법",
+    "end_word" : "건어법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건조법",
+    "end_word" : "나물 말리기",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건어법",
+    "end_word" : "소건법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건어법",
+    "end_word" : "저건법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건어법",
+    "end_word" : "동건법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "건어법",
+    "end_word" : "염건법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "염장법",
+    "end_word" : "소금",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "궁중음식",
+    "end_word" : "초조반",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "궁중음식",
+    "end_word" : "수라상",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "궁중음식",
+    "end_word" : "낮것상",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "왼죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "흰죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "전복죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "원미죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "장국죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "버섯죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "잣죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "타락죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "초조반",
+    "end_word" : "깨죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "아침",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "저녁",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "임금",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "중전",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "산가지",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "육산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "어산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "송이산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "파산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "떡산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "잡산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "산적",
+    "end_word" : "섭산적",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "육산적",
+    "end_word" : "살코기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "육산적",
+    "end_word" : "제물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "육산적",
+    "end_word" : "웃기",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어산적",
+    "end_word" : "생선",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "어산적",
+    "end_word" : "쇠고기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송이산적",
+    "end_word" : "송이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "파산적",
+    "end_word" : "파",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "파산적",
+    "end_word" : "고기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡산적",
+    "end_word" : "흰떡",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡산적",
+    "end_word" : "쇠고기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "잡산적",
+    "end_word" : "내장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "김치",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "배추",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "가지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "오이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "동아",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "갓",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "늦가을",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "섞박지",
+    "end_word" : "초겨울",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "알코올",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "음료",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "과일",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "곡류",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "탁주",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "청주",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "소주",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "탁주",
+    "end_word" : "농주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "백약지장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "광약",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "탁주",
+    "end_word" : "막걸리",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "탁주",
+    "end_word" : "백주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "청주",
+    "end_word" : "약주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아라크",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아라길주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "알키",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아락주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "백하주",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "삼해주",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "연엽주",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "소국주",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "새참",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "새참",
+    "end_word" : "사이참",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "새참",
+    "end_word" : "술참",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "새참",
+    "end_word" : "술",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "새참",
+    "end_word" : "농촌",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "김",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "밥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "시금치",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "계란",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "단무지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "오이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "우엉",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "햄",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "야채김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "당근김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "김치김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "소고기김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "치즈김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "키토김밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김",
+    "end_word" : "해의",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김",
+    "end_word" : "해태",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김",
+    "end_word" : "해채",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김",
+    "end_word" : "자채",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김밥",
+    "end_word" : "한식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "풍습",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "초겨울",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "김치",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김치",
+    "end_word" : "채소염장식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "배추",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "열무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "가지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "오이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "박",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "콩나물",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "미나리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "고춧가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "소금",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "김장",
+    "end_word" : "젓갈",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "가자미",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "식해",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "향토음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "노랑가자미",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "좁쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "함경도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "밥반찬",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가자미식해",
+    "end_word" : "술안주",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "잎",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "음료",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "곡류",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "율무차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "옥수수차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "두충차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "감잎차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "유자차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "모과차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "국화차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "인삼차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "귤피차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "쌍화차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "다도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "불발효차",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "반발효차",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "발효차",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "불발효차",
+    "end_word" : "녹차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반발효차",
+    "end_word" : "우롱차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "발효차",
+    "end_word" : "홍차",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "타닌",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "카페인",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "비타민 C",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다도",
+    "end_word" : "차",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다도",
+    "end_word" : "예법",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다도",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다도",
+    "end_word" : "취미생활",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다도",
+    "end_word" : "끽다",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "색",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "향",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "미",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차",
+    "end_word" : "다선일미설",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "밀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "꿀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "참기름",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "유밀과",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "조청",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "소약과",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "대약과",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "모약과",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약과",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "음식",
+    "end_word" : "향토 음식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "대구^육개장",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "안동식혜",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "곰치장아찌",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "당귀장아찌",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "토란줄기찜",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "갖은정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "전주비빔밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "향토 음식",
+    "end_word" : "순창고추장",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "술",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "효소",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "발효제",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "춘추^전국^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "밀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "보리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "녹두",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "춘국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "하국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "절국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "동국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "병국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "누룩",
+    "end_word" : "산국",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "흰밥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "고기볶음",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "나물",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "튀각",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "반찬",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "골동반",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "비빔",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "1800년대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "전주비빔밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "진주비빔밥",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "비빔밥",
+    "end_word" : "헛제삿밥",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "어패류",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "식염",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "발효식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "어육장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "식해",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "주조법",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "어리굴젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "반찬",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "멸치젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "꽁치젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "대구포젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "호리기젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "갈치속젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "고흥석화젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "돔배젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "대합젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "고록젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "젓갈",
+    "end_word" : "황석어젓",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "밤",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "콩",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "꿀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "조청",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "고려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "연례용",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "단차형말차",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "제례",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "혼례",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "쌀다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "송화다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "밤다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "검은깨다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "다식",
+    "end_word" : "잡과다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "쌀다식",
+    "end_word" : "찹쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송화다식",
+    "end_word" : "송화",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "밤다식",
+    "end_word" : "밤",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "검은깨다식",
+    "end_word" : "검은깨",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "궁중",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "왕",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "왕비",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "밥상",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "수라상",
+    "end_word" : "12첩반상",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "호박엿",
+    "end_word" : "울릉도",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "호박엿",
+    "end_word" : "특산엿",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "호박엿",
+    "end_word" : "수피",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "호박엿",
+    "end_word" : "관광^상품",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "호박엿",
+    "end_word" : "감자",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "용구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "중쇠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "암쇠",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "중쇠",
+    "end_word" : "숫쇠",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "고석매",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고석매",
+    "end_word" : "현무암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "풀매",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "나무맷돌",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "대형맷돌",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "맷방석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "매함지",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "맷돌",
+    "end_word" : "맷돌다리",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "절일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "전통음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절일",
+    "end_word" : "명절",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "관습",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "상원절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "입춘^절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "중화절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "중삼절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "등석절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "단오^절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "유두절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "삼복절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "중추절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "중구절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "고사병",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "동지절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "납향절식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "다산식품",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "절식",
+    "end_word" : "향미식품",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "입춘^절식",
+    "end_word" : "오신반",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "단오^절식",
+    "end_word" : "차륜병",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "단오^절식",
+    "end_word" : "제호탕",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "제호탕",
+    "end_word" : "음료",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "차륜병",
+    "end_word" : "떡",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지절식",
+    "end_word" : "팥죽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "팥죽",
+    "end_word" : "팥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "동지절식",
+    "end_word" : "동짓날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "납향절식",
+    "end_word" : "참새구이",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "납향절식",
+    "end_word" : "납향일",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "감",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "명절",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "제사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "과일",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "건시",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "봉옥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "미농",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "곶감",
+    "end_word" : "수시",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "밥",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "반찬",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "상차림",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반찬",
+    "end_word" : "김치",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반찬",
+    "end_word" : "생채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반찬",
+    "end_word" : "젓갈",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "사각반",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "팔각반",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "반상",
+    "end_word" : "십이각반",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "1554년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "구급법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "조제법",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "종합서",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "1권",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "목판본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "시라이문고",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황촬요",
+    "end_word" : "일사문고",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "메줏가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "밥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "떡가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "죽",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "고춧가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "소금",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "장",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "보리고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "수수고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "무거리고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "약고추자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "팥고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "고구마고추장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고추장",
+    "end_word" : "양념",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "약고추장",
+    "end_word" : "밑반찬",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "곡류",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "술",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "감자류",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "설탕",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "포도당",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "구연산",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "노주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "화주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "한주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "기주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아라키주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "아라키주",
+    "end_word" : "증류주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "술",
+    "end_word" : "과실",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아락",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "알키",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아랑주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "아락주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소주",
+    "end_word" : "고려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "찹쌀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "떡",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "대추주악",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "감태주악",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "후추주악",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "계피주악",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "주악",
+    "end_word" : "치잣황주악",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "밀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "물",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "소금",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "효모",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "베이킹파우더",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "서양",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "주식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "밀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "우랑떡",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "면포",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "식빵류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "과자빵류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빵",
+    "end_word" : "단과자빵류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식빵류",
+    "end_word" : "우유식빵",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식빵류",
+    "end_word" : "건포도식빵",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식빵류",
+    "end_word" : "버터식빵",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "녹두",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "두아채",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두아채",
+    "end_word" : "원나라",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "고려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "신숙주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "반찬",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙주나물",
+    "end_word" : "비타민A",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "곡식가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "병",
+    "end_word" : "밀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이",
+    "end_word" : "기장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이",
+    "end_word" : "조",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이",
+    "end_word" : "콩",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "증병",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "도병",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "전병",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "단자류",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "빈자떡",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡",
+    "end_word" : "상화",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "가정백과사전",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "필사본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "목판본",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "주사의",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "봉임측",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "산가락",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "청낭결",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "규합총서",
+    "end_word" : "술수략",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "봉임측",
+    "end_word" : "잡방",
+    "relate_line_nm" : "담다",
+    "group_nm" : "내용"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "가래떡",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "절식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "설날",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "육수",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "떡국",
+    "end_word" : "맑은장국",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "칡뿌리",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "메밀꽃",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "춘궁기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "흉년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "구황촬요",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "경국대전",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "청량미",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "매홍실",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "송엽",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "송피",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "목맥화",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "소채",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "소나무",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소나무",
+    "end_word" : "침엽수",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구황식품",
+    "end_word" : "도라지",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "도라지",
+    "end_word" : "약용",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "염화^나트륨",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "짠맛",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "결정체",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "나트륨",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "염소",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "구운 소금",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "죽염",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "무기질",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "조미료",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "제물",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "해안",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "암염",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "염호",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "비누",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "유리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "도자기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "가죽",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "고혈압",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "소금",
+    "end_word" : "위암",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "콩",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "콩",
+    "end_word" : "단백질",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "포",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "순두부",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "건조두부",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "연두부",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "두부",
+    "end_word" : "맷돌",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "밥",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "음료",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "엿기름",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "멥쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "찹쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "식혜",
+    "end_word" : "감주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "멥쌀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "떡",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "종",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "열",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "종",
+    "end_word" : "각서",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "추석",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "절식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "팥송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "깨송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "대추송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "잣송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "쑥송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송편",
+    "end_word" : "송기송편",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "국물",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "국수",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "메밀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "북부^지방",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "평양냉면",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "함흥냉면",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "냉면",
+    "end_word" : "진주냉면",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "함흥냉면",
+    "end_word" : "감자녹말",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "진주냉면",
+    "end_word" : "순메밀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "메주",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "장",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "조미식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "식품",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "메주",
+    "end_word" : "콩",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "청국장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "막장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "담북장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "빰장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "빠개장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "가루장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "보리장",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "청국장",
+    "end_word" : "전국장",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막장",
+    "end_word" : "날메주",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막장",
+    "end_word" : "경상도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빰장",
+    "end_word" : "경상도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "빠개장",
+    "end_word" : "충청도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가루장",
+    "end_word" : "보리쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "가루장",
+    "end_word" : "강원도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "보리장",
+    "end_word" : "보리쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "보리장",
+    "end_word" : "콩메줏가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "보리장",
+    "end_word" : "제주도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "콩",
+    "end_word" : "단백질",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "콩",
+    "end_word" : "지방",
+    "relate_line_nm" : "가지다",
+    "group_nm" : "소유"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "된장",
+    "end_word" : "약",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "송기가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "멥쌀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "떡",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "정유재란",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기떡",
+    "end_word" : "병자호란",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기가루",
+    "end_word" : "소나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기가루",
+    "end_word" : "절편",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "송기가루",
+    "end_word" : "개피떡",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "꽃",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "부꾸미",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "찹쌀가루",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "진달래꽃",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "장미꽃",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "배꽃",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "국화꽃",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "꽃지지미",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "삼짇날",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "절식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "진달래화전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "이화전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "장미화전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "화전",
+    "end_word" : "국화전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "잔치",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "이바디",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "떡",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "과자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "찰떡",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "메떡",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "약과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "강정",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "다식",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "깨강정",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "이바지",
+    "end_word" : "엿",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "전주지방",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "향토음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "콩나물비빔밥",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "콩나물",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "황포묵",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "고추장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "쇠고기육회",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "접장",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "참기름",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전주비빔밥",
+    "end_word" : "달걀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "뒤웅박",
+    "end_word" : "바가지",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "뒤웅박",
+    "end_word" : "드ᄫᅴ",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "뒤웅박",
+    "end_word" : "두뱅이",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "뒤웅박",
+    "end_word" : "주룸박",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "뒤웅박",
+    "end_word" : "두룸박",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "견과",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "근채",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "생과",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "꿀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "전과",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "밀전과정",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "장국상",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "큰상",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "제례음식",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "수정과",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "천문동",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "산사",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "인삼",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "무과",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "유자",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "배",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "연근",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "생강",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "모과정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "유자정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "천문동정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "산사정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "연근정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "동아정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "정과",
+    "end_word" : "생강정과",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "음식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "찌개",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "즉석요리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "죽순",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "낙지",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "굴",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "콩나물",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "숙주",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "미나리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "파",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "표고",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "느타리",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "구이전골",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "구이전골",
+    "end_word" : "냄비전골",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "각색전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "굴전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "낙지전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "노루전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "대합전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "두부전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "버섯전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "전골",
+    "end_word" : "채소전골",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "고들빼기",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "김치",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "마늘",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "생강",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "밤",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "당근",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "실파",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "실고추",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "실백",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "고들빼기김치",
+    "end_word" : "참깨",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙수",
+    "end_word" : "조리사",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙수",
+    "end_word" : "직업",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙수",
+    "end_word" : "대령숙수",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙수",
+    "end_word" : "천민계급",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "숙수",
+    "end_word" : "기술직",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "청주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "술",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "혼돈주",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "쌀",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "누룩",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "막걸리",
+    "end_word" : "전통주",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "꾹저구탕",
+    "end_word" : "꾹저구",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "꾹저구탕",
+    "end_word" : "매운탕",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "꾹저구탕",
+    "end_word" : "뚜거리탕",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "꾹저구",
+    "end_word" : "강바닥",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "식생활",
+    "start_word" : "꾹저구",
+    "end_word" : "민물고기",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  } ]
+}

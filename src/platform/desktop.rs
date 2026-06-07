@@ -1,6 +1,6 @@
 use dioxus_desktop::{Config, WindowBuilder, LogicalSize};
 use dioxus::LaunchBuilder;
-use dioxus::prelude::desktop;
+use dioxus::prelude::{desktop, Asset};
 
 pub fn launch_builder() -> LaunchBuilder {
     dioxus::LaunchBuilder::new()
@@ -26,61 +26,146 @@ pub use std::time as time;
 pub type DataFetch = db::Database;
 pub type DataFetchError = db::Error;
 
-mod db {
-    const DEFAULT_DB: &[u8] = include_bytes!("../../assets/app.db");
 
-    use std::sync::{Arc, Mutex};
+mod db {
+use std::sync::{Arc, Mutex};
     type Result<T> = std::result::Result<T, Error>;
-    use crate::utils::{Status, ResultSummary, UserConfig};
+    use crate::utils::{Status, PracticeHistoryRecord, ResultSummary, UserConfig, KeyboardLayout, PracticeSets, Practice};
+    use std::collections::HashMap;
 
     #[derive(Clone)]
-    pub struct Database(Arc<Mutex<rusqlite::Connection>>);
+    pub struct Database(Arc<Mutex<Inner>>);
+    type HistKey = (u32, bool, bool, KeyboardLayout);
+    struct Inner {
+        config_cache: Option<UserConfig>,
+        hist_cache: HashMap<HistKey, PracticeHistoryRecord>,
+    }
 
     #[derive(Debug, thiserror::Error)]
     pub enum Error {
-        #[error("{0}")] IO (#[from] std::io::Error),
-        #[error("{0}")] Sql(#[from] rusqlite::Error),
-        #[error("{0}")] Str(String),
+        #[error("{0}")] IO  (#[from] std::io::Error),
+        #[error("{0}")] Json(#[from] serde_json::Error),
+        #[error("{0}")] Str (String),
     }
 
     impl From<String> for Error { fn from(value: String) -> Self { Error::Str(value) } }
 
-    impl Database {
-        pub async fn open() -> Result<Self> {
+    use std::fs::File;
+    use std::io::Write;
+    use std::path::PathBuf;
+
+    impl Inner {
+        fn paths() -> Result<(PathBuf, PathBuf)> {
             let app_dir = if let Some(data_dir) = dirs::data_dir() {
                 data_dir.join("typepractice")
             } else { std::path::Path::new(".").to_path_buf() };
             std::fs::create_dir_all(&app_dir)?;
-            let db_path = app_dir.join("app.db");
 
-            if ! db_path.exists() {
-                std::fs::write(&db_path, DEFAULT_DB)?;
-            }
+            let config_path = app_dir.join("config.json");
+            let hist_path = app_dir.join("best_scores.json");
 
-            let conn = rusqlite::Connection::open(db_path)?;
-            conn.execute("PRAGMA foreign_keys = ON;", [])?;
-            Ok(Database(Arc::new(Mutex::new(conn))))
+            Ok((config_path, hist_path))
         }
 
-        pub async fn get_practice_content(&self, id: u32) -> Result<(String, String, usize)> {
-            let conn = self.0.lock()
-                .map_err(|e| format!("DB mutex poisoned: {e}"))?;
+        fn histkey(id: u32, config: &UserConfig) -> HistKey {
+            (id, config.allow_del, config.word_time, config.layout)
+        }
 
-            let mut stmt = conn.prepare(
-                "SELECT title, content, num_words FROM practice WHERE id = ?1 LIMIT 1"
-            )?;
-            let mut rows= stmt.query_map([id], |row| {
-                let title = row.get::<usize, String>(0)?;
-                let content = row.get::<usize, String>(1)?;
-                let num_words = row.get::<usize, u32>(2)? as usize;
-                Ok((title, content, num_words))
-            })?;
-            let ret = rows.next().ok_or(format!("no practice with id {id}"))??;
-            Ok(ret)
+        fn open() -> Result<Self> {
+            let (config_path, hist_path) = Self::paths()?;
+
+            let config_cache = if config_path.exists() {
+                let file = File::open(config_path)?;
+                Some(serde_json::from_reader(file)?)
+            } else { None };
+
+            let hist_cache = if hist_path.exists() {
+                let file = File::open(hist_path)?;
+                let hist_vec: Vec<_> = serde_json::from_reader(file)?;
+                hist_vec.into_iter().collect()
+            } else { HashMap::new() };
+
+            Ok(Self { config_cache, hist_cache })
+        }
+
+        fn put_result(&mut self, id: u32, config: UserConfig, time: i32, status: Status) -> Result<()> {
+            let key = Self::histkey(id, &config);
+            let val = PracticeHistoryRecord::from_status(id, time, &status);
+            use std::collections::hash_map::Entry::*;
+            match self.hist_cache.entry(key) {
+                Vacant(e) => {
+                    e.insert(val);
+                }
+                Occupied(mut e) if e.get().points < status.points => {
+                    e.insert(val);
+                }
+                _ => (),
+            }
+            Ok(())
+        }
+
+        fn get_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
+            let key = Self::histkey(id, &config);
+            Ok(self.hist_cache.get(&key).map(PracticeHistoryRecord::to_status))
+        }
+
+        pub fn get_result_summaries(&self, practice_sets: &PracticeSets, config: UserConfig) -> Result<Vec<ResultSummary>> {
+            Ok(practice_sets.sets[config.layout as usize].iter().zip(0u32..).map(|(practice, id)|
+                ResultSummary {
+                    id,
+                    title: practice.title.clone(),
+                    num_words: practice.num,
+                    points: self.hist_cache.get(&Self::histkey(id, &config))
+                        .map(|s| s.points),
+                    date: self.hist_cache.get(&Self::histkey(id, &config))
+                        .and_then(|s| chrono::DateTime::from_timestamp_secs(s.created_at as i64))
+                        .map(|date| date.with_timezone(&chrono::Local)),
+                }
+            ).collect())
+        }
+
+        pub fn clear_hist(&mut self, config: UserConfig) -> Result<()> {
+            self.hist_cache.retain(|key, _v| {
+                let is_target = key.1 == config.allow_del && key.2 == config.word_time && key.3 == config.layout;
+                ! is_target // leave only if not clearing target
+            });
+            Ok(())
+        }
+
+        pub fn get_userconfig(&self) -> Result<Option<UserConfig>> {
+            Ok(self.config_cache.clone())
+        }
+
+        pub fn put_userconfig(&mut self, config: UserConfig) -> Result<()> {
+            self.config_cache = Some(config);
+            Ok(())
+        }
+
+        fn commit(&self) -> Result<()> {
+            let (config_path, hist_path) = Self::paths()?;
+
+            if let Some(config_cache) = &self.config_cache {
+                let dump = serde_json::to_string_pretty(config_cache)?;
+                let mut file = File::create(config_path)?;
+                file.write_all(dump.as_bytes())?;
+            }
+
+            let hist_vec: Vec<_> = self.hist_cache.iter().collect();
+            let dump = serde_json::to_string_pretty(&hist_vec)?;
+            let mut file = File::create(hist_path)?;
+            file.write_all(dump.as_bytes())?;
+
+            Ok(())
+        }
+    }
+
+    impl Database {
+        pub async fn open() -> Result<Self> {
+            Ok(Database(Arc::new(Mutex::new(Inner::open()?))))
         }
 
         pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
-            let conn = self.0.lock()
+            let mut inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
             let now = match super::time::UNIX_EPOCH.elapsed() {
@@ -88,148 +173,51 @@ mod db {
                 Err(before) => - (before.duration().as_secs() as i32),
             };
 
-            conn.execute("
-                INSERT INTO practice_history (
-                    practice_id, created_at,
-                    wrong_cnt, word_cnt, millis, typing_cnt, points,
-                    allow_del, word_time
-                ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)
-                ", (
-                    id, now,
-                    status.wrong, status.finished, status.millis as u32, status.typed, status.points,
-                    config.allow_del, config.word_time,
-                )
-            )?;
-
-            Ok(())
+            inner.put_result(id, config, now, status)?;
+            inner.commit()
         }
 
         pub async fn get_best_practice_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
-            let conn = self.0.lock()
+            let inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            let mut stmt = conn.prepare("
-                SELECT
-                    wrong_cnt, word_cnt, millis, typing_cnt, points
-                FROM practice_history
-                WHERE practice_id = ?1 AND allow_del = ?2 AND word_time = ?3
-                ORDER BY created_at DESC
-                LIMIT 1
-                "
-            )?;
-
-            let mut rows = stmt.query_map((id, config.allow_del, config.word_time), |row| {
-                let wrong = row.get(0)?;
-                let finished = row.get(1)?;
-                let millis = row.get::<usize, u32>(2)? as u128;
-                let typed = row.get(3)?;
-                let points = row.get(4)?;
-                Ok(Status {
-                    wrong, finished, millis, typed, points, time_active: false,
-                })
-            })?;
-
-            let ret = rows.next().transpose()?;
-            Ok(ret)
+            inner.get_result(id, config)
         }
 
-        pub async fn get_all_practice_result_summaries(&self, config: UserConfig) -> Result<Vec<ResultSummary>> {
-            let conn = self.0.lock()
+        pub async fn get_all_practice_result_summaries(&self, practice_sets: &PracticeSets, config: UserConfig) -> Result<Vec<ResultSummary>> {
+            let inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            let mut stmt = conn.prepare("
-                SELECT
-                    p.id,
-                    p.title,
-                    p.num_words,
-                    ranked.points,
-                    ranked.created_at
-                FROM practice p
-                LEFT JOIN (
-                    SELECT *
-                    FROM (
-                        SELECT 
-                            ph.*,
-                            ROW_NUMBER() OVER (
-                                PARTITION BY practice_id
-                                ORDER BY points DESC, created_at DESC
-                            ) AS rn
-                        FROM practice_history ph
-                        WHERE allow_del = ?1 AND word_time = ?2
-                    )
-                    WHERE rn = 1
-                ) ranked
-                ON p.id = ranked.practice_id
-                ORDER BY p.id ASC;
-                "
-            )?;
-
-            fn extract_result_summary(row: &rusqlite::Row) -> std::result::Result<ResultSummary, rusqlite::Error> {
-                let id = row.get::<_, u32>(0)?;
-                let title = row.get::<_, String>(1)?;
-                let num_words = row.get::<_, u32>(2)?;
-                let points = row.get::<_, Option<u32>>(3)?;
-                let date = row.get::<_, Option<i32>>(4)?
-                    .and_then(|date| chrono::DateTime::from_timestamp_secs(date as i64))
-                    .map(|date| date.with_timezone(&chrono::Local));
-                Ok(ResultSummary { id, title, num_words, points, date })
-            }
-
-            let rows = stmt.query_map([config.allow_del, config.word_time], extract_result_summary)?;
-            let data = rows.collect::<std::result::Result<Vec<_>,_>>()?;
-            Ok(data)
+            inner.get_result_summaries(practice_sets, config)
         }
 
         pub async fn clear_practice_history(&self, config: UserConfig) -> Result<()> {
-            let conn = self.0.lock()
+            let mut inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            conn.execute("
-                DELETE FROM practice_history
-                WHERE allow_del = ?1 AND word_time = ?2
-            ", (config.allow_del, config.word_time))?;
-
-            Ok(())
+            inner.clear_hist(config)
         }
 
         pub async fn get_userconfig(&self) -> Result<Option<UserConfig>> {
-            let conn = self.0.lock()
+            let inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            let mut stmt = conn.prepare("
-                SELECT
-                    allow_del, word_time, max_speed
-                FROM user_config
-                WHERE id = ?1
-                LIMIT 1
-                "
-            )?;
-
-            let mut rows = stmt.query_map((1,), |row| {
-                let allow_del = row.get(0)?;
-                let word_time = row.get(1)?;
-                let max_speed = row.get(2)?;
-                Ok(UserConfig { allow_del, word_time, max_speed })
-            })?;
-            
-            let ret = rows.next().transpose()?;
-            Ok(ret)
+            inner.get_userconfig()
         }
 
         pub async fn put_userconfig(&self, config: UserConfig) -> Result<()> {
-            let conn = self.0.lock()
+            let mut inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            conn.execute("
-                INSERT OR REPLACE INTO user_config (
-                    id, allow_del, word_time, max_speed
-                ) VALUES (?1, ?2, ?3, ?4)
-                ", (
-                    1, config.allow_del, config.word_time, config.max_speed,
-                )
-            )?;
+            inner.put_userconfig(config)?;
+            inner.commit()
+        }
 
-            Ok(())
+        pub async fn commit(&self) -> Result<()> {
+            let mut inner = self.0.lock()
+                .map_err(|e| format!("DB mutex poisoned: {e}"))?;
+
+            inner.commit()
         }
     }
 }

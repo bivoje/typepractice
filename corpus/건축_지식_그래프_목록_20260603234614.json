@@ -1,0 +1,7029 @@
+{
+  "termList" : [ {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "무왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "석탑",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "목탑 구조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "사리장엄구",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "미륵사지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "양곡집",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양곡집",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양곡집",
+    "end_word" : "소세양",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지^석탑",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "신증동국여지승람",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "광주시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "한양",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "청량산",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "청량산",
+    "end_word" : "연주봉",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "청량산",
+    "end_word" : "망월봉",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "청량산",
+    "end_word" : "벌봉",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "봉암성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "한봉성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "신남성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "세계^문화유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "주장성",
+    "relate_line_nm" : "잇다",
+    "group_nm" : "지속"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "세종실록지리지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "일장산성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "좌익문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "전승문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "우익문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "남한산성",
+    "end_word" : "지화문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "정궁",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "북궐",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "시경",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "근정문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "근정전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "사정전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "천추전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "수정전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "자경전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "경회루",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "재수각",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "함화당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "향원정",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "집옥재",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "선원전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "강녕전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "자선당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "태원전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "광화문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "근정문",
+    "end_word" : "중층지붕건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "향원정",
+    "end_word" : "정자",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "자경전",
+    "end_word" : "침전건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "자경전",
+    "end_word" : "십장생굴뚝",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁",
+    "end_word" : "북악산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "탑터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "삼국유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "선덕여왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "경문왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "황룡사^구층목탑",
+    "end_word" : "몽고",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "기단",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "대",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "궁중 행사",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "월견대",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁중 행사",
+    "end_word" : "하례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁중 행사",
+    "end_word" : "가례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁중 행사",
+    "end_word" : "제례",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "외정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "내정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "종묘^정전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "영녕전",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "장방형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "장대석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "전",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "월대",
+    "end_word" : "박석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "동경잡기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "문무왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "신선사상",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안압지",
+    "end_word" : "보상화문전",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양주^회암사지",
+    "end_word" : "회암사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양주^회암사지",
+    "end_word" : "사찰터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "왕실",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "천보산 회암사 수조기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "천보산 회암사 수조기",
+    "end_word" : "이색",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "회암사 중창기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사 중창기",
+    "end_word" : "김수온",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "나옹",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나옹",
+    "end_word" : "혜근",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나옹",
+    "end_word" : "원나라",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나옹",
+    "end_word" : "지공선사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "보우",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "자초",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "자초",
+    "end_word" : "무학대사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "무학대사",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "이성계",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "정희왕후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "문정왕후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사",
+    "end_word" : "대찰",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양주^회암사지",
+    "end_word" : "남회랑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "성곽문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "남대문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "중층건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^숭례문",
+    "end_word" : "목조^건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "석가탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "무영탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석가탑",
+    "end_word" : "석가여래상주설법",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "대성각간",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^삼층석탑",
+    "end_word" : "무구정광대다라니경",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "무구정광대다라니경",
+    "end_word" : "목판인쇄물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "목조^건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "아미타불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "사찰 건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "의상대사",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "소조여래좌상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "봉황산부석사개연기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "팔작지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "연등천장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "뜬창방",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "뜬장여",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "충방",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "초공",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "영주^부석사^무량수전",
+    "end_word" : "귀잡이보",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "산",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "물",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "일조량",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배수",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "농경생활",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산면수",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산임소",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산면락",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산임락",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산임계",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "배산면양",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배산임수",
+    "end_word" : "풍수",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "건보탑품",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "다보여래상주증명탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다보여래상주증명탑",
+    "end_word" : "불국사 사적기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "혜공왕",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "상륜",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^다보탑",
+    "end_word" : "칠보탑",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "칠보탑",
+    "end_word" : "법화경",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "궁궐건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "팔작지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "중층건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "정전",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "정전",
+    "end_word" : "조하",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "정전",
+    "end_word" : "정령",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "정전",
+    "end_word" : "양로연",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "정전",
+    "end_word" : "위로연",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^근정전",
+    "end_word" : "인정전",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "임금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "집",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "궁전",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "궁성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "궁실",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "정무건축 공간",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "생활건축 공간",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "정원건축 공간",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "전조후침",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "외벽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "정전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "회랑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "침전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "내전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "궁궐",
+    "end_word" : "후원",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "후원",
+    "end_word" : "누각",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "후원",
+    "end_word" : "정사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "후원",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "후원",
+    "end_word" : "조산",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "조선 전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "태종",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "동궐",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "동궐",
+    "end_word" : "창경궁",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "이궁",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "법궁",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "세계^문화유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "경희궁",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁",
+    "end_word" : "경운궁",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "건축 부재",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "문양",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "건축^미술",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "부재 보호",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "종교적 장엄",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "권위적 장식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "기념비적 장식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "조악성 은폐",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "단청",
+    "end_word" : "선공감",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선공감",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선공감",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "조선후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "읍성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "정조",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "적대",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "누조",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "공심돈",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "포루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "장안문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "팔달문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "청룡문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^화성",
+    "end_word" : "화서문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "목조건축",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "기둥머리",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "부재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "사찰",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "완충적 기능",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "장식적 기능",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "주심포계 형식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "다포계형식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "익공계형식",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공계형식",
+    "end_word" : "조선 중기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "하앙형식",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "하앙형식",
+    "end_word" : "화암사극락전",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포계 형식",
+    "end_word" : "무위사^극락전",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포계 형식",
+    "end_word" : "부석사^조사당",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포계 형식",
+    "end_word" : "은해사^거조암^영산전",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포계 형식",
+    "end_word" : "도갑사^해탈문",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포계 형식",
+    "end_word" : "개목사^원통전",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "단",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "건물 보호",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "토단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "토단",
+    "end_word" : "흙",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "전축기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전축기단",
+    "end_word" : "벽돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "석축기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석축기단",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "단층기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "다층기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "석전병용기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "적석식 기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기단",
+    "end_word" : "가구식^기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "구조물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "미술",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "주거건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주거건축",
+    "end_word" : "집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "부속건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부속건축",
+    "end_word" : "작업창",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부속건축",
+    "end_word" : "창고",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "궁전건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "성곽건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "관아건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "종교건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "목조건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "토축건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "전축건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "건축",
+    "end_word" : "석조^건축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "고종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "정릉동 행궁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "경운궁",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경운궁",
+    "end_word" : "광해군",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "중화전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "정관헌",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "돈덕전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "즉조당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "석어당",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "경효전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "흠문각",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "함녕전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "석조전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석조전",
+    "end_word" : "미소공동위원회",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석조전",
+    "end_word" : "6 · 25 전쟁",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁",
+    "end_word" : "공원",
+    "relate_line_nm" : "바뀌다",
+    "group_nm" : "변화"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석조전",
+    "end_word" : "국립현대미술관",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "대한제국기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "자주독립",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "석조문",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "자주민권",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "자강^운동",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "서재필",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서재필",
+    "end_word" : "독립협회",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "1897년",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "개선문",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "심의석",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "경성부사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "화강석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "홍예문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "돌계단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^독립문",
+    "end_word" : "돌난간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "석조탑파",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "화강암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "안산암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "점판암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "기단부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "탑신부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "대한제국기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "천자",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "하늘",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "제단",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "제천의식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "환단",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "고종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "조선호텔",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "황궁우",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "환구단",
+    "end_word" : "익공계",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "국립중앙박물관",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "국립중앙박물관",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "고려후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "충목왕",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "일본",
+    "relate_line_nm" : "들다",
+    "group_nm" : "도달점"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "경복궁",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "원나라",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "대리석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "개성^경천사지^십층석탑",
+    "end_word" : "라마탑 수법",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "고려후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "화강암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "여래입상",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "사리장치",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "전신사리경",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "수정사리병",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "기단부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평창^월정사^팔각^구층석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포",
+    "end_word" : "공포",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "주두",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "소로",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "첨차",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "살미",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포",
+    "end_word" : "주심포 건축",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포",
+    "end_word" : "주심포집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "고려 말",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "조선 초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "봉정사^극락전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "수덕사^대웅전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "부석사^무량수전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "임영관 삼문",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "무위사^극락전",
+    "relate_line_nm" : "예이다",
+    "group_nm" : "개체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "주심포 건축",
+    "end_word" : "헛첨차",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "처마",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공포",
+    "end_word" : "외목도리",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "목조 구조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "기단부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "탑신부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "배흘림수법",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "받침수법",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지^오층석탑",
+    "end_word" : "평제탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "인명",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "재산",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "흙",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "나무",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "벽돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "내성",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "외성",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "도성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "읍성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "산성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "창성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "진보",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "행재성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "행성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "궁궐터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "몽골",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "고려사절요",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "최우",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "명위헌",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "이방청",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "외규장각",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "명위헌",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "이방청",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "외규장각",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "강화^고려궁지",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "서울",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "연회 장소",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "누정",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "중층팔작지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "돌다리",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "익공계 양식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^경회루",
+    "end_word" : "경회루36궁지도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경회루36궁지도",
+    "end_word" : "정학순",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "왕성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "웅진성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "세계유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "북방성",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "치소성",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "토성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "공주^공산성",
+    "end_word" : "석성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "궁문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "흥선대원군",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "6·25사변",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "3문형식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "다포식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경복궁^광화문",
+    "end_word" : "궐문 형식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "왕성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "반달",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "반월성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "재성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "경주^역사^유적^지구",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^역사^유적^지구",
+    "end_word" : "세계^유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "조원전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "숭례전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "내황전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "강무전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "평의전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^월성",
+    "end_word" : "서란전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "용인시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "김윤후",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "김윤후",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "김윤후",
+    "end_word" : "승려",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "몽골군",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "주름무늬병",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "선조문 평기와",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "당초문 암막새 기와",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "처인성",
+    "end_word" : "토축성벽",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "얼음",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "창고",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "지하",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "신라시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "빙고전",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "빙고전",
+    "end_word" : "관직",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "동빙고",
+    "end_word" : "목조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서빙고",
+    "end_word" : "목조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "석재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "장방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "석빙고",
+    "end_word" : "배수구",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "선덕여왕",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "토축 단층기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "인왕상",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "사리장엄구",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "숭녕통보",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^분황사^모전석탑",
+    "end_word" : "상평오수",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "도성",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "흥인지문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "돈의문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "숭례문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사대문",
+    "end_word" : "숙청문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "숙청문",
+    "end_word" : "숙정문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "돈의문",
+    "end_word" : "서전문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "돈의문",
+    "end_word" : "새문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "돈의문",
+    "end_word" : "이괄의^난",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "돈의문",
+    "end_word" : "을미사변",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "숙청문",
+    "end_word" : "북악",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "숙청문",
+    "end_word" : "기청제",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "기청제",
+    "end_word" : "영제",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "돌계단 다리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "자하문",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "불국사고금창기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "자하문",
+    "end_word" : "불국세계",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "목조건축",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "돌기둥",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^불국사^청운교^및^백운교",
+    "end_word" : "돌난간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "다락식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "정자",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "정루",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "누",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "정",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "당",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "대",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "각",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "헌",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "유람",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "휴식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "삼국유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "대",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "언덕",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "강가",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "호수",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "바다",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "누정",
+    "end_word" : "원림",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다포",
+    "end_word" : "공포",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다포",
+    "end_word" : "다포건축",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다포",
+    "end_word" : "다포집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다포건축",
+    "end_word" : "포집",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "화강암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "중앙탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "서류편",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "동경",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "목제칠합",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "은제사리합",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "방형중층",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "충주^탑평리^칠층석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "목조건축",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "흘림기둥",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "흘림기둥",
+    "end_word" : "사찰",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "민흘림",
+    "end_word" : "고구려쌍영총",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "민흘림",
+    "end_word" : "의성 탑리 5층석탑",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "곡선",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "건축기법",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "엔타시스",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "임영관 삼문",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "삼국시대 이전",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "조선시대 말",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "봉정사^극락전",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "부석사^무량수전",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "배흘림기둥",
+    "end_word" : "수덕사^대웅전",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "개성시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "다리",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "선지교",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "선죽교",
+    "end_word" : "정몽주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "사리",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "유골",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "승려",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "묘탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "승탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "사리탑",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "부두",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "포도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "불도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "삼국유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "팔각^원당형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부도",
+    "end_word" : "석종형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "쌍봉사^철감^선사^탑",
+    "end_word" : "통일^신라^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "정토사^홍법^국사^실상탑",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "청룡사^보각^국사^정혜^원융탑",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "회암사지^부도",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "연곡사 소요대사탑",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "서울시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "다포식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "우진각지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "단층",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "남정철",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "연등천장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "소란^반자",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "겹처마",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "용마루",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "덕수궁^대한문",
+    "end_word" : "추녀마루",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "속초시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "산성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "설악산성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "설악산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "설악산",
+    "end_word" : "대청봉",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "옹금산석성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "옹금산석성",
+    "end_word" : "세종실록지리지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "권금성",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "왕비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "신주",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "사당",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "조묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "태실",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "익실",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "월대",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "신도",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "동월랑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^영녕전",
+    "end_word" : "서월랑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "궁궐터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "임해전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "임해전",
+    "end_word" : "연회",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "임해전",
+    "end_word" : "회의",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^동궁과^월지",
+    "end_word" : "동경잡기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "양산보",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양산보",
+    "end_word" : "문신",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "정원",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "조선 중기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양산보",
+    "end_word" : "소쇄옹",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "양산보",
+    "end_word" : "조광조",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "소쇄옹",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "명승",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "유서석록",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "소쇄원도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "광주호",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "노단식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "산수원림",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "애양단구역",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "오곡문구역",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "제월당구역",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "담양^소쇄원",
+    "end_word" : "광풍각구역",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "하천",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "계곡",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "호소",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "도로",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "철도",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "구조물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "목교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "석교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "강교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "철근^콘크리트교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "PC콘크리트교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "도로교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "철도교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "인도교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "수로교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "운하교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "혼용교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "군용교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "상로교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "중로교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "하로교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "다리",
+    "end_word" : "이층교",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "궁궐",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "성종",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "인조반정",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "이괄의^난",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "일제강점기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "홍화문",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "궁장",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "명정전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "환경전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "통명전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "수강재",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창경궁",
+    "end_word" : "통화전",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "보은군",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "포곡식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "군사적 요충지",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "세종실록지리지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "오항산석성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "오정산성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "고로봉형",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "체성벽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "기초보축성벽",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "여장 시설",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "정자형 쌓기",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "삼년산성",
+    "end_word" : "품자형 쌓기",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "부재",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "건축^양식",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "기둥",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "창덕궁수리도감의궤",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "입공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "초입공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "이입",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "엽공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "이엽공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "무리공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "행공",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "초익공 방식",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "이익공 방식",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익공",
+    "end_word" : "목구조",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "정원",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "놀이",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "잔치",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "세계^문화유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "북원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "금원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "비원",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "누정",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "부용지",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "애련지",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "장방지",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "반월지",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^후원",
+    "end_word" : "반도지",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "진신^사리",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진신^사리",
+    "end_word" : "석가모니",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "탑파",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "원분형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "상륜",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑",
+    "end_word" : "돌난간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "불교미술",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "목탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "전탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "석탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "모전석탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "청동탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "탑파",
+    "end_word" : "금동탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "평양직할시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "고구려",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "내성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "북성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "중성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "외성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "문지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "건물지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "장안성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "점토",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "자갈",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "산성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "평양성",
+    "end_word" : "평지성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "임금",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "왕비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "제사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "태묘",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "목조^건축물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "세계유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "유교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "맞배지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "종묘^정전",
+    "end_word" : "19칸",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "도성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "도성",
+    "end_word" : "국도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "도성",
+    "end_word" : "왕도",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "내성",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성곽",
+    "end_word" : "외성",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "부소산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "충청남도 시도 유형 문화유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부소산",
+    "end_word" : "백마강",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부소산",
+    "end_word" : "부여나성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부소산",
+    "end_word" : "관북리 유적",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "왕성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "방어성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "후원",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "대통명 기와",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^부소산성",
+    "end_word" : "일제강점기",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "진도군",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "조선후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "본채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "사랑채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "주택",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "명승",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "운림각",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "운림산방",
+    "end_word" : "허련",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "삼절",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "초의선사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "김정희",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "지중추부사",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "선면산수도",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "완당선생해천일립상",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "허련",
+    "end_word" : "몽연록",
+    "relate_line_nm" : "만들다",
+    "group_nm" : "창조자"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "상류 주택",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "순조",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "경축의식",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "사랑채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "안채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "안 행랑채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "바깥행랑채",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "반빗간",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "서재",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "후원",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "정자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "동궐도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "궁궐지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^연경당",
+    "end_word" : "민도리집",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "사찰 건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "주불전",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "다포계",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "중층 건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "장륙전",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "장륙전",
+    "end_word" : "의상대사",
+    "relate_line_nm" : "만들어지다",
+    "group_nm" : "창조물"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "각황보전",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "석가모니불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "아미타불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "다보불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "보현보살",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "문수보살",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "관음보살",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "지적보살",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "장륙전",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^각황전",
+    "end_word" : "반칸물림방식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "미륵사",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "사찰터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵사",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵사",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵사",
+    "end_word" : "무왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵사",
+    "end_word" : "선화공주",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "익산^미륵사지^석탑",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "익산^미륵사지^당간지주",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵사",
+    "end_word" : "삼원식 가람",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "익산^미륵사지",
+    "end_word" : "삼탑삼금당",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "행주대첩",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "행주대첩",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "임진왜란",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "행주대첩",
+    "end_word" : "3대 대첩",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "행주대첩",
+    "end_word" : "권율",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "토성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "석성",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "테뫼식 석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고양^행주산성",
+    "end_word" : "관방유적",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "모양성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "반등산",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "방어",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "동국여지지",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "할석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "허튼층쌓기 방식",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "성문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "옹성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "치성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "건물지",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "우물",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "수구문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "고창읍성",
+    "end_word" : "성밟기 행사",
+    "relate_line_nm" : "하다",
+    "group_nm" : "사건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "백제^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "연못",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "무왕",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "삼국사기",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "석축",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "버드나무",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "토기",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "기와",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^궁남지",
+    "end_word" : "도교",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "방어",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "자연 지형",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "테뫼식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "포곡식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "산복식",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "고로봉형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "산봉형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "사모봉형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "마안봉형",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "목책성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "토성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "산성",
+    "end_word" : "석성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "좌묘우사",
+    "end_word" : "도성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "좌묘우사",
+    "end_word" : "조영 원칙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "좌묘우사",
+    "end_word" : "좌조우사",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "좌묘우사",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "좌묘우사",
+    "end_word" : "조선^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "진주시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "고려후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "누정",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "유형문화유산",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "남강",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "장원루",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "지휘본부",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "고시장",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석루",
+    "end_word" : "6 · 25전쟁",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "사찰건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "주심포계",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "맞배지붕건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "감실형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "안동^봉정사^극락전",
+    "end_word" : "목조^건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "출입",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "담",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "벽",
+    "relate_line_nm" : "필요하다",
+    "group_nm" : "조건"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "성문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성문",
+    "end_word" : "도성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성문",
+    "end_word" : "산성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "성문",
+    "end_word" : "읍성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "대문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "정문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "중문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "중문",
+    "end_word" : "사찰",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "홍살문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "홍살문",
+    "end_word" : "능",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "홍살문",
+    "end_word" : "묘",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "홍살문",
+    "end_word" : "원",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "객사문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "암문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "수구문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문",
+    "end_word" : "아문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "조선후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "성문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "수원^화성",
+    "relate_line_nm" : "구성하다",
+    "group_nm" : "부분"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "팔달산",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "중층",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "우진각지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "홍예석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "무사석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "전돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "수원^팔달문",
+    "end_word" : "다포식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문화주택",
+    "end_word" : "일제강점기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "문화주택",
+    "end_word" : "서양 주택",
+    "relate_line_nm" : "작용하다",
+    "group_nm" : "원인"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "김해시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "가야",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "삼국유사",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "파사석탑",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "조선후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "성곽문",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "보물",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "동대문",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "다포계형식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "우진각지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "화강암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "연등천장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^흥인지문",
+    "end_word" : "겹처마",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "관아",
+    "end_word" : "관원",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "관아",
+    "end_word" : "정무",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "관아",
+    "end_word" : "관서",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "관아",
+    "end_word" : "공해",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "관아",
+    "end_word" : "마을",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "목조건축",
+    "end_word" : "목재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "목조건축",
+    "end_word" : "건축",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "목조건축",
+    "end_word" : "가구식^구조",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "목조건축",
+    "end_word" : "귀틀식 구조",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "목조건축",
+    "end_word" : "경량^목구조",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "집",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "문서",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "창건상량문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "중수상량문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "중건상량문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "상량대",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "종이",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "상량문",
+    "end_word" : "비단",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나성",
+    "end_word" : "외성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나성",
+    "end_word" : "나곽",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "나성",
+    "end_word" : "도성제",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사비 나성",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "사비 나성",
+    "end_word" : "토심 석축 공법",
+    "relate_line_nm" : "사용하다",
+    "group_nm" : "방법"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "화강암",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "기단",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "탑신",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "구례^화엄사^사사자^삼층석탑",
+    "end_word" : "상륜부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "백제",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "사찰터",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "부여^정림사지^오층석탑",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여^정림사지",
+    "end_word" : "부여 정림사지 석조여래좌상",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여 정림사지 석조여래좌상",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "부여 정림사지 석조여래좌상",
+    "end_word" : "석불",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "조선후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "사찰건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "불전",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "다포계",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "겹처마",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "팔작지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "안두리기둥",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "바깥두리기둥",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "불국사^대웅전",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "도성",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "조영 원칙",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "고대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "조정",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "시장",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "전조후시",
+    "end_word" : "면조후시",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "왕",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "왕비",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "귀족",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "무덤군",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "경주노동리고분군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "경주노서리고분군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "경주황남리고분군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "경주황오리고분군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^대릉원^일원",
+    "end_word" : "경주인왕리고분군",
+    "relate_line_nm" : "구성되다",
+    "group_nm" : "전체"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "남북국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "석조",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "쌍탑",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "평면방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "목조건축양식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "경주^감은사지^동서^삼층석탑",
+    "end_word" : "전조탑파양식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "적산가옥",
+    "end_word" : "일본인",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "적산가옥",
+    "end_word" : "주택",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "적산가옥",
+    "end_word" : "DH하우스",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "장충동",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "신당동",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "약수동",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "청파동",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "후암동",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "DH하우스",
+    "end_word" : "호화주택",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "당간",
+    "relate_line_nm" : "위하다",
+    "group_nm" : "목적"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간",
+    "end_word" : "당",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "기둥",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "돌",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "철제",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "금동제",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "목제",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "사대부 주택",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "단층 팔작집",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "초익공 형식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^낙선재",
+    "end_word" : "궁궐침전형식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "관부",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "민거",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "토축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "옹성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "치성",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "읍성",
+    "end_word" : "해자",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "진주시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "고려 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "석축",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "성곽",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "촉석성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "진주읍성",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "내수문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "외수문",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "포루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "촉석루",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "산성사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "창렬사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "진주성",
+    "end_word" : "충민사",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "촉석성",
+    "end_word" : "신증동국여지승람",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "녹로",
+    "end_word" : "활차",
+    "relate_line_nm" : "쓰다",
+    "group_nm" : "도구"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "녹로",
+    "end_word" : "물건",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "녹로",
+    "end_word" : "기구",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "녹로",
+    "end_word" : "조선 후기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "녹로",
+    "end_word" : "뱃사공",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "벽돌",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "석재",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "통일^신라",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "경상도",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "전형양식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "전탑",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "모전석탑",
+    "end_word" : "목조^건축",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "절",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "본존불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "황색",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "금부처님",
+    "relate_line_nm" : "상징하다",
+    "group_nm" : "상징"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "고려 초",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "대웅전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "대웅전",
+    "end_word" : "천태종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "대적광전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "대적광전",
+    "end_word" : "화엄종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "미륵전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵전",
+    "end_word" : "법상종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "극락전",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "극락전",
+    "end_word" : "정토종",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "대웅전",
+    "end_word" : "석가모니불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "대적광전",
+    "end_word" : "비로자나불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "극락전",
+    "end_word" : "아미타불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "미륵전",
+    "end_word" : "미륵불",
+    "relate_line_nm" : "대상이다",
+    "group_nm" : "대상"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "삼국시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "복합식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "산성",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "테뫼식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "포곡식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "방형",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "화성^당성",
+    "end_word" : "사적",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "대리석",
+    "relate_line_nm" : "재료이다",
+    "group_nm" : "재료"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "10층",
+    "relate_line_nm" : "모양이다",
+    "group_nm" : "형태"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "불탑",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "기단부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "서울^원각사지^십층석탑",
+    "end_word" : "탑신부",
+    "relate_line_nm" : "포함하다",
+    "group_nm" : "포함"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "고려^시대",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "사찰건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "불전",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "국보",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "단층건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "주심포계",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "연등천장",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "묵서명",
+    "relate_line_nm" : "나오다",
+    "group_nm" : "출처/출신"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "예산^수덕사^대웅전",
+    "end_word" : "목조^건물",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "서울특별시",
+    "relate_line_nm" : "위치하다",
+    "group_nm" : "장소"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "조선전기",
+    "relate_line_nm" : "때이다",
+    "group_nm" : "시간"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "궁궐건물",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "전각",
+    "relate_line_nm" : "포함되다",
+    "group_nm" : "유형"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "보물",
+    "relate_line_nm" : "맡다",
+    "group_nm" : "자격/기준"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "익공식",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "팔작지붕",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "임진왜란",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "창덕궁^대조전",
+    "end_word" : "인조반정",
+    "relate_line_nm" : "연관하다",
+    "group_nm" : "관계"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "금당",
+    "end_word" : "법당",
+    "relate_line_nm" : "같다",
+    "group_nm" : "동격"
+  }, {
+    "task_nm" : "건축",
+    "start_word" : "당간지주",
+    "end_word" : "철제",
+    "relate_line_nm" : "띠다",
+    "group_nm" : "속성"
+  } ]
+}

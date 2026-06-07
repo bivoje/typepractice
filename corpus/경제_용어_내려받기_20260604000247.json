@@ -1,0 +1,1210 @@
+{
+  "terms" : [ {
+    "form" : "가득자본",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "earned capital"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "가속^감가상각^시스템",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "accelerated cost recovery system"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "가중^이동^평균법",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "weighted moving average method"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "가처분소득",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "disposable income"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "가치^지수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "value index"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "간접노무비",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "non-manual labor cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감가상각^기준가",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "depreciation base"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감가자산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "depreciable asset"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감분^원가",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "decremental cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감채기금",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "sinking fund"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감채기금^감가상각법",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "sinking fund depreciation method"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "감채기금^계수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "sinking fund factor"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "개별물가지수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "individual price index"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "개별^작업^원가계산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "job order cost accounting"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "개인^합리적^이득^구성",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "individually rational payoff configuration"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "결정^등급",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "demerit"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경기^동향^지수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "diffusion index"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경기^지수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "business barometre index"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경상예산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "ordinary budget"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제성",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economy"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제성장률",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic growth rate"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제적^공통^주기^일정계획",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic common cycle scheduling"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제적^생산량",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic production quantity"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제적^일괄처리^량",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic batch quantity"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제적^절삭속도",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic cutting speed"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "경제^제조^로트",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic producting lot"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "계량^경제^모형",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "econometric model"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "계절^변동",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "seasonal variation"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "계절^지수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "seasonal index"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "계층적^분석^모형",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "analytic hierarchy process"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고장률^타점",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "hazard plotting"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고장밀도^함수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "failure density function"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정부채",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed liability"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정비용^문제",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed charge problem"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정^비율",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed ratio"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정비율^샘플링검사",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed percent sampling inspection"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정^예산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed budget"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정^요소",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed element"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정^인자",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed factor"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정자산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed asset"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정^자산^가치^비율",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed assets to net worth ratio"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정자산비율",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed assets ratio"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정자산^처분손실",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "loss on disposal of fixed assets"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "고정자산^회전율",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "fixed assets turnover"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "공급사슬",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "chain of supply"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "공정^비용^시스템",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "process cost system"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "공정^원가^계산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "process cost accounting"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "공통비용",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "common cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "과당^경쟁",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "over-competition"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "과세^대상^소득",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "taxable income"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "관리^가능비",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "controllable costs"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "관리도의^경제적^설계",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economic design of control chart"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "교환가치",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "exchange value"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "국민^총생산",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "gross national product"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "국제^노동^기구",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "International Labor Organization"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "권위가치",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "prestige value"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "귀중가치",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "precious value"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "규모의^경제",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "economics of scale"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "균등^최종가^계수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "uniform-series final worth factor"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "균등^현가계수",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "uniform-series present worth factor"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "균등^현금흐름",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "uniform series of cash flow"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "금융",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "finance"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기간^분석",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "period analysis"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기간^비용",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "period cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기능^비용",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "functional cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기능원가",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "functional cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기능적^감가상각",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "functional depreciation"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기대현금흐름",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "expected cash flow"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기초^원가",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "prime cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기회^비용",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "opportunity cost"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  }, {
+    "form" : "기회^손실",
+    "classification_system" : [ {
+      "nstscs" : "인문사회학 > 경제"
+    } ],
+    "orginal_language" : [ ],
+    "related_terms" : [ ],
+    "definitions" : [ ],
+    "examples" : [ ],
+    "translations" : [ {
+      "language" : "영어",
+      "translation" : "opportunity loss"
+    } ],
+    "references" : [ ],
+    "status" : 0,
+    "kogl_type" : 1,
+    "annotation" : "이 자료는 국립국어원에서 추진한 21세기 세종 계획(1998~2008)으로 구축한 전문 용어 자료입니다."
+  } ]
+}
