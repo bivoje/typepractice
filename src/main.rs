@@ -858,7 +858,18 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                     },
 
                     oninput: move |e| {
-                        input.set(e.value());
+                        let val = e.value();
+                        // handle space pressing
+                        if val.ends_with(' ') {
+                            let val = val.trim_end();
+                            if ! val.is_empty() {
+                                props.onsubmit.call(val.to_string());
+                            }
+                            input.set("".to_string());
+                            document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
+                        } else {
+                            input.set(val);
+                        }
                     },
 
                     onkeydown: move |e| {
@@ -901,7 +912,12 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                                 nav.push(Route::PracticeList {});
                             }
 
-                            Code::Space | Code::Enter if e.key() != Key::Process => submit(),
+                            // Code::Space | Code::Enter if e.key() != Key::Process => submit(),
+                            // we don't check for space here because some IME's act differently
+                            // - nalgaeset IME send both in-compose space and normal space
+                            // - windows IME only sends in-compose space
+                            // we check it at oninput
+                            Code::Enter if e.key() != Key::Process => submit(),
 
                             Code::F5 => {
                                 input.set("".to_string());
