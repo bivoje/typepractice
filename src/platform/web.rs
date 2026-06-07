@@ -15,7 +15,7 @@ pub type DataFetchError = db::Error;
 
 mod db {
 
-    use crate::utils::{Status, ResultSummary, UserConfig};
+    use crate::utils::{Status, ResultSummary, UserConfig, PracticeHistoryRecord, PracticeSets};
     type Result<T> = std::result::Result<T, Error>;
     use indexed_db_futures::prelude::*;
     use indexed_db_futures::{database::Database, transaction::TransactionMode, BuildSerde, KeyPath};
@@ -23,7 +23,6 @@ mod db {
     #[derive(Clone)]
     pub struct DB {
         idb: Database,
-        content: Vec<(u32, String, String, u32)>, // (id, title, words, num_words); must be sorted asc by id
     }
 
     #[derive(Debug, thiserror::Error)]
@@ -44,61 +43,27 @@ mod db {
             let idb = Database::open("db")
                 .with_version(1u8)
                 .with_on_upgrade_needed(|_event, db| {
-                    if db.object_store_names().find(|s| s == "history_allowdel_wordtime").is_none() {
-                        db.create_object_store("history_allowdel_wordtime")
-                            .with_key_path(KeyPath::One("practice_id"))
-                            .build()?;
-                    }
-                    if db.object_store_names().find(|s| s == "history_disallowdel_wordtime").is_none() {
-                        db.create_object_store("history_disallowdel_wordtime")
-                            .with_key_path(KeyPath::One("practice_id"))
-                            .build()?;
-                    }
-                    if db.object_store_names().find(|s| s == "history_allowdel_wholetime").is_none() {
-                        db.create_object_store("history_allowdel_wholetime")
-                            .with_key_path(KeyPath::One("practice_id"))
-                            .build()?;
-                    }
-                    if db.object_store_names().find(|s| s == "history_disallowdel_wholetime").is_none() {
-                        db.create_object_store("history_disallowdel_wholetime")
-                            .with_key_path(KeyPath::One("practice_id"))
-                            .build()?;
+                    if db.object_store_names().find(|s| s == "history").is_none() {
+                        db.create_object_store("history").build()?;
                     }
 
                     if db.object_store_names().find(|s| s == "user_config").is_none() {
-                        db.create_object_store("user_config")
-                            .build()?;
+                        db.create_object_store("user_config").build()?;
                     }
                     Ok(())
                 })
                 .build().unwrap()
                 .await?;
 
-            let content = serde_json::from_slice(&include_bytes!("../../assets/appdb.json")[..])?;
-
-            Ok(Self { idb, content })
+            Ok(Self { idb })
         }
 
-        fn storename(config: UserConfig) -> &'static str {
-            match (config.allow_del, config.word_time) {
-                ( true,  true) => "history_allowdel_wordtime",
-                (false,  true) => "history_disallowdel_wordtime",
-                ( true, false) => "history_allowdel_wholetime",
-                (false, false) => "history_disallowdel_wholetime",
-            }
-        }
-
-        pub async fn get_practice_content(&self, id: u32) -> Result<(String, String, usize)> {
-            let ret = self.content.binary_search_by_key(&id, |t| t.0)
-                .map(|i| {
-                    let (_, title, text, num) = self.content[i].clone();
-                    (title, text, num as usize)
-                })
-                .map_err(|_|
-                    format!("no practice with id {id}")
-                )?;
-
-            Ok(ret)
+        fn histkey(id: u32, config: &UserConfig) -> String {
+            format!("{}-{id}-{}{}",
+                config.layout,
+                if config.allow_del {1} else {0},
+                if config.word_time {1} else {0},
+            )
         }
 
         pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
@@ -110,11 +75,11 @@ mod db {
 
             let record = PracticeHistoryRecord::from_status(id, now, &status);
 
-            let store_name = Self::storename(config);
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readwrite).build()?;
-            let store = tx.object_store(store_name)?;
+            let key = Self::histkey(id, &config);
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readwrite).build()?;
+            let store = tx.object_store("history")?;
 
-            let best_record: Option<PracticeHistoryRecord> = store.get(id).serde()?.await?;
+            let best_record: Option<PracticeHistoryRecord> = store.get(&key).serde()?.await?;
 
             let should_update = match best_record {
                 Some(rec) => rec.points < record.points,
@@ -122,7 +87,7 @@ mod db {
             };
 
             if should_update {
-                store.put(&record).serde()?.await?;
+                store.put(&record).with_key(key).serde()?.await?;
             }
 
             tx.commit().await?;
@@ -131,41 +96,41 @@ mod db {
         }
 
         pub async fn get_best_practice_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
-            let store_name = Self::storename(config);
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readonly).build()?;
-            let store = tx.object_store(store_name)?;
+            let key = Self::histkey(id, &config);
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readonly).build()?;
+            let store = tx.object_store("history")?;
 
-            let record: Option<PracticeHistoryRecord> = store.get(id).serde()?.await?;
+            let record: Option<PracticeHistoryRecord> = store.get(key).serde()?.await?;
             tx.commit().await?;
 
-            Ok(record.map(PracticeHistoryRecord::to_status))
+            Ok(record.as_ref().map(PracticeHistoryRecord::to_status))
         }
 
-        pub async fn get_all_practice_result_summaries(&self, config: UserConfig) -> Result<Vec<ResultSummary>> {
-            let store_name = Self::storename(config);
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readonly).build()?;
-            let store = tx.object_store(store_name)?;
-            
+        pub async fn get_all_practice_result_summaries(&self, practice_sets: &PracticeSets, config: UserConfig) -> Result<Vec<ResultSummary>> {
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readonly).build()?;
+            let store = tx.object_store("history")?;
+
             let mut ret = vec![];
-            for (id, title, _, num_words) in self.content.iter().cloned() {
-                let record: Option<PracticeHistoryRecord> = store.get(id).serde()?.await?;
+            for (practice, id) in practice_sets.sets[config.layout as usize].iter().zip(0u32..) {
+                let key = Self::histkey(id, &config);
+                let record: Option<PracticeHistoryRecord> = store.get(key).serde()?.await?;
                 let points = record.as_ref().map(|r| r.points);
                 let date = record.map(|r| r.created_at)
                     .and_then(|date| chrono::DateTime::from_timestamp_secs(date as i64))
                     .map(|date| date.with_timezone(&chrono::Local));
-                ret.push(ResultSummary {
-                    id, title, num_words, points, date
-                });
+                let title = practice.title.clone();
+                let num_words = practice.num;
+                ret.push(ResultSummary { id, title, num_words, points, date });
             }
 
             tx.commit().await?;
             Ok(ret)
         }
 
+        // note that unlike desktop version, this will clear history for *ALL* practices, regardless of allowdel, wordtime and layout
         pub async fn clear_practice_history(&self, config: UserConfig) -> Result<()> {
-            let store_name = Self::storename(config);
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readonly).build()?;
-            let store = tx.object_store(store_name)?;
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readonly).build()?;
+            let store = tx.object_store("history")?;
             store.clear()?;
             tx.commit().await?;
             Ok(())
@@ -173,8 +138,8 @@ mod db {
 
         pub async fn get_userconfig(&self) -> Result<Option<UserConfig>> {
             let store_name = "user_config";
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readonly).build()?;
-            let store = tx.object_store(store_name)?;
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readonly).build()?;
+            let store = tx.object_store("history")?;
 
             let record: Option<UserConfig> = store.get(1).serde()?.await?;
             tx.commit().await?;
@@ -183,8 +148,8 @@ mod db {
 
         pub async fn put_userconfig(&self, config: UserConfig) -> Result<()> {
             let store_name = "user_config";
-            let tx = self.idb.transaction(store_name).with_mode(TransactionMode::Readwrite).build()?;
-            let store = tx.object_store(store_name)?;
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readwrite).build()?;
+            let store = tx.object_store("history")?;
 
             store.put(&config).with_key(1).serde()?.await?;
 
