@@ -693,10 +693,14 @@ fn PracticeExam(id: u32) -> Element {
     let oninput = move || {
         if start_time().is_none() {
             start_time.set(Some(Instant::now()));
-            // for some reason, on web version, when you press space to go to next practice on result page,
-            // spacebar character is inserted into the input box.
-            // this will ensure starting typing for a word with empty input box.
-            document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
+            web! {
+                // for some reason, on web version, when you press space to go to next practice on result page,
+                // spacebar character is inserted into the input box.
+                // this will ensure starting typing for a word with empty input box.
+                document::eval(utils::SCRIPT_CLEAR_INPUT_CONTENT);
+                // but adding this on desktop will make first input of a practi some jittery effect
+                // so we use platform specific filter here.
+            }
         } // un-pause timer
     };
 
