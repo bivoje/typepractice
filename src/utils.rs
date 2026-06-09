@@ -78,15 +78,23 @@ pub struct ResultSummary {
     pub date: Option<chrono::DateTime<chrono::Local>>,
 }
 
-pub fn progress_coef(points: u32) -> f32 {
+pub fn progress_coef(points: u32, max: u32) -> f32 {
     // this quintic polynoial maps points to progress coefficient
     // it was selected after hand-tuning for desirable curve shape with following criteria
-    // - maps [0,600] to [0,1]
+    // - maps [0, max_speed] to [0,1]
     // - steep with low points to encourage beginners
     // - steep with high points to raise discrimination
     // Note that the returned value may go outside the unit range; the caller should appropriately clamp it.
-    let x = points as f32;
-    0.34 * (x - 300.0) / 302.0 + (0.7 * (x - 300.0) / 302.0).powi(5) + 0.5
+
+    // the polynomial is specifically calculated to go through points
+    // (15, 0.1), (45, 0.9) (100, 1), be odd
+    // then translated, scaled to fit in the range
+    let x = points as f64 / max as f64 - 0.5;
+    let a = 680_000.0 / 140_049.0;
+    let b =  19_900.0 / 140_049.0;
+    let c =  10_286.0 /  15_561.0;
+
+    (a * x.powi(5) + b * x.powi(3) + c * x) as f32 + 0.5
 }
 
 pub fn progress_bar(coef: f32, num: usize) -> (usize, f32) {

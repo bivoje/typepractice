@@ -233,7 +233,7 @@ struct Column<T> {
 struct GridData {
     title: Column<(String, u32)>,
     num_words: Column<u32>,
-    points: Column<(Option<u32>, u32)>,
+    points: Column<(Option<(u32, f32)>, u32)>,
     date: Column<Option<chrono::DateTime<chrono::Local>>>,
 }
 
@@ -295,9 +295,10 @@ fn PracticeList() -> Element {
             let mut points = vec![];
             let mut date = vec![];
             for summary in summaries {
+                let pcoef = summary.points.map(|p| (p, utils::progress_coef(p, config().max_speed)));
                 title.push((summary.title, summary.id));
                 num_w.push(summary.num_words);
-                points.push((summary.points, summary.id));
+                points.push((pcoef, summary.id));
                 date.push(summary.date);
             }
 
@@ -351,9 +352,8 @@ fn PracticeList() -> Element {
                 },
                 data: ColumnData {
                     inner: points.clone(),
-                    render: |(p, id)| rsx! { if let Some(p) = p {{
-                        let coef = utils::progress_coef(*p);
-                        let (level, c) = utils::progress_bar(coef, 5);
+                    render: |(pcoef, id)| rsx! { if let Some((p,coef)) = pcoef {{
+                        let (level, c) = utils::progress_bar(*coef, 5);
                         rsx! { Link {
                             to: Route::PracticeResult { id: *id },
                             class: "grid-cell-custom-points",
@@ -1079,7 +1079,9 @@ fn ResultViewer(id: u32, status: utils::Status, is_last: bool) -> Element {
     const NUM_BARS: usize = 5;
     let mut widths = [0; NUM_BARS];
 
-    let coef = utils::progress_coef(status.points);
+    let config = use_context::<Signal<utils::UserConfig>>();
+
+    let coef = utils::progress_coef(status.points, config().max_speed);
     let (last_bar, c) = utils::progress_bar(coef, NUM_BARS);
     for w in widths.iter_mut().take(last_bar.min(NUM_BARS)) {
         *w = 100;
