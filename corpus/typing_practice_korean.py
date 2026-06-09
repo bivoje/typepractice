@@ -63,7 +63,7 @@ def extract_from_plaintext(path):
         return word
 
     for word in hangule_text.split():
-        clean = remove_josa(word) 
+        clean = remove_josa(word)
         if len(clean) > 1:
             yield clean
 
@@ -248,7 +248,7 @@ def balanced_sample_rand(elements, K, M, alpha=2.0, initial_temperature=1.0):
     K: number of properties
     M: number of selections (multiset size)
     alpha: duplicate penalty weight
-    
+
     Returns:
         selected_indices: list of chosen element indices (with duplicates)
         property_counts: final property counts
@@ -279,7 +279,7 @@ def balanced_sample_rand(elements, K, M, alpha=2.0, initial_temperature=1.0):
         min_score = min(scores)
         shifted = [s - min_score for s in scores]  # improve stability
 
-        temperature = initial_temperature * (0.95 ** step) 
+        temperature = initial_temperature * (0.95 ** step)
         weights = [math.exp(-s / temperature) for s in shifted]
         total = sum(weights)
         probs = [w / total for w in weights]
@@ -300,19 +300,19 @@ def balanced_sample_det(elements, K, M, alpha=2.0):
     K: number of properties
     M: number of selections (multiset size)
     alpha: duplicate penalty weight
-    
+
     Returns:
         selected_indices: list of chosen element indices (with duplicates)
         property_counts: final property counts
     """
     N = len(elements)
-    
+
     # Estimate average properties per element
     avg_r = sum(len(e) for e in elements) / N
-    
+
     # Ideal equal target per property
     target = M * avg_r / K
-    
+
     # Current state
     property_counts = [0] * K
     usage_counts = [0] * N
@@ -321,32 +321,32 @@ def balanced_sample_det(elements, K, M, alpha=2.0):
     for step in range(M):
         best_score = float("inf")
         best_i = None
-        
+
         for i, props in enumerate(elements):
-            
+
             # ---- Balance delta ----
             delta_balance = 0.0
             for j in props:
                 before = property_counts[j] - target
                 after = (property_counts[j] + 1) - target
                 delta_balance += after**2 - before**2
-            
+
             # ---- Duplicate penalty ----
             dup_penalty = alpha * (usage_counts[i] ** 2)
-            
+
             score = delta_balance + dup_penalty
-            
+
             if score < best_score:
                 best_score = score
                 best_i = i
-        
+
         # Update with chosen element
         selected_indices.append(best_i)
         usage_counts[best_i] += 1
-        
+
         for j in elements[best_i]:
             property_counts[j] += 1
-    
+
     return selected_indices, property_counts
 
 # run-length-encode
@@ -438,7 +438,7 @@ class Practice:
             'mc_min': max_coupled_min,
             'mc_max': max_coupled_max,
         })
-    
+
     def add_fixed_words(self, title, words):
         self.practices.append({
             'type': 'fixed_gulza',
@@ -489,7 +489,7 @@ practice_set_from_wordset([onyong_words, text_words],
 practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장'),
     [pureo('한장')[2::3]],
-    misc=("+/ㅇㄴ [as]", 30)
+    misc=("+/ㅇㄴ [a s]", 30)
 )
 
 # %% ----------------------------------------------
@@ -607,14 +607,14 @@ practice_set_from_fixed('(자리) /ㄹㄱ [e x]', shufle_gen_fixed('알악'))
 
 # %%
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루알악'),
+    pureo('아가한장머녀소루알악'),
     [pureo('알악')[2::3]],
     misc=("+/ㄹㄱ", 30)
 )
 
 # %%
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박'),
+    pureo('아가한장머녀소루달박'),
     [pureo('다바')[::2], pureo('알악')[2::3]],
     max_coupled_range=1,
     misc=("+ㄷㅂ +/ㄹㄱ ①", 60)
@@ -622,10 +622,18 @@ practice_set_from_wordset([onyong_words, text_words],
 
 # %% ----------------------------------------------------
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박'),
+    pureo('아가한장머녀소루달박'),
     [pureo('다바')[::2], pureo('알악')[2::3]],
     max_coupled_range=2,
     misc=("+ㄷㅂ +/ㄹㄱ ②", 60)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words],
+    pureo('이가한장머녀소루달박'),
+    [pureo('일')[1], pureo('일')[2]],
+    max_coupled_range=2,
+    misc=("+/ㄹ +ㅣ ②", 30)
 )
 
 # %%
@@ -636,18 +644,8 @@ practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루앗압암'),
     [pureo('앗압암')[2::3]],
     misc=("+/ㅅㅂㅁ 1", 30)
+
 )
-
-# %%
-practice_set_from_fixed('(자리) ㅔㅡ [c g]', shufle_gen_fixed('에으'))
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루에으'),
-    [pureo('에으')[1::2]],
-    misc=("+/ㅔㅡ 1", 30)
-)
-
 # %%
 practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루달박'),
@@ -672,11 +670,29 @@ practice_set_from_wordset([onyong_words, text_words],
 )
 
 # %%
+practice_set_from_fixed('(자리) ㅔㅡ [c g]', shufle_gen_fixed('에으'))
+
+# %%
+practice_set_from_wordset([onyong_words, text_words],
+    pureo('이가한장머녀소루에으'),
+    [pureo('에으')[1::2]],
+    misc=("+/ㅔㅡ 1", 30)
+)
+
+# %%
 practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루달박에으'),
     [pureo('다바')[::2] + pureo('알악')[2::3], pureo('에으')[1::2]],
     max_coupled_range=1,
-    misc=("+ㅔㅡ 2 ①", 60)
+    misc=("+ㄷㅂ +ㅔㅡ +/ㄹㄱ ①", 60)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words],
+    pureo('이가한장머녀소루달박에으'),
+    [pureo('엘')[1], pureo('엘')[2]],
+    max_coupled_range=2,
+    misc=("+ㅔ +/ㄹ ②", 30)
 )
 
 # %%
@@ -684,7 +700,7 @@ practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루달박에으'),
     [pureo('다바')[::2] + pureo('알악')[2::3], pureo('에으')[1::2]],
     max_coupled_range=2,
-    misc=("+ㅔㅡ 2 ②", 60)
+    misc=("+ㄷㅂ +ㅔㅡ +/ㄹㄱ ②", 60)
 )
 
 # %%
@@ -692,7 +708,7 @@ practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루달박에으앗압암'),
     [pureo('에으')[1::2], pureo('앗압암')[2::3]],
     max_coupled_range=1,
-    misc=("+ㅔㅡ +/ㅅㅂㄹ ①", 60)
+    misc=("+ㅔㅡ +/ㅅㅂㅁ ①", 60)
 )
 
 # %%
@@ -700,7 +716,7 @@ practice_set_from_wordset([onyong_words, text_words],
     pureo('이가한장머녀소루달박에으앗압암'),
     [pureo('에으')[1::2], pureo('앗압암')[2::3]],
     max_coupled_range=2,
-    misc=("+ㅔㅡ +/ㅅㅂㄹ ②", 60)
+    misc=("+ㅔㅡ +/ㅅㅂㅁ ②", 60)
 )
 
 # %% =====================================================================
@@ -728,10 +744,27 @@ practice_set_from_fixed('(자리) ㅐㅢㅟㅚ [df dg dc,db dv]', shufle_gen_fix
 
 # %%
 practice_set_from_wordset([onyong_words, text_words],
+    pureo('애개핸쟁매내새래대백애애앳앱앰애의위외'),
+    [pureo('애의위외')[1::2]],
+    alpha=2.0,
+    misc=("+ㅐㅢㅟㅚ -단모음 -/ㄹ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words],
+    pureo('이가한장머녀소루달박에으앗압암애의위외'),
+    [pureo('윌')[1], pureo('윌')[2]],
+    alpha=2.0,
+    max_coupled_range=2,
+    misc=("+ㅟ +/ㄹ", 20)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words],
     pureo('애개핸쟁매내새래댈백애애앳앱앰애의위외'),
     [pureo('애의위외')[1::2]],
     alpha=2.0,
-    misc=("+ㅐㅢㅟㅚ", 60)
+    misc=("+ㅐㅢㅟㅚ -단모음", 30)
 )
 
 # %%
