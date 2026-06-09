@@ -607,25 +607,25 @@ practice_set_from_fixed('(자리) /ㄹㄱ [e x]', shufle_gen_fixed('알악'))
 
 # %%
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀소루알악'),
+    pureo('아가한장마나사라달박'),
     [pureo('알악')[2::3]],
-    misc=("+/ㄹㄱ", 30)
+    misc=("+/ㄹㄱ -ㅗㅜㅓㅕ", 30)
 )
 
 # %%
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀소루달박'),
-    [pureo('다바')[::2], pureo('알악')[2::3]],
-    max_coupled_range=1,
-    misc=("+ㄷㅂ +/ㄹㄱ ①", 60)
+    pureo('아가한장머녀소루달바'),
+    [pureo('알')[2::3], pureo('오우')[1::2]],
+    max_coupled_range=2,
+    misc=("+/ㄹ +ㅗㅜ", 30)
 )
 
-# %% ----------------------------------------------------
+# %%
 practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀소루달박'),
-    [pureo('다바')[::2], pureo('알악')[2::3]],
+    pureo('아가한장머녀소루다박'),
+    [pureo('악')[2::3], pureo('어여')[1::2]],
     max_coupled_range=2,
-    misc=("+ㄷㅂ +/ㄹㄱ ②", 60)
+    misc=("+/ㄱ +ㅓㅕ", 30)
 )
 
 # %%
@@ -637,6 +637,13 @@ practice_set_from_wordset([onyong_words, text_words],
 )
 
 # %%
+practice_set_from_wordset([onyong_words, text_words],
+    pureo('아가한장머녀소루달박'),
+    [pureo('알악')[2::3]],
+    misc=("+/ㄹㄱ", 60)
+)
+
+# %%
 practice_set_from_fixed('(자리) /ㅅㅂㅁ [q w z]', shufle_gen_fixed('앗압암'))
 
 # %%
@@ -645,12 +652,6 @@ practice_set_from_wordset([onyong_words, text_words],
     [pureo('앗압암')[2::3]],
     misc=("+/ㅅㅂㅁ 1", 30)
 
-)
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박'),
-    [pureo('다바')[::2] + pureo('알악')[2::3]],
-    misc=("+ㄷㅂ +/ㄹㄱ", 30)
 )
 
 # %%
