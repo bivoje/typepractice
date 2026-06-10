@@ -374,3 +374,7 @@ body{
 .action-next:hover {
   transform: translateX(8%) scaleX(1.08);
 }
+
+.action-delete:hover:not(.inactive) {
+  transform: skewX(-10deg);
+}

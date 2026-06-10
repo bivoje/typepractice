@@ -129,9 +129,20 @@ mod db {
 
         // note that unlike desktop version, this will clear history for *ALL* practices, regardless of allowdel, wordtime and layout
         pub async fn clear_practice_history(&self, config: UserConfig) -> Result<()> {
-            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readonly).build()?;
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readwrite).build()?;
             let store = tx.object_store("history")?;
             store.clear()?;
+            tx.commit().await?;
+            Ok(())
+        }
+
+        // note that unlike desktop version, this will clear history for *ALL* practices, regardless of allowdel, wordtime and layout
+        pub async fn delete_practice_history(&self, id: u32, config: UserConfig) -> Result<()> {
+            let key = Self::histkey(id, &config);
+            let tx = self.idb.transaction("history").with_mode(TransactionMode::Readwrite).build()?;
+            let store = tx.object_store("history")?;
+
+            store.delete(&key).await?;
             tx.commit().await?;
             Ok(())
         }

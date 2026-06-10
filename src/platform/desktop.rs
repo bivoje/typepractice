@@ -134,6 +134,11 @@ use std::sync::{Arc, Mutex};
             Ok(())
         }
 
+        pub fn del_hist(&mut self, id: u32, config: UserConfig) -> Result<Option<Status>> {
+            let key = Self::histkey(id, &config);
+            Ok(self.hist_cache.remove(&key).as_ref().map(PracticeHistoryRecord::to_status))
+        }
+
         pub fn get_userconfig(&self) -> Result<Option<UserConfig>> {
             Ok(self.config_cache.clone())
         }
@@ -198,7 +203,17 @@ use std::sync::{Arc, Mutex};
             let mut inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
-            inner.clear_hist(config)
+            inner.clear_hist(config)?;
+            inner.commit()
+        }
+
+        pub async fn delete_practice_history(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
+            let mut inner = self.0.lock()
+                .map_err(|e| format!("DB mutex poisoned: {e}"))?;
+
+            let ret = inner.del_hist(id, config)?;
+            inner.commit()?;
+            Ok(ret)
         }
 
         pub async fn get_userconfig(&self) -> Result<Option<UserConfig>> {

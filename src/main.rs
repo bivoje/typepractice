@@ -1037,6 +1037,13 @@ fn PracticeResultShow(id: u32, status: Option<utils::Status>) -> Element {
 
     let nav = use_navigator();
 
+    let enable_delete = status.is_none();
+    let ondelete = move |_| async move {
+        let db = consume_context::<platform::DataFetch>();
+        db.delete_practice_history(id, config()).await;
+        nav.push(Route::PracticeList {});
+    };
+
     let status = use_resource(move || {
         let db = consume_context::<platform::DataFetch>();
         async move {
@@ -1083,7 +1090,11 @@ fn PracticeResultShow(id: u32, status: Option<utils::Status>) -> Element {
                         status.time_active = true;
                         rsx! {
                             StatusLine { status }
-                            ResultViewer { id, status, is_last }
+                            if enable_delete {
+                                ResultViewer { id, status, is_last, ondelete }
+                            } else {
+                                ResultViewer { id, status, is_last }
+                            }
                         }
                     }
                     Err(err) => {
@@ -1097,7 +1108,7 @@ fn PracticeResultShow(id: u32, status: Option<utils::Status>) -> Element {
 }
 
 #[component]
-fn ResultViewer(id: u32, status: utils::Status, is_last: bool) -> Element {
+fn ResultViewer(id: u32, status: utils::Status, is_last: bool, ondelete: Option<Callback>) -> Element {
     const NUM_BARS: usize = 5;
     let mut widths = [0; NUM_BARS];
 
@@ -1136,18 +1147,34 @@ fn ResultViewer(id: u32, status: utils::Status, is_last: bool) -> Element {
                 }
             }
             div { class: "actions",
+
                 Link { class: "action-list material-symbols-outlined", to: Route::PracticeList {}, "list" }
+
                 if id == 0 {
                     span { class: "action-back material-symbols-outlined inactive", "arrow_back" }
                 } else {
                     Link { class: "action-back material-symbols-outlined", to: Route::PracticeExam { id: id-1 }, "arrow_back" } // TODO conditionally disable?
                 }
+
                 Link { class: "action-redo material-symbols-outlined", to: Route::PracticeExam { id }, "refresh" }
+
                 if is_last {
                     span { class: "action-next material-symbols-outlined inactive", "arrow_forward" }
                 } else {
                     Link { class: "action-next material-symbols-outlined", to: Route::PracticeExam { id: id+1 }, "arrow_forward" }
                 }
+
+                if let Some(ondelete) = ondelete {
+                    span { class: "action-delete material-symbols-outlined",
+                        onclick: move |_| {
+                            ondelete.call(());
+                        },
+                        "ink_eraser"
+                    }
+                } else {
+                    span { class: "action-delete material-symbols-outlined inactive", "ink_eraser" }
+                }
+
                 // span { class: "action-next material-symbols-outlined", onclick: move |_| {
                 //     apply_width.toggle();
                 // },
