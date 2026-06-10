@@ -33,6 +33,37 @@ impl Status {
     }
 }
 
+use dioxus_router::routable;
+
+impl routable::FromRouteSegment for Status {
+    type Err = String;
+
+    fn from_route_segment(route: &str) -> Result<Self,Self::Err> {
+        println!("from route seg: {route}");
+        let mut it = route.split(',');
+        Ok(Self {
+            wrong:      it.next().unwrap().parse().unwrap(),
+            finished:   it.next().unwrap().parse().unwrap(),
+            millis:     it.next().unwrap().parse().unwrap(),
+            time_active:it.next().unwrap().parse().unwrap(),
+            typed:      it.next().unwrap().parse().unwrap(),
+            points:     it.next().unwrap().parse().unwrap(),
+        })
+    }
+}
+
+impl routable::ToRouteSegments for Status {
+    fn display_route_segments(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{},{},{},{},{},{}", self.wrong, self.finished, self.millis, self.time_active, self.typed, self.points)
+    }
+}
+
+impl std::fmt::Display for Status {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{},{},{},{},{},{}", self.wrong, self.finished, self.millis, self.time_active, self.typed, self.points)
+    }
+}
+
 #[derive(Clone, Debug, serde::Serialize, serde::Deserialize)]
 pub struct PracticeHistoryRecord {
     pub practice_id: u32,

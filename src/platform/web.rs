@@ -66,7 +66,7 @@ mod db {
             )
         }
 
-        pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
+        pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<bool> {
 
             let now = super::time::UNIX_EPOCH
                 .elapsed()
@@ -92,7 +92,7 @@ mod db {
 
             tx.commit().await?;
 
-            Ok(())
+            Ok(should_update)
         }
 
         pub async fn get_best_practice_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {

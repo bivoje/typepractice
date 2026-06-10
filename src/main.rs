@@ -25,7 +25,9 @@ enum Route {
     #[route("/practice/:id")]
     PracticeExam { id: u32 },
     #[route("/result/:id")]
-    PracticeResult { id: u32 },
+    PracticeResultBest { id: u32 },
+    #[route("/result/:id/:status")]
+    PracticeResult { id: u32, status: utils::Status },
     #[route("/error/:errmsg")]
     ErrorPage { errmsg: String },
 }
@@ -355,7 +357,7 @@ fn PracticeList() -> Element {
                     render: |(pcoef, id)| rsx! { if let Some((p,coef)) = pcoef {{
                         let (level, c) = utils::progress_bar(*coef, 5);
                         rsx! { Link {
-                            to: Route::PracticeResult { id: *id },
+                            to: Route::PracticeResultBest { id: *id },
                             class: "grid-cell-custom-points",
                             title: "{p}",
                             div {
@@ -780,10 +782,16 @@ fn PracticeExam(id: u32) -> Element {
                             status.set_points();
 
                             let db = consume_context::<platform::DataFetch>();
-                            if let Err(err) = db.put_practice_result(id, config(), status).await {
-                                nav.push(Route::ErrorPage { errmsg: format!("{err}") });
-                            } else {
-                                nav.push(Route::PracticeResult { id });
+                            match db.put_practice_result(id, config(), status).await {
+                                Err(err) => {
+                                    nav.push(Route::ErrorPage { errmsg: format!("{err}") });
+                                }
+                                Ok(true) => {
+                                    nav.push(Route::PracticeResultBest { id });
+                                }
+                                Ok(false) => {
+                                    nav.push(Route::PracticeResult { id, status });
+                                }
                             }
                         }
                     }
@@ -1003,7 +1011,17 @@ fn StatusLine(status: utils::Status) -> Element {
 }
 
 #[component]
-fn PracticeResult(id: u32) -> Element {
+fn PracticeResultBest(id: u32) -> Element {
+    rsx! { PracticeResultShow { id, status: None } }
+}
+
+#[component]
+fn PracticeResult(id: u32, status: utils::Status) -> Element {
+    rsx! { PracticeResultShow { id, status: Some(status) } }
+}
+
+#[component]
+fn PracticeResultShow(id: u32, status: Option<utils::Status>) -> Element {
     let default_status = utils::Status {
         wrong: 0,
         finished: 0,
@@ -1019,10 +1037,15 @@ fn PracticeResult(id: u32) -> Element {
 
     let nav = use_navigator();
 
-    let o_status = use_resource(move || {
+    let status = use_resource(move || {
         let db = consume_context::<platform::DataFetch>();
         async move {
-            db.get_best_practice_result(id, config()).await
+            if let Some(status) = status {
+                Ok(status)
+            } else {
+                db.get_best_practice_result(id, config()).await
+                .map(|o_status| o_status.unwrap_or(default_status))
+            }
         }
     });
 
@@ -1052,12 +1075,11 @@ fn PracticeResult(id: u32) -> Element {
                 }
             },
 
-            if let Some(o_status) = &*o_status.read() {
+            if let Some(status) = &*status.read() {
                 // async loaded
-                match o_status {
-                    Ok(o_status) => {
+                match status {
+                    Ok(mut status) => {
                         // db query success
-                        let mut status = o_status.unwrap_or(default_status); // in case no record
                         status.time_active = true;
                         rsx! {
                             StatusLine { status }

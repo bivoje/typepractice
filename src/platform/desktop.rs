@@ -88,20 +88,22 @@ use std::sync::{Arc, Mutex};
             Ok(Self { config_cache, hist_cache })
         }
 
-        fn put_result(&mut self, id: u32, config: UserConfig, time: i32, status: Status) -> Result<()> {
+        fn put_result(&mut self, id: u32, config: UserConfig, time: i32, status: Status) -> Result<bool> {
             let key = Self::histkey(id, &config);
             let val = PracticeHistoryRecord::from_status(id, time, &status);
             use std::collections::hash_map::Entry::*;
-            match self.hist_cache.entry(key) {
+            let has_updated = match self.hist_cache.entry(key) {
                 Vacant(e) => {
                     e.insert(val);
+                    true
                 }
                 Occupied(mut e) if e.get().points < status.points => {
                     e.insert(val);
+                    true
                 }
-                _ => (),
-            }
-            Ok(())
+                _ => false,
+            };
+            Ok(has_updated)
         }
 
         fn get_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
@@ -164,7 +166,7 @@ use std::sync::{Arc, Mutex};
             Ok(Database(Arc::new(Mutex::new(Inner::open()?))))
         }
 
-        pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<()> {
+        pub async fn put_practice_result(&self, id: u32, config: UserConfig, status: Status) -> Result<bool> {
             let mut inner = self.0.lock()
                 .map_err(|e| format!("DB mutex poisoned: {e}"))?;
 
@@ -173,8 +175,9 @@ use std::sync::{Arc, Mutex};
                 Err(before) => - (before.duration().as_secs() as i32),
             };
 
-            inner.put_result(id, config, now, status)?;
-            inner.commit()
+            let has_updated = inner.put_result(id, config, now, status)?;
+            inner.commit();
+            Ok(has_updated)
         }
 
         pub async fn get_best_practice_result(&self, id: u32, config: UserConfig) -> Result<Option<Status>> {
