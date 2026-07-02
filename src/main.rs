@@ -11,6 +11,30 @@ mod utils;
 
 fn main() {
     platform::launch_builder().launch(DBProvider);
+
+    // let s = std::fs::read_to_string("assets/data/practices_semoe2018.json").unwrap();
+    // let bytes = s.as_bytes();
+    // let ps: Vec<utils::Practice> = serde_json::from_slice(bytes).unwrap();
+
+    // // let words = std::fs::read_to_string("assets/data/wordset.list").unwrap();
+    // // for p in ps {
+    // //     println!("{}: {}", p.title,
+    // //         words.lines().filter(|word| p.check_danwoe(word) > 0).count()
+    // //     )
+    // // }
+
+    // let words = ["수박", "막아서"];
+    // let p = &ps[27];
+    // println!("{}", p.title);
+    // println!("{:?}", p.check(words[0]));
+    // println!("{p:?}");
+
+    // // let mut rng = rand::rngs::SmallRng::seed_from_u64(0);
+    // // let start = std::time::Instant::now();
+    // // let ret = p.sample_words(&words, &mut rng);
+    // // let elapsed = start.elapsed();
+    // // // println!("{ret:?}");
+    // // println!("{}", elapsed.as_millis());
 }
 
 #[derive(Debug, Clone, Routable, PartialEq)]
@@ -60,7 +84,7 @@ impl AssetData {
         use strum::IntoEnumIterator;
         let practices_futs = utils::KeyboardLayout::iter().map(|layout| async move {
             let asset = match layout {
-                utils::KeyboardLayout::Gong390   => asset!("assets/data/practices_kong390.json"),
+                // utils::KeyboardLayout::Gong390   => asset!("assets/data/practices_kong390.json"),
                 utils::KeyboardLayout::Semoe2018 => asset!("assets/data/practices_semoe2018.json"),
             };
             let bytes = read_asset_bytes(asset).await?;
@@ -122,8 +146,8 @@ fn DBProvider() -> Element {
         }
 
         (Some(Err(e)), _, _) => rsx! { ErrorPage { errmsg: e.to_string() } },
-        // (_, Some(Err(e)), _) => rsx! { ErrorPage { errmsg: e.to_string() } },
-        // (_, _, Some(Err(e))) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        (_, Some(Err(e)), _) => rsx! { ErrorPage { errmsg: e.to_string() } },
+        (_, _, Some(Err(e))) => rsx! { ErrorPage { errmsg: e.to_string() } },
         _ => rsx! { "Loading" },
     }; ret
 }
@@ -618,6 +642,9 @@ fn DataGrid(data: GridData) -> Element {
 
 #[derive(Clone, PartialEq, Props)]
 struct WordViewerProps {
+    id: u32,
+    is_last: bool,
+
     prev: Option<String>,
     next: Option<String>,
     current: Option<String>,
@@ -635,6 +662,17 @@ use platform::sleep_future;
 
 #[component]
 fn PracticeExam(id: u32) -> Element {
+    rsx! {
+        PracticeExamKeyed {
+            key: "{id}",
+            id,
+        }
+    }
+}
+
+#[component]
+fn PracticeExamKeyed(id: u32) -> Element {
+
     // let mut elapsed = use_signal(|| 0);
     let mut prev_answer = use_signal(|| "".to_string());
     let mut word_idx = use_signal(|| 0usize);
@@ -678,7 +716,7 @@ fn PracticeExam(id: u32) -> Element {
 
     let nav = use_navigator();
 
-    let onreset = move || {
+    let mut onreset = move || {
         prev_answer.set("".to_string());
         word_idx.set(0);
         typing_count.set(0);
@@ -691,6 +729,16 @@ fn PracticeExam(id: u32) -> Element {
 
         words_ord_seed += 1;
     };
+
+    // greesy hack to call onreset on id change
+    let mut id_sig = use_signal(|| id);
+    if id != id_sig() {
+        id_sig.set(id);
+    }
+    use_memo(move || {
+        _ = id_sig();
+        onreset();
+    });
 
     let oninput = move || {
         if start_time().is_none() {
@@ -721,6 +769,8 @@ fn PracticeExam(id: u32) -> Element {
     // cannot use words in onsubmit callback, so we prepare here
     let current = if idx < num_words { Some(words[idx].clone()) } else { None };
 
+    let is_last = id as usize + 1 == assetdata.num_practices(&config.read());
+
     rsx! {
         div {
             class: "package",
@@ -740,6 +790,7 @@ fn PracticeExam(id: u32) -> Element {
             StatusLine { status: status },
 
             WordsViewer {
+                id, is_last,
                 prev: if idx > 0 { Some(words[idx-1].clone()) } else { None },
                 next: if idx + 1 < num_words { Some(words[idx+1].clone()) } else { None },
                 current: current.clone(),
@@ -903,6 +954,19 @@ fn WordsViewer(props: WordViewerProps) -> Element {
                             _ if e.key() == Key::Process => {
                                 props.oninput.call(());
                             }
+
+                            Code::ArrowRight if e.modifiers().ctrl() => {
+                                if ! props.is_last {
+                                    nav.push(Route::PracticeExam { id: props.id+1 });
+                                }
+                            }
+
+                            Code::ArrowLeft if e.modifiers().ctrl() => {
+                                if props.id > 0 {
+                                    nav.push(Route::PracticeExam { id: props.id-1 });
+                                }
+                            }
+
 
                             Code::ArrowLeft |
                             Code::ArrowRight |

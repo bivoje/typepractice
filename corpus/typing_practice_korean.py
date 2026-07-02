@@ -73,7 +73,17 @@ def load_from_texts():
     words.update(extract_from_plaintext('산업사회와 그 미래.txt'))
     words.update(extract_from_plaintext('세계인권선언.txt')) # 제 78 조 같은 거는 숫자 제외, 한 글자 단어 제외로 잘려나갈거임
     words.update(extract_from_plaintext('사회계약론.txt'))
+
+    # supplimentary words found using https://wordrow.kr/%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94-%EB%A7%90/%ED%9B%95/
     words.update("넋두리 뱃삯 핥다 훑다 홅다 훑어보기 개미핥기 읊다 읊어 읊조리다 곬 물곬 외곬 통곬 옰".split())
+    words.update('굽신 굽이돌아 눕히다 어둡다 그룹 우스웁다 웁살라 수줍어하다 어줍게 머줍다 '.split())
+    words.update('오뎅 뎅강 벵갈호랑이 스미마셍 엥기다 헹가레'.split())
+    words.update('엘도라도 헵번 조니뎁 렙틸리언 셀렙 엡실론 렛잇비 멧비둘기 셋업 에셋 헤드셋'.split())
+    words.update("가냘프다 말괼량이 먈쑥히 얄긋거리다 귀얄질 얄팍한 얄타회담 얄밉다 시보귬 아셀레늄산 악티늄족 디아조늄염 플래티늄 다이크로뮴산 암모늄 라듐실크 팔라듐 클리니듐 플라스모듐속 스칸듐 디필리듐속 나트륨 과칼륨 과레늄산칼륨 니켈카드뮴 크로뮴황 멘델레븀 덴드로븀 칼슘 대슘치마 뿌윰히 보윰하다 테크네튬 코스튬 알루미늄리튬 퍼퓸매니큐어 유로퓸 흄로터리규칙 흄관 셋괏다 결괏값 괏쇠 기왓장 왓슨 왓닥갓닥 스왓 멘왓 유왓대 와이드스쾃 패러쾃 봉홧불 장홧발 중홧값 조홧속 홧김비용 포홧값 매홧간 얌냠거리다 부냠웨라열 할냠 뱜딸구 뱜댕이 도마뱜 할아뱜 샴쌍둥이 샴푸 샴페인 샴버그병 얌체 아얌고랭 얌셍이 기얌나무 얌전히 똠얌쿰 얌운센 덩크슛 로빙슛 여윳돈 우윳빛 석윳각지 고윳값 아웨윱다 가윱다 욥기 욥전 묫자리 성묫길 묫등 숏포지션 숏건법 욧거죽 욧속 도욧과 욧카이치천식 춋블 푯대 푯말 좌푯값 푯돌 대푯값 굠나무 대뇸 고욤나무 굴레시욤 귀욤 하외욤 카르마뇰재킷 에스파뇰 비뇰라 오룔 묠니르 숄더백 숄카라 욜래방정 욜레스검사 욜삭다 로욜라 횰로 맨숀 숀가우어 데니숀무용단 욘족 비욘드 욘존 프레트욘가 죤득죤득 괌티다 괌밥 곽밥 풋봠 왐마 왐스 브왐바열 쥐왐쥐왐 얼걋 키로프뱟카 원샷법 벙커샷 슬링샷 뙤얏하다 오얏밭에 지얏개미 오얏추 이얏동모 쟛고야 뱝뛰다 포토샵 워크샵 펫샵 얍실허다 가븨얍다 얍슬얍슬 챱챱 샤기냔 서냔장사 하탸투랸 말랸게기 침랸스크호 뱐뱐하다 뱐둥뱐둥 세묘노프탼샨스키 아샨티제국 두샨베 알류샨해구 얀선주의 얀스키 비엘쇼브스키병 카얀족 쟌누치세포 쟌경색 크리스챤병 캰날".split())
+    words.update("튜토리얼 스튜어트 튜너 도쿄 쿄야마 똬머리 꽈릿빛 꽈리 꽈르릉 허파꽈리 빈툐 셰툐 젼툐 사탸그라하 보탸크어 류탸오후사건 오스탸크족 콰당탕 에콰도르 콰직 콰트로 캬프슈 캬사누르 레이캬비크 캬라멜 쿠드랴프카 뜌뚀땨 때뀨 꺄룩꺄룩 꺄트리엠므 뽀지씨용 꺄르 꺄락떼르 꾸뻬 뜨루아 뀨잉".split())
+    words.update("쥬니어 해쥬 그랑쥬떼 쥬크스 앙쥬아리다 알롱쥬 디죠지증후군 반죠 아이죠드충격시험기 쟈코비안 쟈오락 꼬떼쟈르댕 샤쿠뵤시 뵤도인 뵤른슈타드 뱌암 뱌우리 뱌슬대다 린뱌오 돌뱌크".split())
+    words.update("촤라락 퍄티고르스키 액츄에이터 시츄에이션 위츄라 크리스챠니아 플란챠 켄챠야자 미니쮸 쬬꼼 뾰족코 뾰족뒤쥐 뾰로통 뾰루지 뺘드득 뺘무리".split())
+    words.update("캴캴대다 큠큠한 마좟다 좟녁 좟장 쟘보 쟘불말 쟘뱅이".split())
     return words
 
 # %%
@@ -183,57 +193,55 @@ def shufle_gen_fixed(gulzas):
             .split()
 
 # %%
-def check_danwoe(allowed, required, word, max_coupled_range=(0,3)):
-    if not isinstance(max_coupled_range, tuple):
-        max_coupled_range = (max_coupled_range, max_coupled_range)
+import re
 
-    if allowed and not all(gulsoe in allowed for gulsoe in pureo(word)):
-        return None
+def cands_repat(cands_seqs):
+    return '|'.join(''.join('[' + ''.join(cands) + ']' for cands in cands_seq) for cands_seq in cands_seqs)
 
-    def filter_jamos(jamos, pred):
-        return [ jamo for jamo in jamos if jamo in pred ]
+def cands_labels(cands_seqs):
+    def cands_labels_rec(i, cands_seq):
+        if i >= len(cands_seq):
+            yield ''
+        else:
+            for head in cands_seq[i]:
+                for rest in cands_labels_rec(i+1, cands_seq):
+                    yield head + rest
 
-    profile_by_gulza = [
-        [ filter_jamos(pureo(gulza), req) for req in required ]
-        for gulza in word
-    ]
+    for cand_seq in cands_seqs:
+        yield from cands_labels_rec(0, cand_seq)
 
-    # print(list(zip(word,profile_by_gulza)))
+def check_danwoe_(criterion, jamos):
+    match criterion[0]:
+        case 'Covered':
+            allowed = criterion[1]
+            return all(jamo in allowed for jamo in jamos)
 
-    # ensure each gulza satisfies more than 'coupled' requirements
-    coupled = []
-    for profile in profile_by_gulza:
-        passed_req_num = sum(
-            len(filtered) > 0
-            for filtered in profile
-        )
-        coupled.append(passed_req_num)
-    if len(required) > 0:
-        if max(coupled) < max_coupled_range[0] or max_coupled_range[1] < max(coupled):
-            return None
+        case 'IncludeCombs':
+            cands_seqs = criterion[1]
+            pat = cands_repat(cands_seqs)
+            return re.findall(pat, jamos)
 
-    # ensure all the requirements are satisfied at least once
-    passed_reqs = set(
-        i
-        for profile in profile_by_gulza
-        for i, filtered in enumerate(profile)
-        if len(filtered)>0)
-    # print(passed_reqs)
-    if len(passed_reqs) != len(required):
-        return None
+        case 'ExcludeComb':
+            cands_seq = criterion[1]
+            pat = cands_repat([cands_seq])
+            return not re.search(pat, jamos)
 
-    found = set(
-        gulsoe
-        for profile in profile_by_gulza
-        for filtered in profile
-        for gulsoe in filtered
-    )
+        case _:
+            raise Exception(f"Unrecognized criterion type: {criterion[0]}")
 
+def check_danwoe(criteria, word):
+    jamos = jamo.h2j(word)
+    found = set()
+    for criterion in criteria:
+        ret = check_danwoe_(criterion, jamos)
+        if not ret: return None
+        if not isinstance(ret, bool):
+            found.update(ret)
     return found
 
-def filter_words(words, allowed, required, max_coupled_range=(0,3)):
+def filter_words(words, criteria):
     for word in words:
-        found = check_danwoe(allowed, required, word, max_coupled_range=max_coupled_range)
+        found = check_danwoe(criteria, word)
         if found is not None:
             yield word, found
 
@@ -369,40 +377,51 @@ def rle(arr):
     return result
 
 def view_practice_set(
-        wordsets, allowed, required,
+        wordsets,
+        criteria,
         alpha=10.0, temp=1.0,
-        max_coupled_range=(0,3), misc=None
+        misc=None,
     ):
-    req_list = list(set(gulsoe for req in required for gulsoe in req))
 
     wordset_all = set()
     for wordset in wordsets:
         wordset_all.update(wordset)
 
-    words, word_props = zip(*filter_words(wordset_all, allowed, required, max_coupled_range=max_coupled_range))
-    req_stat = Counter(gulsoe for prop in word_props for gulsoe in prop)
+    req_list = set()
+    for criterion in criteria:
+        match criterion[0]:
+            case 'IncludeCombs':
+                cands_seqs = criterion[1]
+                for seq in cands_labels(cands_seqs):
+                    req_list.add(seq)
+                print(f"∋ {cands_repat(cands_seqs)}")
+            case 'ExcludeComb':
+                cands_seq = criterion[1]
+                print(f"∌ {cands_repat([cands_seq])}")
+    req_list = list(req_list)
+
+    words, founds = zip(*filter_words(wordset_all, criteria))
+    req_stat = Counter(req_list[req_list.index(seq)] for found in founds for seq in found)
+
     word_props = [
-        [ req_list.index(gulsoe) for gulsoe in prop ]
-        for prop in word_props
+        [ req_list.index(seq) for seq in found ]
+        for found in founds
     ]
+
     sel_indexes, cnt = balanced_sample_rand(word_props, len(req_list), misc[1], alpha, initial_temperature=temp)
+
     print(f"{misc[1]}/{len(words)}")
     print([f"{words[idx]} {n if n > 1 else ''}" for idx, n in sorted(rle(sorted(sel_indexes)), key=lambda x: x[1], reverse=True)])
     print(', '.join(
-        f"{gulsoe}: {n}/{req_stat[gulsoe]}"
-        for n, gulsoe in sorted(zip(cnt, req_list), reverse=True)
+        f"{lab}: {n}/{m}"
+        for n, m, lab in sorted(map(lambda nlab: (nlab[0], req_stat[nlab[1]], nlab[1]), zip(cnt, req_list)), reverse=True)
     ))
 
     return [ words[idx] for idx in sorted(sel_indexes) ]
 
+# %%
 def practice_set_from_wordset(*args, **kwargs):
     view_practice_set(*args, **kwargs)
-
-    reqacc = set()
-    for req in args[2]:
-        dup = reqacc.intersection(req)
-        if dup: raise Exception(f"duplication found for {kwargs['misc'][0]}: {dup}")
-        reqacc.update(req)
 
 def practice_set_from_fixed(title, gulzas):
     print(gulzas)
@@ -417,323 +436,364 @@ class Practice:
         self.name = name
 
     def add_practice_set(self,
-        wordsets, allowed, required,
+        wordsets, criteria,
         alpha=10.0, temp=1.0,
-        max_coupled_range=(0,3), misc=None
+        misc=None
     ):
 
-        if not isinstance(max_coupled_range, tuple):
-            (max_coupled_min, max_coupled_max) = (max_coupled_range, max_coupled_range)
-        else:
-            (max_coupled_min, max_coupled_max) = max_coupled_range
+        def ser_criterion(criterion):
+            match criterion[0]:
+                case 'Covered':
+                    allowed = criterion[1]
+                    return f"C{''.join(list(sorted(set(allowed))))}"
+
+                case 'IncludeCombs':
+                    cands_seqs = criterion[1]
+                    return f"I{cands_repat(cands_seqs).replace('][', ' ').replace(']|[', '|')[1:-1]}"
+
+                case 'ExcludeComb':
+                    cands_seq = criterion[1]
+                    return f"E{cands_repat([cands_seq]).replace('][', ' ').replace(']|[', '|')[1:-1]}"
+
+                case _:
+                    raise Exception(f"Unrecognized criterion type: {criterion[0]}")
 
         self.practices.append({
-            'type': 'words',
-            'title': misc[0],
-            'num': misc[1],
-            'allowed': ''.join(set(allowed)),
-            'required': ' '.join(''.join(set(req)) for req in required),
-            'alpha': alpha,
-            'temp': temp,
-            'mc_min': max_coupled_min,
-            'mc_max': max_coupled_max,
+            'ty': 'words',
+            'ti': misc[0],
+            'nu': misc[1],
+            'cr': list(map(ser_criterion, criteria)),
+            'al': alpha,
+            'te': temp,
         })
 
     def add_fixed_words(self, title, words):
         self.practices.append({
-            'type': 'fixed_gulza',
-            'title': title,
-            'num': len(words),
-            'words': ' '.join(words),
+            'ty': 'fixed_gulza',
+            'ti': title,
+            'nu': len(words),
+            'wo': ' '.join(words),
         })
 
     def add_rand_gulza(self, title, num, gulzas):
         self.practices.append({
-            'type': 'rand_gulza',
-            'title': title,
-            'num': num,
-            'gulzas': ''.join(gulzas),
+            'ty': 'rand_gulza',
+            'ti': title,
+            'nu': num,
+            'gu': ''.join(gulzas),
         })
 
 # %%
 practice = Practice("세모e 2018")
 
 def practice_set_from_wordset(*args, **kwargs):
+    view_practice_set(*args, **kwargs)
     practice.add_practice_set(*args, **kwargs)
 
 def practice_set_from_fixed(title, gulzas):
+    print(gulzas)
     practice.add_fixed_words(title, gulzas)
 
 def practice_set_from_rand(title, num, gulzas,):
+    print(gulzas)
     practice.add_rand_gulza(title, num, gulzas)
 
 # %% =====================================================================
 # 단타입력
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가'),
-    [pureo('이가')],
-    misc=("ㅇㄱ + ㅣㅏ [j k + d f]", 20)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가')),
+    ('IncludeCombs', [[pureo('이가')[::2]], [pureo('이가')[1::2]]]),
+    ], misc=("ㅇㄱ + ㅣㅏ [j k + d f]", 20)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가하자'),
-    [pureo('이가하자')],
-    temp=0.1,
-    misc=("ㅎㅇㄱㅈ + ㅣㅏ [h j k l + d f]", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가하자')),
+    ('IncludeCombs', [[pureo('이가하자')[::2]], [pureo('이가하자')[1::2]]]),
+    ], temp=0.1, misc=("ㅎㅇㄱㅈ + ㅣㅏ [h j k l + d f]", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장'),
-    [pureo('한장')[2::3]],
-    misc=("+/ㅇㄴ [a s]", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장')),
+    ('IncludeCombs', [[pureo('한장')[2::3]]]),
+    ], misc=("+/ㅇㄴ [a s]", 30)
 )
 
 # %% ----------------------------------------------
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장'),
-    [pureo('이가한장')],
-    misc=("ㅎㅇㄱㅈ +ㅣㅏ +/ㅇㄴ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장')),
+    ('IncludeCombs', [[pureo('인강한장')[::3]], [pureo('인강한장')[1::3]], [pureo('인강한장')[2::3]]]),
+    ], misc=("ㅎㅇㄱㅈ +ㅣㅏ +/ㅇㄴ", 60)
 )
 
 # %%
 practice_set_from_fixed("(자리) ㅁㄴ [y u]", shufle_gen_fixed('마나'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장마나'),
-    [pureo('머녀')[0::2]],
-    misc=("+ㅁㄴ", 40)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장마나')),
+    ('IncludeCombs', [[pureo('머녀')[0::2]]]),
+    ], misc=("+ㅁㄴ", 40)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㅓㅕ [r t]', shufle_gen_fixed('어여'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장어여'),
-    [pureo('어여')[1::2]],
-    misc=("+ㅓㅕ", 40)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장어여')),
+    ('IncludeCombs', [[pureo('어여')[1::2]]]),
+    ], misc=("+ㅓㅕ", 40)
 )
 
 # %% -----------------------------------------------
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀'),
-    [pureo('머녀')[0::2], pureo('어여')[1::2]],
-    max_coupled_range=1,
-    misc=("+ㅁㄴㅓㅕ ①", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀')),
+    ('IncludeCombs', [[pureo('머녀')[0::2]]]),
+    ('IncludeCombs', [[pureo('머녀')[1::2]]]),
+    ('ExcludeComb', [pureo('머녀')[0::2], pureo('어여')[1::2]]),
+    ], misc=("+ㅁㄴㅓㅕ ①", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀'),
-    [pureo('머녀')[0::2], pureo('어여')[1::2]],
-    max_coupled_range=2,
-    misc=("+ㅁㄴㅓㅕ ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀')),
+    ('IncludeCombs', [[pureo('머녀')[0::2], pureo('어여')[1::2]]]),
+    ], misc=("+ㅁㄴㅓㅕ ②", 60)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㅅㄹ [n m]', shufle_gen_fixed('사라'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장사라'),
-    [pureo('사라')[::2]],
-    misc=("+ㅅㄹ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장사라')),
+    ('IncludeCombs', [[pureo('사라')[::2]]]),
+    ], misc=("+ㅅㄹ", 30)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㅗㅜ [v b]', shufle_gen_fixed('오우'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장오우'),
-    [pureo('오우')[1::2]],
-    misc=("+ㅗㅜ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장오우')),
+    ('IncludeCombs', [[pureo('오우')[1::2]]]),
+    ], misc=("+ㅗㅜ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀'),
-    [pureo('머녀')[0::2], pureo('어여')[1::2]],
-    misc=("+ㅁㄴㅓㅕ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀')),
+    ('IncludeCombs', [[pureo('머녀')[0::2]]]),
+    ('IncludeCombs', [[pureo('어여')[1::2]]]),
+    ], misc=("+ㅁㄴㅓㅕ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀사라'),
-    [pureo('사라')[::2]],
-    misc=("+ㅁㄴㅅㄹ +ㅓㅕ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀사라')),
+    ('IncludeCombs', [[pureo('사라')[::2]]]),
+    ], misc=("+ㅁㄴㅅㄹ +ㅓㅕ", 60)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀오우'),
-    [pureo('오우')[1::2]],
-    misc=("+ㅁㄴ +ㅓㅕㅗㅜ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀오우')),
+    ('IncludeCombs', [[pureo('오우')[1::2]]]),
+    ], misc=("+ㅁㄴ +ㅓㅕㅗㅜ", 60)
 )
 
 # %% -------------------------------------------------------
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루'),
-    [pureo('사라')[0::2], pureo('오우')[1::2]],
-    max_coupled_range=1,
-    misc=("+ㅁㄴㅅㄹ+ㅓㅕㅗㅜ ①", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루')),
+    ('IncludeCombs', [[pureo('사라')[0::2]]]),
+    ('IncludeCombs', [[pureo('오우')[1::2]]]),
+    ('ExcludeComb', [pureo('사라')[0::2], pureo('오우')[1::2]]),
+    ], misc=("+ㅁㄴㅅㄹ+ㅓㅕㅗㅜ ①", 60)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루'),
-    [pureo('사라')[0::2], pureo('오우')[1::2]],
-    max_coupled_range=2,
-    misc=("+ㅁㄴㅅㄹ+ㅓㅕㅗㅜ ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루')),
+    ('IncludeCombs', [[pureo('사라')[0::2], pureo('오우')[1::2]]]),
+    ], misc=("+ㅁㄴㅅㄹ+ㅓㅕㅗㅜ ②", 60)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㄷㅂ [i o]', shufle_gen_fixed('다바'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루다바'),
-    [pureo('다바')[::2]],
-    misc=("+ㄷㅂ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루다바')),
+    ('IncludeCombs', [[pureo('다바')[::2]]]),
+    ], misc=("+ㄷㅂ", 30)
 )
 
 # %%
 practice_set_from_fixed('(자리) /ㄹㄱ [e x]', shufle_gen_fixed('알악'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장마나사라달박'),
-    [pureo('알악')[2::3]],
-    misc=("+/ㄹㄱ -ㅗㅜㅓㅕ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('IncludeCombs', [[pureo('알악')[2::3]]]),
+    ('ExcludeComb', [pureo('오우어여이')[1::2], pureo('알악')[2::3]]),
+    ], misc=("+/ㄹㄱ -ㅗㅜㅓㅕㅣ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀사라달바'),
-    [pureo('알')[2::3], pureo('어여')[1::2]],
-    max_coupled_range=2,
-    misc=("+/ㄹ +ㅓㅕ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('IncludeCombs', [[pureo('어여')[1::2], pureo('알')[2]]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('일')[1], pureo('일익')[2::3]]),
+    ], misc=("+/ㄹ +ㅓㅕ ②", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장마나소루다박'),
-    [pureo('악')[2::3], pureo('오우')[1::2]],
-    max_coupled_range=2,
-    misc=("+/ㄱ +ㅗㅜ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('알')[2]]),
+    ('IncludeCombs', [[pureo('오우')[1::2], pureo('악')[2]]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('일')[1], pureo('일익')[2::3]]),
+    ], misc=("+/ㄱ +ㅗㅜ ②", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀소루달바'),
-    [pureo('알')[2::3], pureo('오우')[1::2]],
-    max_coupled_range=2,
-    misc=("+/ㄹ +ㅗㅜ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('악')[2]]),
+    ('IncludeCombs', [[pureo('오우')[1::2], pureo('알')[2]]]),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('일')[1], pureo('일익')[2::3]]),
+    ], misc=("+/ㄹ +ㅗㅜ ②", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가한장머녀사라다박'),
-    [pureo('악')[2::3], pureo('어여')[1::2]],
-    max_coupled_range=2,
-    misc=("+/ㄱ +ㅓㅕ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('알')[2]]),
+    ('IncludeCombs', [[pureo('어여')[1::2], pureo('악')[2]]]),
+    ('ExcludeComb', [pureo('일')[1], pureo('일익')[2::3]]),
+    ], misc=("+/ㄱ +ㅓㅕ ②", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박'),
-    [pureo('일')[1], pureo('일')[2]],
-    max_coupled_range=2,
-    misc=("+/ㄹ +ㅣ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('악')[2]]),
+    ('ExcludeComb', [pureo('오우')[1::2], pureo('알')[2]]),
+    ('ExcludeComb', [pureo('어여')[1::2], pureo('악')[2]]),
+    ('IncludeCombs', [[pureo('일')[1], pureo('일익')[2::3]]]),
+    ], misc=("+/ㄹㄱ +ㅣ ②", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박'),
-    [pureo('알악')[2::3]],
-    misc=("+/ㄹㄱ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박')),
+    ('IncludeCombs', [
+        [pureo('어여')[1::2], pureo('알')[2]],
+        [pureo('오우')[1::2], pureo('악')[2]],
+        [pureo('오우')[1::2], pureo('알')[2]],
+        [pureo('어여')[1::2], pureo('악')[2]],
+        [pureo('일')[1], pureo('일익')[2::3]],
+    ]),
+    ], misc=("+/ㄹㄱ +ㅗㅜㅓㅕㅣ", 60)
 )
 
 # %%
 practice_set_from_fixed('(자리) /ㅅㅂㅁ [q w z]', shufle_gen_fixed('앗압암'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루앗압암'),
-    [pureo('앗압암')[2::3]],
-    misc=("+/ㅅㅂㅁ 1", 30)
-
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박앗압암')),
+    ('IncludeCombs', [[pureo('어여아')[1::2], pureo('앗압암')[2::3]]]),
+    ('ExcludeComb', [pureo('이오우')[1::2], pureo('앗압암')[2::3]]),
+    ], misc=("+/ㅅㅂㅁ +ㅏㅓㅕ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박앗압암'),
-    [pureo('다바')[::2] + pureo('알악')[2::3], pureo('앗압암')[2::3]],
-    max_coupled_range=1,
-    misc=("+/ㅅㅂㅁ 2 ①", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박앗압암')),
+    ('ExcludeComb', [pureo('어여아')[1::2], pureo('앗압암')[2::3]]),
+    ('IncludeCombs', [[pureo('이오우')[1::2], pureo('앗압암')[2::3]]]),
+    ], misc=("+/ㅅㅂㅁ +ㅣㅗㅜ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박앗압암'),
-    [pureo('다바')[::2] + pureo('알악')[2::3], pureo('앗압암')[2::3]],
-    max_coupled_range=2,
-    misc=("+/ㅅㅂㅁ 2 ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박앗압암')),
+    ('IncludeCombs', [[pureo('어여아오우')[1::2], pureo('압')[2::3]]]),
+    ('IncludeCombs', [[pureo('어여아오우')[1::2], pureo('알')[2::3]]]),
+    ], misc=("+/ㄹㅂ +ㅓㅕㅣㅏㅗㅜ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박앗압암')),
+    ('IncludeCombs', [
+        [pureo('어여아')[1::2], pureo('앗압암')[2::3]],
+        [pureo('이오우')[1::2], pureo('앗압암')[2::3]],
+    ]),
+    ], misc=("+/ㅅㅂㅁ", 60)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㅔㅡ [c g]', shufle_gen_fixed('에으'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루에으'),
-    [pureo('에으')[1::2]],
-    misc=("+/ㅔㅡ 1", 30)
+practice_set_from_wordset([onyong_words, text_words, set('엠버'.split())], [
+    ('Covered', pureo('이가한장머녀소루달박앗읍암')),
+    ('IncludeCombs', [[pureo('음')[1::3], pureo('응은음윽읏읍을')[2::3]]]),
+    ], misc=("+ㅡ +/ㅇㄴㅁㄱㅅㅂㄹ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으'),
-    [pureo('다바')[::2] + pureo('알악')[2::3], pureo('에으')[1::2]],
-    max_coupled_range=1,
-    misc=("+ㄷㅂ +ㅔㅡ +/ㄹㄱ ①", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박엣압암')),
+    ('IncludeCombs', [[pureo('엠')[1::3], pureo('엥엔엠엑')[2::3]]]),
+    ('ExcludeComb', [pureo('엣')[1::2], pureo('앗압알')[2::3]]),
+    ], misc=("+ㅔ +/ㅇㄴㅁㄱ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으'),
-    [pureo('엘')[1], pureo('엘')[2]],
-    max_coupled_range=2,
-    misc=("+ㅔ +/ㄹ ②", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박엣압암')),
+    ('ExcludeComb', [pureo('엠')[1::3], pureo('엥엔엠엑')[2::3]]),
+    ('IncludeCombs', [[pureo('엣')[1::3], pureo('앗압알')[2::3]]]),
+    ], misc=("+ㅔ +/ㅅㅂㄹ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으'),
-    [pureo('다바')[::2] + pureo('알악')[2::3], pureo('에으')[1::2]],
-    max_coupled_range=2,
-    misc=("+ㄷㅂ +ㅔㅡ +/ㄹㄱ ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박엣읍암')),
+    ('IncludeCombs', [[pureo('에으')[1::2], pureo('앙안암악앗압알')[2::3]]]),
+    ], misc=("+ㅔㅡ +/ㅇㄴㅁㄱㅅㅂㄹ", 60)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암'),
-    [pureo('에으')[1::2], pureo('앗압암')[2::3]],
-    max_coupled_range=1,
-    misc=("+ㅔㅡ +/ㅅㅂㅁ ①", 60)
-)
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암'),
-    [pureo('에으')[1::2], pureo('앗압암')[2::3]],
-    max_coupled_range=2,
-    misc=("+ㅔㅡ +/ㅅㅂㅁ ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박엣읍암')),
+    ('IncludeCombs', [
+        [pureo('어여')[1::2], pureo('알')[2]],
+        [pureo('오우')[1::2], pureo('악')[2]],
+        [pureo('오우')[1::2], pureo('알')[2]],
+        [pureo('어여')[1::2], pureo('악')[2]],
+        [pureo('일')[1], pureo('일익')[2::3]],
+        [pureo('에으')[1::2], pureo('앙안암악앗압알')[2::3]]
+    ]),
+    ], misc=("+/ㄹㄱ, +ㅔㅡ", 60)
 )
 
 # %% =====================================================================
@@ -743,146 +803,196 @@ practice_set_from_wordset([onyong_words, text_words],
 practice_set_from_fixed('(자리) ㅊㅋㅌㅍ [hl hk hi ho]', shufle_gen_fixed('차카타파'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이아안앙머녀소루알악에으앗압암차카타파'),
-    [pureo('차카타파')[::2]],
-    misc=("+ㅊㅋㅌㅍ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이아안앙머녀소루알악에으앗압암차카타파')),
+    ('IncludeCombs', [[pureo('차카타파')[::2]]]),
+    ], misc=("+ㅊㅋㅌㅍ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암차카타파'),
-    [pureo('차카타파')[::2], pureo('자가다바하')[::2]],
-    misc=("+ㅊㅋㅌㅍ +ㅈㄱㄷㅂ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암차카타파')),
+    ('IncludeCombs', [[pureo('차카타파')[::2]]]),
+    ('IncludeCombs', [[pureo('자가다바하')[::2]]]),
+    ], misc=("+ㅊㅋㅌㅍ +ㅈㄱㄷㅂ", 60)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㅐㅢㅟㅚ [df dg dc,db dv]', shufle_gen_fixed('애의위외')) # ㅚ = ㅜ + ㅣ = ㅔ + ㅣ
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('애개핸쟁매내새래대백애애앳앱앰애의위외'),
-    [pureo('애의위외')[1::2]],
-    alpha=2.0,
-    misc=("+ㅐㅢㅟㅚ -단모음 -/ㄹ", 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
+    ('IncludeCombs', [[pureo('애의위외')[1::2]]]),
+    ('ExcludeComb', [pureo('이아어여오우에으')[1::2]]),
+    ('ExcludeComb', [pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], alpha=2.0,
+    misc=("+ㅐㅢㅟㅚ -단모음 -받침 -/ㄹ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암애의위외'),
-    [pureo('윌')[1], pureo('윌')[2]],
-    alpha=2.0,
-    max_coupled_range=2,
-    misc=("+ㅟ +/ㄹ", 20)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
+    ('IncludeCombs', [[pureo('애의위외')[1::2]]]),
+    ('IncludeCombs', [[pureo('이아어여오우에으')[1::2]]]),
+    ('ExcludeComb', [pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅐㅢㅟㅚ +단모음 -받침 -/ㄹ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('애개핸쟁매내새래댈백애애앳앱앰애의위외'),
-    [pureo('애의위외')[1::2]],
-    alpha=2.0,
-    misc=("+ㅐㅢㅟㅚ -단모음", 30)
+practice_set_from_wordset([onyong_words, text_words, '늴리리 흴뇌리'.split()], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
+    ('IncludeCombs', [[pureo('애의위외')[1::2], pureo('한장박앗압암')[2::3]]]),
+    ('ExcludeComb', [pureo('애의위외')[1::2], pureo('달')[2::3]]),
+    ], alpha=2.0,
+    misc=("+ㅐㅢㅟㅚ +단모음 +받침 -/ㄹ", 60)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암애의위외'),
-    [pureo('애의위외')[1::2], pureo('이아어여오우에으')[1::2]],
-    misc=("+ㅐㅢㅟㅚ +단모음", 60)
+practice_set_from_wordset([onyong_words, text_words, '늴리리 흴뇌리'.split()], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
+    ('IncludeCombs', [[pureo('애의위외')[1::2], pureo('달')[2::3]]]),
+    ], alpha=2.0,
+    misc=("+ㅐㅢㅟㅚ +/ㄹ", 30)
 )
 
 # %% =========================================================
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀'),
-    [pureo('차카타파')[::2], pureo('애의위외')[1::2]],
-    max_coupled_range=1,
-    misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ①", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀')),
+    ('IncludeCombs', [[pureo('차카타파')[0::2]]]),
+    ('IncludeCombs', [[pureo('애의위외')[1::2]]]),
+    ('ExcludeComb', [pureo('차카타파')[::2], pureo('애의위외')[1::2]]),
+    ], misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ①", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀'),
-    [pureo('차카타파')[::2], pureo('애의위외')[1::2]],
-    max_coupled_range=2,
-    misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ②", 60)
+practice_set_from_wordset([onyong_words, text_words, "감자퓌레 드레퓌스 복어튀김 걸픠여기 설픠다 밀푀우 푀트르 푀부스 밀푀유나베 틔움 틔우미 드틔우다 킈다 쾨니히스베르크 쾨페결절 쾨미이창법 즈츼이다 저리짐츼".split()], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀')),
+    ('IncludeCombs', [[pureo('차카타파')[::2], pureo('애의위외')[1::2]]]),
+    ('ExcludeComb', [pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ② -받침", 30)
+)
+
+# %%
+# help, not enough words to cover all cases!
+practice_set_from_wordset([onyong_words, text_words, "픵픵이 얼픳 푄현상 챌린지 챔버 챈들러 오픈챗 쵝오 퀵배달 탬퍼 튁튁 튕기다 팹리스 ".split()], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀')),
+    ('IncludeCombs', [[pureo('차카타파')[::2], pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]]),
+    ], misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ② +받침", 30)
 )
 
 # %%
 practice_set_from_fixed('(자리) ㄲㄸㅆㅉㅃ [jk ji jn jl jo]', shufle_gen_fixed('까따싸짜빠'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암애의위외까따싸짜빠'),
-    [pureo('까따싸짜빠')[::2]],
-    misc=("+ㄲㄸㅆㅉㅃ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외까따싸짜빠')),
+    ('IncludeCombs', [[pureo('까따싸짜빠')[::2]]]),
+    ], misc=("+ㄲㄸㅆㅉㅃ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀까따싸짜빠'),
-    [pureo('까따싸짜빠')[::2], pureo('차카타파')[::2]],
-    alpha=2.0,
-    misc=("+ㄲㄸㅆㅉㅃ +ㅊㅋㅌㅍ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀까따싸짜빠')),
+    ('IncludeCombs', [[pureo('까따싸짜빠')[::2]]]),
+    ('IncludeCombs', [[pureo('차카타파')[::2]]]),
+    ], alpha=2.0, misc=("+ㄲㄸㅆㅉㅃ +ㅊㅋㅌㅍ", 60)
 )
 
 # %%
-practice_set_from_fixed('(자리) ㅘㅛㅠㅑ [.f .b .v .g]', shufle_gen_fixed('와요유야'))
+practice_set_from_fixed('(자리) ㅘㅛㅠㅑ [.f .v .b .g]', shufle_gen_fixed('와요유야'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한앙머녀소루달악에으앗압암차카타파와요유야'),
-    [pureo('와요유야')[1::2]],
-    misc=("+ㅘㅛㅠㅑ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외와요유야')),
+    ('IncludeCombs', [[pureo('와요유야')[1::2]]]),
+    ('ExcludeComb', [pureo('애의위외')[1::2]]),
+    ('ExcludeComb', [pureo('자바')[0::2], pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅘㅛㅠㅑ", 30)
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한앙머녀소루달악에으앗압암채킈튀푀와요유야'),
-    [pureo('와요유야')[1::2], pureo('애의위외')[1::2]],
-    misc=("+ㅘㅛㅠㅑ +ㅐㅢㅟㅚ", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
+    ('IncludeCombs', [[pureo('와요유야')[1::2]]]),
+    ('IncludeCombs', [[pureo('애의위외')[1::2]]]),
+    ('ExcludeComb', [pureo('카타까따자바차파짜빠싸')[0::2], pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅘㅛㅠㅑ +ㅐㅢㅟㅚ", 30)
 )
 
 # %%
-# can use right middle finger for ㅂㅈ
-# can use left ㅗ for moeum shift
-# can use rf for ㅛ
-# practice_set_from_wordset([onyong_words, text_words],
-#     pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠'),
-#     [pureo('와요유야')[1::2], pureo('바자빠짜')[::2]],
-#     max_coupled_range=2,
-#     misc=("+ㅘㅛㅠㅑ +ㅂㅈ ②", 60)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외와요유야')),
+    ('IncludeCombs', [[pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]]),
+    ('ExcludeComb', [pureo('자바')[0::2], pureo('와요유야')[1::2]]),
+    ], misc=("+ㅘㅛㅠㅑ +받침", 60)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
+    ('IncludeCombs', [[pureo('카타까따')[0::2], pureo('와요유야')[1::2]]]),
+    ('ExcludeComb', [pureo('자바차파짜빠싸')[0::2], pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('카타까따')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅘㅛㅠㅑ +ㄲㄸ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
+    ('IncludeCombs', [[pureo('자바')[0::2], pureo('와요유야')[1::2]]]),
+    ('ExcludeComb', [pureo('차파짜빠싸')[0::2], pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('자바')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅘㅛㅠㅑ +ㅈㅂ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words, "까자쵸크 쵸바굼이 쵸우웡 쵸콜릿 쫘르륵 쫘락쫘락 차이쨔 쓔시다 쑈리 쑈이 엎드려쏴 쏴락쏴락 쏴라 앉아쏴 쌰구재 귀쌰머리 쀼쭉 쀼루퉁".split()], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
+    ('IncludeCombs', [[pureo('차파짜빠싸')[0::2], pureo('와요유야')[1::2]]]),
+    ('ExcludeComb', [pureo('차파짜빠싸')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], misc=("+ㅘㅛㅠㅑ +ㅊㅍㅉㅃㅆ", 30)
+)
+
+# %%
+# practice_set_from_wordset([onyong_words, text_words, "촤라락 퍄티고르스키 액츄에이터 시츄에이션 위츄라 크리스챠니아 플란챠 켄챠야자 미니쮸 쬬꼼 뾰족코 뾰족뒤쥐 뾰로통 뾰루지 뺘드득 뺘무리".split()], [
+#     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
+#     ('IncludeCombs', [[pureo('자바차파짜빠싸')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]]),
+#     ], misc=("+ㅘㅛㅠㅑ +ㅈㅂㅊㅍㅉㅃㅆ +받침", 30)
 # )
 
-practice_set_from_fixed("+ㅘㅛㅠㅑ +ㅂㅈ ② 1", [ jamo.j2h(c,v) for c in pureo('바자빠짜')[::2] for v in pureo('와요유야')[1::2] ])
-practice_set_from_rand("+ㅘㅛㅠㅑ +ㅂㅈ ② 2", 90, [ jamo.j2h(c,v,j) for c in pureo('바자빠짜')[::2] for v in pureo('와요유야')[1::2] for j in pureo('안앙알악앗압암')[2::3]+[None]])
+# %%
+with open("../assets/data/practices_semoe2018.json", "wt") as f:
+    json.dump(practice.practices, f, ensure_ascii=False)
 
-# %% ==========================================================
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠'),
-    [pureo('까따싸짜빠')[::2], pureo('와요유야')[1::2]],
-    alpha=2.0,
-    misc=("+ㄲㄸㅆㅉㅃ +ㅘㅛㅠㅑ", 60)
-)
+#%%
+jun, jon = pureo('냔')[1:]
+for cho in pureo('가나다라마바사아자차카타파하')[0::2]:
+    print(f"https://wordrow.kr/%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94-%EB%A7%90/{jamo.j2h(cho, jun, jon)}")
 
 # %%
 practice_set_from_fixed('(자리) ㅝㅒㅖㅙ [.r .t .c .df]', shufle_gen_fixed('워얘예왜'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한앙머녀소루달악에으앗압암채킈튀푀꽈뚀쓔야아워얘예왜'),
-    [pureo('워얘예왜')[1::2]],
-    alpha=2.0,
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한앙머녀소루달악에으앗압암채킈튀푀꽈뚀쓔야아워얘예왜')),
+    ('IncludeCombs', [[pureo('워얘예왜')[1::2]]]),
+    ], alpha=2.0,
     misc=("+ㅝㅒㅖㅙ", 60)
 )
 
 # %%
-# practice_set_from_wordset([onyong_words, text_words],
-#     pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠워얘예왜'),
-#     [pureo('워얘예왜')[1::2], pureo('뱌자빠짜')[::2]],
-#     max_coupled_range=2,
-#     misc=("+ㅝㅒㅖㅙ ②", 60)
-# )
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠워얘예왜')),
+    ('IncludeCombs', [[pureo('뱌자빠짜')[::2], pureo('워얘예왜')[1::2]]]),
+    ],
+    misc=("+ㅝㅒㅖㅙ ②", 60)
+)
 
+왰
+# %%
 practice_set_from_fixed('+ㅝㅒㅖㅙ 1 ②', [ jamo.j2h(c,v) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] ])
 practice_set_from_rand('+ㅝㅒㅖㅙ 2 ②', 90, [ jamo.j2h(c,v,j) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] for j in pureo('안앙알악앗압암')[2::3]+[None]])
 
