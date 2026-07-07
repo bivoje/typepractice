@@ -84,6 +84,13 @@ def load_from_texts():
     words.update("쥬니어 해쥬 그랑쥬떼 쥬크스 앙쥬아리다 알롱쥬 디죠지증후군 반죠 아이죠드충격시험기 쟈코비안 쟈오락 꼬떼쟈르댕 샤쿠뵤시 뵤도인 뵤른슈타드 뱌암 뱌우리 뱌슬대다 린뱌오 돌뱌크".split())
     words.update("촤라락 퍄티고르스키 액츄에이터 시츄에이션 위츄라 크리스챠니아 플란챠 켄챠야자 미니쮸 쬬꼼 뾰족코 뾰족뒤쥐 뾰로통 뾰루지 뺘드득 뺘무리".split())
     words.update("캴캴대다 큠큠한 마좟다 좟녁 좟장 쟘보 쟘불말 쟘뱅이".split())
+    words.update("늴리리 흴뇌리 엠버".split())
+    words.update("감자퓌레 드레퓌스 복어튀김 걸픠여기 설픠다 밀푀우 푀트르 푀부스 밀푀유나베 틔움 틔우미 드틔우다 킈다 쾨니히스베르크 쾨페결절 쾨미이창법 즈츼이다 저리짐츼".split())
+    words.update("픵픵이 얼픳 푄현상 챌린지 챔버 챈들러 오픈챗 쵝오 퀵배달 탬퍼 튁튁 튕기다 팹리스 ".split())
+    words.update("애걔 걔툉이 도독고냬이 쑷고냬이 콧구냬 섀도우박스 섀넌강 섀복밥 섀플리 섀기카펫 얘물얘물 보얘지다 깍쟤 햬기 주금꺠 뺴끼다 썌비".split())
+    words.update("임곗값 곗날 비곗덩이 곗돈 오롓다 대롓술 순롓길 차롓걸음 몟자리 솃바눌 옛사람 옛날짜장 궝게 실궝가래 뭥미 뭥개 쉉편 콩웡 쵸우웡 웡원하오 우웡지 웡셍이 암퀑 퀑퀑 수퀑 훵덩하다 훵하다 달꿩 꿩고사릿과 꿩의장옷 꿩마능 꿩채 꿩토렴 들뤗 뭣하다 무웟 훳뒷볼 훳돈 훳뒷측 불웝 셜웝하다 실궘 둼간 머그웜프 갈웜 콘볼류트웜 웜부팅 시디웜 인볼류트웜 스웜프맨 궉진 붝고무래 붝정지 붝앙지 웍더글웍더글하다 풋웍 어웍새 눈꿕 꿕꿕 괭이자루 숨괭이 탯괭이 좀괭이수염 괭이갈매기 뇅이 삭됑이 둥투럭쇙애지 난쇙이 왱가당왱가당 왱강왱강 쇠왱간 좽이그물 좽이질 쵕경 수쾡이 쾡가리 암쾡이 살쾡이좌 퇭마루 꽃봉퇭이 횅하다 횅댕그렁 횅창 옥수꽹이 꽹과리 꽹나무 괫대 됏마루 엿쇗날 쇗대 왯굴 왯도리 좻돌 쾟돈 등쾟줄 횃불 횃대 횃놀이 횃소리 다쐣날 여쐣날 왭스터 됍니까 봽새 웃쇔 좸좸 움쾜 쐠지 괠다 괠띠 왤케 왤지 괜시리 괜스레 괜찮다 됀장 왠수 왠통 꽨새기 꽨사 뙌장 괜게채잏다 괙괙 쇅쇅대다 쇅경 왝땍왝땍 왝왝거리다 구왝구왝 좩병 홱홱 홱보기 꽥꽥이 홱꽥 쐑히다 쐑소리 멩롕 몡이 솅겐조약 솅커시스템 콧구옝 옝기청 옝일학 두아옝 폥구 볭자임 뼹아리 뎽쳥 눈물곕다 곕시다 솁킨 체르니솁스키 프로코피옙스크 도스토옙스키 옙하다 졥다 양녬장 옘병 옘집 옘돌이 자이옘 아옘용액 본톔 혬수 몔치 클램셸버킷 라로셸공성전 셸락바니시 라셸레이스 몽생미셸섬 로셸염 옐로페이지 보옐디외 에옐링 옐리네크 녠치 올뎬 저우커우뎬유적 화뎬 욜뎬 샬뎬 치롄산맥 다롄 롄윈강 화롄 옌볜 시루볜 그로셴 데크레셴도 에셴바흐 부르셴샤프트 셴괴 왕셴첸 조셴코 옌타이갱 아옌데 옌센부등식 옌샤두유적 옌센디바이스 옌워 쥐옌한간 샬뗸 올뗸 쏀뚱이 쏀베락 쏀지 톈진조약 펑톈파 다이톈추 란톈산 정녝 구녝 셱게 곡셱 셱우 넁중 성넁이통 섕킹 스레드섕크 섕크의추측 드릴섕크 에비고얭 꼬쟹 오얫 떗꾸 꺳닢 썟삥 걧단 레프트쟵 뱹새 퍱시 첍터 얍썝이 섐브레이 피터섐리본 피터섐코삭스 섐블즈 비얨 뉴햼프셔 먬먬 걤블러 컘프 얠미릅다 섈리의법칙 첄린지 뱰런스 썔쭉 퍨월드 얜시 봉얜 쟨테보기 첀들러 댼디 쟨말놀이 디즈니럔드 썍쌔기판 전술햭 부산댹 빅먝 아이스퍡 컉터스 얙막이".split())
+    words.update("까자쵸크 쵸바굼이 쵸우웡 쵸콜릿 쫘르륵 쫘락쫘락 차이쨔 쓔시다 쑈리 쑈이 엎드려쏴 쏴락쏴락 쏴라 앉아쏴 쌰구재 귀쌰머리 쀼쭉 쀼루퉁".split())
+    words.update("궁둥줘배기  줘뜯다  줘짜다 나구쟤 얘쟤 따꼽쟤 산졔  졔티  졔날 고졔니  좨기  좨치다 나좨  좨주  붜이  붜리  볘울눈이  볘룻독 다볘산맥  쫴우다  쫴기  쫴꼼  뺴끼다 감춰진 들춰갈이 들춰나다 엇맞춰이음  폐가식  폐동맥 은폐용  폐루프계 지형차폐  폐증기 쇄폐  폐기물재활용  폐품  폐쇄연접 황폐화  폐원자로 뱨홍동 봬요 자오쭤시 쭤궁현 쨰릿쨰릿 즈드랏스부이쪠 이뿨이뿨 뼤쩨르부르크 뽸어남 챼플 쳬셔 쵀탁동시 풔리웡 퍠피 퐤포".split())
     return words
 
 # %%
@@ -753,7 +760,7 @@ practice_set_from_wordset([onyong_words, text_words], [
 practice_set_from_fixed('(자리) ㅔㅡ [c g]', shufle_gen_fixed('에으'))
 
 # %%
-practice_set_from_wordset([onyong_words, text_words, set('엠버'.split())], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박앗읍암')),
     ('IncludeCombs', [[pureo('음')[1::3], pureo('응은음윽읏읍을')[2::3]]]),
     ], misc=("+ㅡ +/ㅇㄴㅁㄱㅅㅂㄹ", 30)
@@ -840,7 +847,7 @@ practice_set_from_wordset([onyong_words, text_words], [
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words, '늴리리 흴뇌리'.split()], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
     ('IncludeCombs', [[pureo('애의위외')[1::2], pureo('한장박앗압암')[2::3]]]),
     ('ExcludeComb', [pureo('애의위외')[1::2], pureo('달')[2::3]]),
@@ -849,7 +856,7 @@ practice_set_from_wordset([onyong_words, text_words, '늴리리 흴뇌리'.split
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words, '늴리리 흴뇌리'.split()], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외')),
     ('IncludeCombs', [[pureo('애의위외')[1::2], pureo('달')[2::3]]]),
     ], alpha=2.0,
@@ -866,7 +873,7 @@ practice_set_from_wordset([onyong_words, text_words], [
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words, "감자퓌레 드레퓌스 복어튀김 걸픠여기 설픠다 밀푀우 푀트르 푀부스 밀푀유나베 틔움 틔우미 드틔우다 킈다 쾨니히스베르크 쾨페결절 쾨미이창법 즈츼이다 저리짐츼".split()], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀')),
     ('IncludeCombs', [[pureo('차카타파')[::2], pureo('애의위외')[1::2]]]),
     ('ExcludeComb', [pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]),
@@ -875,7 +882,7 @@ practice_set_from_wordset([onyong_words, text_words, "감자퓌레 드레퓌스 
 
 # %%
 # help, not enough words to cover all cases!
-practice_set_from_wordset([onyong_words, text_words, "픵픵이 얼픳 푄현상 챌린지 챔버 챈들러 오픈챗 쵝오 퀵배달 탬퍼 튁튁 튕기다 팹리스 ".split()], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀')),
     ('IncludeCombs', [[pureo('차카타파')[::2], pureo('애의위외')[1::2], pureo('한장달박앗압암')[2::3]]]),
     ], misc=("+ㅊㅋㅌㅍ +ㅐㅢㅟㅚ ② +받침", 30)
@@ -924,9 +931,9 @@ practice_set_from_wordset([onyong_words, text_words], [
 
 # %%
 practice_set_from_wordset([onyong_words, text_words], [
-    ('Covered', pureo('이가한장머녀소루달박에으앗압암애의위외와요유야')),
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
     ('IncludeCombs', [[pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]]),
-    ('ExcludeComb', [pureo('자바')[0::2], pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('자바차파짜빠싸')[0::2], pureo('와요유야')[1::2]]),
     ], misc=("+ㅘㅛㅠㅑ +받침", 60)
 )
 
@@ -949,19 +956,111 @@ practice_set_from_wordset([onyong_words, text_words], [
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words, "까자쵸크 쵸바굼이 쵸우웡 쵸콜릿 쫘르륵 쫘락쫘락 차이쨔 쓔시다 쑈리 쑈이 엎드려쏴 쏴락쏴락 쏴라 앉아쏴 쌰구재 귀쌰머리 쀼쭉 쀼루퉁".split()], [
+practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
     ('IncludeCombs', [[pureo('차파짜빠싸')[0::2], pureo('와요유야')[1::2]]]),
     ('ExcludeComb', [pureo('차파짜빠싸')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]),
     ], misc=("+ㅘㅛㅠㅑ +ㅊㅍㅉㅃㅆ", 30)
 )
 
-# %%
+# %% TODO
 # practice_set_from_wordset([onyong_words, text_words, "촤라락 퍄티고르스키 액츄에이터 시츄에이션 위츄라 크리스챠니아 플란챠 켄챠야자 미니쮸 쬬꼼 뾰족코 뾰족뒤쥐 뾰로통 뾰루지 뺘드득 뺘무리".split()], [
 #     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸')),
 #     ('IncludeCombs', [[pureo('자바차파짜빠싸')[0::2], pureo('와요유야')[1::2], pureo('한장달박앗압암')[2::3]]]),
 #     ], misc=("+ㅘㅛㅠㅑ +ㅈㅂㅊㅍㅉㅃㅆ +받침", 30)
 # )
+
+# %%
+practice_set_from_fixed('(자리) ㅝㅒㅖㅙ [.r .t .c .df]', shufle_gen_fixed('워얘예왜'))
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸워얘예왜')),
+    ('IncludeCombs', [[pureo('워얘예왜')[1::2]]]),
+    ('ExcludeComb', [pureo('와요유야')[1::2]]),
+    ('ExcludeComb', [pureo('자바짜빠차파')[0::2], pureo('와요유야워얘예왜')[1::2]]),
+    ('ExcludeComb', [pureo('와요유야워얘예왜')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], alpha=2.0,
+    misc=("+ㅝㅒㅖㅙ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸워얘예왜')),
+    ('IncludeCombs', [[pureo('워얘예왜')[1::2]]]),
+    ('IncludeCombs', [[pureo('와요유야')[1::2]]]),
+    ('ExcludeComb', [pureo('자바짜빠차파')[0::2], pureo('와요유야워얘예왜')[1::2]]),
+    ('ExcludeComb', [pureo('와요유야워얘예왜')[1::2], pureo('한장달박앗압암')[2::3]]),
+    ], alpha=2.0,
+    misc=("+ㅝㅒㅖㅙ +ㅘㅛㅠㅑ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸워얘예왜')),
+    ('IncludeCombs', [[pureo('워얘예왜')[1::2], pureo('한장달박앗압암')[2::3]]]),
+    ('ExcludeComb', [pureo('자바짜빠차파')[0::2], pureo('와요유야워얘예왜')[1::2]]),
+    ], alpha=2.0,
+    misc=("+ㅝㅒㅖㅙ +받침", 60)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸워얘예왜')),
+    ('IncludeCombs', [[pureo('자바짜빠차파')[0::2], pureo('워얘예왜')[1::2]]]),
+    ], alpha = 2.0,
+    misc=("+ㅝㅒㅖㅙ +ㅈㅂ", 60)
+)
+
+# %%
+# practice_set_from_fixed('+ㅝㅒㅖㅙ 1 ②', [ jamo.j2h(c,v) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] ])
+# practice_set_from_rand('+ㅝㅒㅖㅙ 2 ②', 90, [ jamo.j2h(c,v,j) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] for j in pureo('안앙알악앗압암')[2::3]+[None]])
+
+# %%
+practice_set_from_fixed('(자리) /ㅆㅊㅍㅈ [; ;q ;w ;e]', shufle_gen_fixed('았앛앞앚'))
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲')),
+    ('IncludeCombs', [[pureo('았앛앞앚')[2::3]]]),
+    ('ExcludeComb', [pureo('와요유야워얘예왜')[1::2], pureo('았앛앞앚')[2::3]])
+    ], misc=("+/ㅆㅊㅍㅈ", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲')),
+    ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('았앛앞앚')[2::3]]])
+    ], misc=("+/ㅆㅊㅍㅈ +.", 30)
+)
+
+# %%
+practice_set_from_fixed('(자리) /ㄷㅋㅎㅀ [;z ;x ;s ;a]', shufle_gen_fixed('앋앜앟앓'))
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웓얰옣왫')),
+    ('IncludeCombs', [[pureo('앋앜앟앓')[2::3]]]),
+    ('ExcludeComb', [pureo('와요유야워얘예왜')[1::2], pureo('앋앜앟앓')[2::3]])
+    ], alpha=2.0,
+    misc=("+/ㄷㅋㅎㅀ", 30)
+)
+
+# %% TODO
+# practice_set_from_wordset([onyong_words, text_words], [
+#     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웓얰옣왫')),
+#     ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('앋앜앟앓')[2::3]]])
+#     ], alpha=2.0,
+#     misc=("+/ㄷㅋㅎㅀ +.", 30)
+# )
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫')),
+    ('IncludeCombs', [[pureo('았앛앞앚')[2::3]], [pureo('앋앜앟앓')[2::3]]]),
+    ], alpha=2.0,
+    misc=("+/ㅆㅊㅍㅈ +/ㄷㅋㅎㅀ ⓪", 30)
+)
 
 # %%
 with open("../assets/data/practices_semoe2018.json", "wt") as f:
@@ -972,50 +1071,6 @@ jun, jon = pureo('냔')[1:]
 for cho in pureo('가나다라마바사아자차카타파하')[0::2]:
     print(f"https://wordrow.kr/%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94-%EB%A7%90/{jamo.j2h(cho, jun, jon)}")
 
-# %%
-practice_set_from_fixed('(자리) ㅝㅒㅖㅙ [.r .t .c .df]', shufle_gen_fixed('워얘예왜'))
-
-# %%
-practice_set_from_wordset([onyong_words, text_words], [
-    ('Covered', pureo('이가한앙머녀소루달악에으앗압암채킈튀푀꽈뚀쓔야아워얘예왜')),
-    ('IncludeCombs', [[pureo('워얘예왜')[1::2]]]),
-    ], alpha=2.0,
-    misc=("+ㅝㅒㅖㅙ", 60)
-)
-
-# %%
-practice_set_from_wordset([onyong_words, text_words], [
-    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠워얘예왜')),
-    ('IncludeCombs', [[pureo('뱌자빠짜')[::2], pureo('워얘예왜')[1::2]]]),
-    ],
-    misc=("+ㅝㅒㅖㅙ ②", 60)
-)
-
-왰
-# %%
-practice_set_from_fixed('+ㅝㅒㅖㅙ 1 ②', [ jamo.j2h(c,v) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] ])
-practice_set_from_rand('+ㅝㅒㅖㅙ 2 ②', 90, [ jamo.j2h(c,v,j) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] for j in pureo('안앙알악앗압암')[2::3]+[None]])
-
-# %%
-practice_set_from_fixed('(자리) /ㅆㅊㅍㅈ [; ;q ;w ;e]', shufle_gen_fixed('았앛앞앚'))
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠았앛앞앚'),
-    [pureo('았앛앞앚')[2::3]],
-    misc=("+/ㅆㅊㅍㅈ", 60)
-)
-
-# %%
-practice_set_from_fixed('(자리) /ㄷㅋㅎㅀ [;z ;x ;d ;a]', shufle_gen_fixed('앋앜앟앓'))
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠앋앜앟앓'),
-    [pureo('앋앜앟앓')[2::3]],
-    alpha=2.0,
-    misc=("+/ㄷㅋㅎㅀ", 60)
-)
 
 # %% ==================================================================
 practice_set_from_rand('복모음 랜덤글자', 120, [
