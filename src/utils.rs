@@ -280,8 +280,8 @@ pub fn tasu_compare(str_a: &str, str_b: &str) -> (u32, u32, u32) {
 #[repr(u8)]
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, serde::Serialize, serde::Deserialize, Default, strum_macros::EnumIter, strum_macros::EnumString, strum_macros::Display)]
 pub enum KeyboardLayout {
-    // #[strum(serialize = "공세벌식390")]
-    // Gong390,
+    #[strum(serialize = "공세벌식390")]
+    Gong390,
 
     #[default]
     #[strum(serialize = "세모e2018")]
@@ -414,7 +414,7 @@ impl<'de> serde::Deserialize<'de> for Criterion {
             let mut chojunjon = JamoKind::Cho(0);
             for seg in comb.split(' ') {
                 let Some(c) = seg.chars().next() else {
-                    return Err(format!("null jamo combination segment"));
+                    return Err("null jamo combination segment".into());
                 };
 
                 let Some(k) = JamoKind::reveal(c) else {

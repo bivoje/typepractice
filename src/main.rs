@@ -84,7 +84,7 @@ impl AssetData {
         use strum::IntoEnumIterator;
         let practices_futs = utils::KeyboardLayout::iter().map(|layout| async move {
             let asset = match layout {
-                // utils::KeyboardLayout::Gong390   => asset!("assets/data/practices_kong390.json"),
+                utils::KeyboardLayout::Gong390   => asset!("assets/data/practices_kong390.json"),
                 utils::KeyboardLayout::Semoe2018 => asset!("assets/data/practices_semoe2018.json"),
             };
             let bytes = read_asset_bytes(asset).await?;

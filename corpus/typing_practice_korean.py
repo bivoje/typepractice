@@ -199,6 +199,18 @@ def shufle_gen_fixed(gulzas):
             .replace('e', gulzas[4]) \
             .split()
 
+def alt_gen_fixed(alts):
+    return "a1a2 b1b2 c1c2 d1d2 a1a2a1a2 b1b2b1b2 c1c2c1c2 d1d2d1d2 a1b1a2b2 c1d1c2d2 b1b2d1d2 d1d2a1a2" \
+    .replace('a1', alts[0][0]) \
+    .replace('a2', alts[0][1]) \
+    .replace('b1', alts[1][0]) \
+    .replace('b2', alts[1][1]) \
+    .replace('c1', alts[2][0]) \
+    .replace('c2', alts[2][1]) \
+    .replace('d1', alts[3][0]) \
+    .replace('d2', alts[3][1]) \
+    .split()
+
 # %%
 import re
 
@@ -490,9 +502,6 @@ class Practice:
             'gu': ''.join(gulzas),
         })
 
-# %%
-practice = Practice("세모e 2018")
-
 def practice_set_from_wordset(*args, **kwargs):
     view_practice_set(*args, **kwargs)
     practice.add_practice_set(*args, **kwargs)
@@ -504,6 +513,10 @@ def practice_set_from_fixed(title, gulzas):
 def practice_set_from_rand(title, num, gulzas,):
     print(gulzas)
     practice.add_rand_gulza(title, num, gulzas)
+
+
+# %% =================================================================================================================yy
+practice = Practice("세모e 2018")
 
 # %% =====================================================================
 # 단타입력
@@ -1001,7 +1014,7 @@ practice_set_from_wordset([onyong_words, text_words], [
     ('IncludeCombs', [[pureo('워얘예왜')[1::2], pureo('한장달박앗압암')[2::3]]]),
     ('ExcludeComb', [pureo('자바짜빠차파')[0::2], pureo('와요유야워얘예왜')[1::2]]),
     ], alpha=2.0,
-    misc=("+ㅝㅒㅖㅙ +받침", 60)
+    misc=("+ㅝㅒㅖㅙ +받침", 70)
 )
 
 # %%
@@ -1017,7 +1030,7 @@ practice_set_from_wordset([onyong_words, text_words], [
 # practice_set_from_rand('+ㅝㅒㅖㅙ 2 ②', 90, [ jamo.j2h(c,v,j) for c in pureo('뱌자빠짜')[::2] for v in pureo('워얘예왜')[1::2] for j in pureo('안앙알악앗압암')[2::3]+[None]])
 
 # %%
-practice_set_from_fixed('(자리) /ㅆㅊㅍㅈ [; ;q ;w ;e]', shufle_gen_fixed('았앛앞앚'))
+practice_set_from_fixed('(자리) /ㅆㅊㅍㅈ [; ;q ;w ;e]', alt_gen_fixed('아았 앗앛 압앞 알앚'.split()))
 
 # %%
 practice_set_from_wordset([onyong_words, text_words], [
@@ -1031,11 +1044,11 @@ practice_set_from_wordset([onyong_words, text_words], [
 practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲')),
     ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('았앛앞앚')[2::3]]])
-    ], misc=("+/ㅆㅊㅍㅈ +.", 30)
+    ], misc=("+/ㅆㅊㅍㅈ +.모음", 30)
 )
 
 # %%
-practice_set_from_fixed('(자리) /ㄷㅋㅎㅀ [;z ;x ;s ;a]', shufle_gen_fixed('앋앜앟앓'))
+practice_set_from_fixed('(자리) /ㄷㅋㅎㅀ [;z ;x ;s ;a]', alt_gen_fixed('암앋 악앜 안앟 앙앓'.split()))
 
 # %%
 practice_set_from_wordset([onyong_words, text_words], [
@@ -1062,18 +1075,8 @@ practice_set_from_wordset([onyong_words, text_words], [
     misc=("+/ㅆㅊㅍㅈ +/ㄷㅋㅎㅀ ⓪", 30)
 )
 
-# %%
-with open("../assets/data/practices_semoe2018.json", "wt") as f:
-    json.dump(practice.practices, f, ensure_ascii=False)
-
-#%%
-jun, jon = pureo('냔')[1:]
-for cho in pureo('가나다라마바사아자차카타파하')[0::2]:
-    print(f"https://wordrow.kr/%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94-%EB%A7%90/{jamo.j2h(cho, jun, jon)}")
-
-
 # %% ==================================================================
-practice_set_from_rand('복모음 랜덤글자', 120, [
+practice_set_from_rand('복모음/겹자음 랜덤글자', 120, [
     jamo.j2h(c,v,j)
     for c in pureo('아가하자마나사라다바차카타파까따싸짜빠')[::2]
     for v in pureo('와요유야워얘예왜')[1::2]
@@ -1082,271 +1085,274 @@ practice_set_from_rand('복모음 랜덤글자', 120, [
 
 # %%
 # '앆앍' ㅇㄱ ㅁㄱ
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓앆앍'),
-    [pureo('앆앍')[2::3]],
-    misc=('/ㄲㄺ [ax zx]', 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫앆앍')),
+    ('IncludeCombs', [[pureo('앆앍')[2::3]]]),
+    ], misc=('/ㄲㄺ [ax zx]', 20)
 )
 
 # %%
 # '앏앐앖' ㄹㅂ ㄹㅅ ㅂㅅ
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓앏앐앖'),
-    [pureo('앏앐앖')[2::3]],
-    misc=('/ㄼㄽㅄ [ew eq wq]', 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫앏앐앖')),
+    ('IncludeCombs', [[pureo('앏앐앖')[2::3]]]),
+    ], misc=('/ㄼㄽㅄ [ew eq wq]', 30)
 )
 
 # %%
 # '앉않앝' ㄴㄹ ㄴㅇ ㄴㅁ/ㄹㅂㅆ
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓앉않앝'),
-    [pureo('앉않앝')[2::3]],
-    misc=('/ㄵㄶㅌ [se sa zs,ew;]', 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫앉않앝')),
+    ('IncludeCombs', [[pureo('앉않앝')[2::3]]]),
+    ], misc=('/ㄵㄶㅌ [se sa zs,ew;]', 30)
 )
 
 # %%
 # '앑앒' ㅇㅁ ㅇㅂ
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓앑앒'),
-    [pureo('앑앒')[2::3]],
-    misc=('/ㄾㄿ [ax aw]', 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫앑앒')),
+    ('IncludeCombs', [[pureo('앑앒')[2::3]]]),
+    ], misc=('/ㄾㄿ [az aw]', 20)
 )
 
 # %%
 # '앇앎' ㄱㅁㅆ ㅂㅅㅆ/ㄹㅁ
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓앇앎'),
-    [pureo('앇앎')[2::3]],
-    misc=('/ㄳㄻ [xz; wq;]', 30)
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫앇앎')),
+    ('IncludeCombs', [[pureo('앇앎')[2::3]]]),
+    ], misc=('/ㄳㄻ [xz; wq;]', 20)
 )
 
 # %%
-# jamos = pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쓔쨔빠웠얯옢왲앋앜앟앓')
-# for (c, count) in gp_both:
-#     if c not in jamos and not re.match(r'[0-9A-Za-z]', c):
-#         print(repr(c), f"({ord(c)})", count)
-
 with open("../assets/data/practices_semoe2018.json", "wt") as f:
     json.dump(practice.practices, f, ensure_ascii=False)
 
-# %%
+
+# %% =================================================================================================================yy
 practice = Practice('공세벌식 390')
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아기'),
-    [pureo('아기')],
-    misc=('ㅇㄱ + ㅏㅣ', 30),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아기')),
+    ('IncludeCombs', [[pureo('아기')[0::2],pureo('아기')[1::2]]]),
+    ], misc=('ㅇㄱ + ㅏㅣ', 30),
 )
 
 #%%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아기자바'),
-    [pureo('자바')[::2]],
-    misc=('+ㅈㅂ', 30),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아기자바')),
+    ('IncludeCombs', [[pureo('자바')[::2]]]),
+    ], misc=('+ㅈㅂ', 30),
 )
 
 #%%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아기자바인잉'),
-    [pureo('인잉')[2::3]],
-    misc=('+/ㄴㅇ', 30),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아기자바인잉')),
+    ('IncludeCombs', [[pureo('인잉')[2::3]]]),
+    ], misc=('+/ㄴㅇ', 30),
 )
 
 #%%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아기자바인잉'),
-    [pureo('아기자바인잉')],
-    misc=('기본자리', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아기자바인잉')),
+    ('IncludeCombs', [[pureo('아기자바')[0::2], pureo('아기자바')[1::2], pureo('인잉')[2::3]]]),
+    ], misc=('기본자리', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가자바인잉느트'),
-    [pureo('느트')],
-    misc=('가운뎃줄', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가자바인잉느트')),
+    ('IncludeCombs', [[pureo('느트')[0::2]], [pureo('느트')[1::2]]]),
+    ], misc=('가운뎃줄', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가자바인잉느트오우'),
-    [pureo('오우')[1::2]],
-    misc=('ㅗㅜ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가자바인잉느트오우')),
+    ('IncludeCombs', [[pureo('오우')[1::2]]]),
+    ], misc=('ㅗㅜ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트오우'),
-    [pureo('까짜빠')[::2]],
-    misc=('ㄲㅉㅃ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트오우')),
+    ('IncludeCombs', [[pureo('까짜빠')[::2]]]),
+    ], misc=('ㄲㅉㅃ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉리디띠'),
-    [pureo('리디띠')[::2]],
-    misc=('ㄹㄷ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉리디띠')),
+    ('IncludeCombs', [[pureo('리디띠')[::2]]]),
+    ], misc=('ㄹㄷ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠'),
-    [pureo('리디띠')[::2], pureo('느트')],
-    misc=('ㄹㄷ+ㄴㅌㅡ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠')),
+    ('IncludeCombs', [[pureo('리디띠')[::2]]]),
+    ('IncludeCombs', [[pureo('느트')[0::2]], [pureo('느트')[1::2]]]),
+    ], misc=('ㄹㄷ+ㄴㅌㅡ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트오우리디띠'),
-    [pureo('리디띠')[::2], pureo('오우')[1::2]],
-    misc=('ㄹㄷ+ㅗㅜ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트오우리디띠')),
+    ('IncludeCombs', [[pureo('리디띠')[::2], pureo('오우')[1::2]]]),
+    ], misc=('ㄹㄷ+ㅗㅜ', 20),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉미치파'),
-    [pureo('미치파')[::2]],
-    misc=('ㅁㅊㅍ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉미치파')),
+    ('IncludeCombs', [[pureo('미치파')[::2]]]),
+    ], misc=('ㅁㅊㅍ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치파'),
-    [pureo('미치파')[::2], pureo('느트리디띠')[::2]],
-    misc=('ㅁㅊㅍ+ㄴㅌㄹㄷ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치파')),
+    ('IncludeCombs', [[pureo('미치파')[::2]]]),
+    ('IncludeCombs', [[pureo('느트리디띠')[::2]]]),
+    ], misc=('ㅁㅊㅍ+ㄴㅌㄹㄷ+ㅡ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느타오우리디띠미치파'),
-    [pureo('미치파')[::2], pureo('오우')[1::2]],
-    misc=('ㅁㅊㅍ+ㅗㅜ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느타오우리디띠미치파')),
+    ('IncludeCombs', [[pureo('미치파')[::2], pureo('오우')[1::2]]]),
+    ], misc=('ㅁㅊㅍ+ㅗㅜ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉여애어에'),
-    [pureo('여애어에')[1::2]],
-    misc=('ㅕㅐㅓㅔ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉여애어에')),
+    ('IncludeCombs', [[pureo('여애어에')[1::2]]]),
+    ], misc=('ㅕㅐㅓㅔ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트여애어에'),
-    [pureo('여애어에')[1::2], pureo('느트')],
-    misc=('ㅕㅐㅓㅔ+ㄴㅌㅡ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트여애어에')),
+    ('IncludeCombs', [[pureo('여애어에')[1::2]]]),
+    ('IncludeCombs', [[pureo('느트')[0::2]], pureo('느트')[1::2]]),
+    ], misc=('ㅕㅐㅓㅔ+ㄴㅌㅡ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠여애어에'),
-    [pureo('여애어에')[1::2], pureo('리디띠')[::2]],
-    misc=('ㅕㅐㅓㅔ+ㄹㄷ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠여애어에')),
+    ('IncludeCombs', [[pureo('리디띠')[::2], pureo('여애어에')[1::2]]]),
+    ], misc=('ㅕㅐㅓㅔ+ㄹㄷ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피여애어에'),
-    [pureo('여애어에')[1::2], pureo('미치피')[::2]],
-    misc=('ㅕㅐㅓㅔ+ㅁㅊㅍ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피여애어에')),
+    ('IncludeCombs', [[pureo('미치피')[::2], pureo('여애어에')[1::2]]]),
+    ], misc=('ㅕㅐㅓㅔ+ㅁㅊㅍ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트오우여애어에'),
-    [pureo('여애어에')[1::2], pureo('오우')[1::2]],
-    misc=('ㅕㅐㅓㅔ+ㅗㅜ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트오우여애어에')),
+    ('IncludeCombs', [[pureo('여애어에')[1::2]]]),
+    ('IncludeCombs', [[pureo('오우')[1::2]]]),
+    ], misc=('ㅕㅐㅓㅔ+ㅗㅜ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에'),
-    [pureo('여애어에')[1::2], pureo('오우')[1::2]],
-    misc=('ㅕㅐㅓㅔ+ㅗㅜ+ㄹㄷㅁㅊㅍ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에')),
+    ('IncludeCombs', [[pureo('라다마차파')[::2], pureo('여애어에오우')[1::2]]]),
+    ], misc=('ㅕㅐㅓㅔ+ㅗㅜ+ㄹㄷㅁㅊㅍ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉사싸하'),
-    [pureo('사싸하')[::2]],
-    misc=('ㅅㅎ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉사싸하')),
+    ('IncludeCombs', [[pureo('사싸하')[::2]]]),
+    ], misc=('ㅅㅎ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피사싸하'),
-    [pureo('사싸하')[::2], pureo('느트리디띠미치피')[::2]],
-    misc=('ㅅㅎ+ㄴㅌ+ㄹㄷㅁㅊㅍ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피사싸하')),
+    ('IncludeCombs', [[pureo('사싸하')[::2]]]),
+    ('IncludeCombs', [[pureo('느트리디띠미치피')[::2]]]),
+    ], misc=('ㅅㅎ+ㄴㅌ+ㄹㄷㅁㅊㅍ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하'),
-    [pureo('사싸하')[::2], pureo('오우여애어에')[1::2]],
-    misc=('ㅅㅎ+ㅗㅜ+ㅕㅐㅓㅔ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하')),
+    ('IncludeCombs', [[pureo('사싸하')[::2], pureo('오우여애어에')[1::2]]]),
+    ], misc=('ㅅㅎ+ㅗㅜ+ㅕㅐㅓㅔ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트암악'),
-    [pureo('암악')[2::3]],
-    misc=('/ㅁㄱ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트암악')),
+    ('IncludeCombs', [[pureo('암악')[2::3]]]),
+    ], misc=('/ㅁㄱ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피사싸하암악'),
-    [pureo('암악')[2::3], pureo('리디띠미치피사싸하')[::2]],
-    misc=('/ㅁㄱ+ㄹㄷㅁㅊㅍㅅㅎ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피사싸하암악')),
+    ('IncludeCombs', [[pureo('암악')[2::3]]]),
+    ('IncludeCombs', [[pureo('리디띠미치피사싸하')[::2]]]),
+    ], misc=('/ㅁㄱ+ㄹㄷㅁㅊㅍㅅㅎ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악'),
-    [pureo('암악')[2::3], pureo('오우여애어에')[1::2]],
-    misc=('/ㅁㄱ+ㅗㅜㅕㅐㅓㅔ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악')),
+    ('IncludeCombs', [[pureo('오우여애어에')[1::2], pureo('암악')[2::3]]]),
+    ], misc=('/ㅁㄱ+ㅗㅜㅕㅐㅓㅔ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트앗알'),
-    [pureo('앗알')[2::3]],
-    misc=('/ㅅㄹ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트앗알')),
+    ('IncludeCombs', [[pureo('앗알')[2::3]]]),
+    ], misc=('/ㅅㄹ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피사싸하앗알'),
-    [pureo('앗알')[2::3], pureo('리디띠미치피사싸하')[::2]],
-    misc=('/ㅅㄹ+ㄹㄷㅁㅊㅍㅅㅎ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피사싸하앗알')),
+    ('IncludeCombs', [[pureo('앗알')[2::3]]]),
+    ('IncludeCombs', [[pureo('리디띠미치피사싸하')[::2]]]),
+    ], misc=('/ㅅㄹ+ㄹㄷㅁㅊㅍㅅㅎ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앗알'),
-    [pureo('앗알')[2::3], pureo('오우여애어에')[1::2]],
-    misc=('/ㅅㄹ+ㅗㅜㅕㅐㅓㅔ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앗알')),
+    ('IncludeCombs', [[pureo('오우여애어에')[1::2], pureo('앗알')[2::3]]]),
+    ], misc=('/ㅅㄹ+ㅗㅜㅕㅐㅓㅔ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앋앛'),
-    [pureo('앋앛')[2::3]],
-    misc=('/ㄷㅊ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앋앛')),
+    ('IncludeCombs', [[pureo('앋앛')[2::3]]]),
+    ], misc=('/ㄷㅊ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앞앝앜'),
-    [pureo('앞앝앜')[2::3]],
-    misc=('/ㅍㅌㅋ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앞앝앜')),
+    ('IncludeCombs', [[pureo('앞앝앜')[2::3]]]),
+    ], misc=('/ㅍㅌㅋ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앋앛앞앝앜'),
-    [pureo('앋앛앞앝앜')[2::3]],
-    misc=('/ㄷㅊㅍㅌㅋ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앋앛앞앝앜')),
+    ('IncludeCombs', [[pureo('앋앛앞앝앜')[2::3]]]),
+    ], misc=('/ㄷㅊㅍㅌㅋ', 30),
 )
 
 # %%
@@ -1357,24 +1363,25 @@ practice_set_from_wordset([onyong_words, text_words],
 # )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜'),
-    [ pureo('암악앗알앋앛앞앝앜')[2::3], ],
-    misc=('/ㅁㄱ+/ㅅㄹ+/ㄷㅊ+/ㅍㅌㅋ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜')),
+    ('IncludeCombs', [[ pureo('암악앗알앋앛앞앝앜')[2::3], ]]),
+    ], misc=('/ㅁㄱ+/ㅅㄹ+/ㄷㅊ+/ㅍㅌㅋ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앟았압'),
-    [pureo('앟았압')[2::3]],
-    misc=('/ㅎㅆㅂ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하앟았압')),
+    ('IncludeCombs', [[pureo('앟았압')[2::3]]]),
+    ], misc=('/ㅎㅆㅂ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앟았압'),
-    [pureo('앟았압')[2::3], pureo('암악앗알')[2::3]],
-    misc=('/ㅎㅆㅂ+/ㅁㄱㅅㄹ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앟았압')),
+    ('IncludeCombs', [[pureo('앟았압')[2::3]]]),
+    ('IncludeCombs', [[pureo('암악앗알')[2::3]]]),
+    ], misc=('/ㅎㅆㅂ+/ㅁㄱㅅㄹ', 30),
 )
 
 # %%
@@ -1385,143 +1392,133 @@ practice_set_from_wordset([onyong_words, text_words],
 # )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피사싸하요유야'),
-    [pureo('요유야')[1::2]],
-    misc=('ㅛㅠㅑ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피사싸하요유야')),
+    ('IncludeCombs', [[pureo('요유야')[1::2]]]),
+    ], misc=('ㅛㅠㅑ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하요유야'),
-    [ pureo('요유야')[1::2], pureo('오우여애어에')[1::2], ],
-    misc=('ㅛㅠㅑ+ㅗㅜㅕㅐㅓㅔ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하요유야')),
+    ('IncludeCombs', [[pureo('요유야')[1::2]]]),
+    ('IncludeCombs', [[pureo('오우여애어에')[1::2]]]),
+    ], misc=('ㅛㅠㅑ+ㅗㅜㅕㅐㅓㅔ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알요유야'),
-    [pureo('요유야')[1::2], pureo('암악앗알')[2::3]],
-    misc=('ㅛㅠㅑ+/ㅁㄱㅅㄹ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알요유야')),
+    ('IncludeCombs', [[pureo('요유야')[1::2], pureo('암악앗알')[2::3]]]),
+    ], misc=('ㅛㅠㅑ+/ㅁㄱㅅㄹ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야'),
-    [pureo('요유야')[1::2], pureo('앋앛앟았압')[2::3]],
-    misc=('ㅛㅠㅑ+/ㄷㅊㅍㅌㅋㅎㅆㅂ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야')),
+    ('IncludeCombs', [[pureo('요유야')[1::2], pureo('앋앛앟았압')[2::3]]]),
+    ], misc=('ㅛㅠㅑ+/ㄷㅊㅍㅌㅋㅎㅆㅂ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('컞')[:1],
-    [pureo('컞')[0]],
-    misc=('ㅋ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('컞')[:1]),
+    ('IncludeCombs', [[pureo('컞')[0]]]),
+    ], misc=('ㅋ', 15),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('컞')[:2],
-    [pureo('컞')[1]],
-    misc=('ㅒ', 10),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('컞')[:2]),
+    ('IncludeCombs', [[pureo('컞')[1]]]),
+    ], misc=('ㅒ', 15),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('콎')[:2],
-    [pureo('콎')[1]],
-    misc=('ㅖ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('콎')[:2]),
+    ('IncludeCombs', [[pureo('콎')[1]]]),
+    ], misc=('ㅖ', 15),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('콎')[:3],
-    [pureo('콎')[2]],
-    misc=('/ㅈ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야') + pureo('콎')[:3]),
+    ('IncludeCombs', [[pureo('콎')[2]]]),
+    ], misc=('/ㅈ', 15),
 )
 
 # %%
-# practice_set_from_wordset([onyong_words, text_words],
-#     pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎'),
-#     [ ['ᄏ', 'ᅤ', 'ᅨ',], ['ᄏ', 'ᅤ', 'ᆽ',], ['ᄏ', 'ᅨ', 'ᆽ',], ['ᅤ', 'ᅨ', 'ᆽ',], ],
-#     misc=('/ㅈ', 60),
-# )
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위'),
-    [pureo('와외위')[1::2]],
-    misc=('ㅘㅚㅟ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎')),
+    ('IncludeCombs', [[pureo('컞')[0]], [pureo('컞')[1]], [pureo('콎')[1]], [pureo('콎')[2]]]),
+    ], misc=('ㅋ ㅒ ㅖ /ㅈ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎왜워웨'),
-    [pureo('왜워웨')[1::2]],
-    misc=('ㅙㅝㅞ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위')),
+    ('IncludeCombs', [[pureo('와외위')[1::2]]]),
+    ], misc=('ㅘㅚㅟ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨'),
-    [pureo('와외위')[1::2], pureo('왜워웨')[1::2]],
-    misc=('ㅘㅚㅟ+ㅙㅝㅞ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎왜워웨')),
+    ('IncludeCombs', [[pureo('왜워웨')[1::2]]]),
+    ], misc=('ㅙㅝㅞ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨'),
-    [pureo('와외위왜워웨')[1::2]],
-    misc=('ㅘㅚㅟㅙㅝㅞ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨')),
+    ('IncludeCombs', [[pureo('와외위')[1::2]]]),
+    ('IncludeCombs', [[pureo('왜워웨')[1::2]]]),
+    ], misc=('ㅘㅚㅟ+ㅙㅝㅞ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의'),
-    [pureo('의')[1::2]],
-    misc=('ㅢ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의')),
+    ('IncludeCombs', [[pureo('의')[1::2]]]),
+    ], misc=('ㅢ', 15),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의'),
-    [pureo('의')[1::2], pureo('와외위왜워웨')[1::2]],
-    misc=('ㅢ+ㅘㅚㅟㅙㅝㅞ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의')),
+    ('IncludeCombs', [[pureo('의')[1::2]]]),
+    ('IncludeCombs', [[pureo('와외위왜워웨')[1::2]]]),
+    ], misc=('ㅢ+ㅘㅚㅟㅙㅝㅞ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의'),
-    [pureo('의')[1::2], pureo('와외위왜워웨')[1::2]],
-    misc=('ㅢ+ㅘㅚㅟㅙㅝㅞ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆')),
+    ('IncludeCombs', [[pureo('않앍앆')[2::3]]]),
+    ], misc=('ㄶㄺㄲ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆'),
-    [pureo('않앍앆')[2::3]],
-    misc=('ㄶㄺㄲ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의앖앎앓')),
+    ('IncludeCombs', [[pureo('앖앎앓')[2::3]]]),
+    ], misc=('ㅄㄻㅀ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의앖앎앓'),
-    [pureo('앖앎앓')[2::3]],
-    misc=('ㅄㄻㅀ', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆앖앎앓읷앉앏')),
+    ('IncludeCombs', [[pureo('앇앉앏')[2::3]]]),
+    ], misc=('ㄳㄵㄼ', 30),
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆앖앎앓읷앉앏'),
-    [pureo('앇앉앏')[2::3]],
-    misc=('ㄳㄵㄼ', 20),
-)
-
-# %%
-practice_set_from_wordset([onyong_words, text_words],
-    pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆앖앎앓읷앉앏'),
-    [ pureo('암악앗알았압')[2::3], pureo('앋앛앟앞앝앜앚')[2::3], ],
-    misc=('/ㄷㅊㅎㅍㅌㅋㅈ++', 60),
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('아가까자짜바빠인잉느트리디띠미치피오우여애어에사싸하암악앗알앋앛앞앝앜앟았압요유야컞콎와외위왜워웨의않앍앆앖앎앓읷앉앏')),
+    ('IncludeCombs', [[pureo('암악앗알았압')[2::3]]]),
+    ('IncludeCombs', [[pureo('앋앛앟앞앝앜앚')[2::3]]]),
+    ], misc=('/ㄷㅊㅎㅍㅌㅋㅈ++', 30),
 )
 
 # %%
@@ -1530,13 +1527,13 @@ pi = """
   5820974944 5923078164 0628620899 8628034825 3421170679
   8214808651 3282306647 0938446095 5058223172 5359408128
   4811174502 8410270193 8521105559 6446229489 5493038196
-  4428810975 6659334461 2847564823 3786783165 2712019091
-  4564856692 3460348610 4543266482 1339360726 0249141273
-  7245870066 0631558817 4881520920 9628292540 9171536436
-  7892590360 0113305305 4882046652 1384146951 9415116094
-  3305727036 5759591953 0921861173 8193261179 3105118548
-  0744623799 6274956735 1885752724 8912279381 8301194912
 """
+#  4428810975 6659334461 2847564823 3786783165 2712019091
+#  4564856692 3460348610 4543266482 1339360726 0249141273
+#  7245870066 0631558817 4881520920 9628292540 9171536436
+#  7892590360 0113305305 4882046652 1384146951 9415116094
+#  3305727036 5759591953 0921861173 8193261179 3105118548
+#  0744623799 6274956735 1885752724 8912279381 8301194912
 
 pi = pi.replace(' ', '').replace('\n', '')[2:]
 
@@ -1550,7 +1547,8 @@ pi_words = [
     for chunk in batched(pi, 6)
 ]
 
-practice_set_from_fixed('π500', pi_words)
+# practice_set_from_fixed('π500', pi_words)
+practice_set_from_fixed('π200', pi_words)
 
 # %%
 with open("../assets/data/practices_kong390.json", "wt") as f:
