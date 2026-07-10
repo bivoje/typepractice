@@ -141,10 +141,10 @@ print(
     len(text_words - onyong_words)
 )
 
-# with open("../assets/wordset.list", "wt") as f:
-#     for w in onyong_words.union(text_words):
-#         f.write(w)
-#         f.write('\n')
+with open("../assets/data/wordset.list", "wt") as f:
+    for w in onyong_words.union(text_words):
+        f.write(w)
+        f.write('\n')
 
 # %%
 # try to learn new gulso from most frequent to lease frequent for practice word diversity
@@ -1022,7 +1022,7 @@ practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸워얘예왜')),
     ('IncludeCombs', [[pureo('자바짜빠차파')[0::2], pureo('워얘예왜')[1::2]]]),
     ], alpha = 2.0,
-    misc=("+ㅝㅒㅖㅙ +ㅈㅂ", 60)
+    misc=("+ㅝㅒㅖㅙ +ㅈㅂㅊㅍㅉㅃ", 60)
 )
 
 # %%
@@ -1041,13 +1041,6 @@ practice_set_from_wordset([onyong_words, text_words], [
 )
 
 # %%
-practice_set_from_wordset([onyong_words, text_words], [
-    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲')),
-    ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('았앛앞앚')[2::3]]])
-    ], misc=("+/ㅆㅊㅍㅈ +.모음", 30)
-)
-
-# %%
 practice_set_from_fixed('(자리) /ㄷㅋㅎㅀ [;z ;x ;s ;a]', alt_gen_fixed('암앋 악앜 안앟 앙앓'.split()))
 
 # %%
@@ -1059,20 +1052,19 @@ practice_set_from_wordset([onyong_words, text_words], [
     misc=("+/ㄷㅋㅎㅀ", 30)
 )
 
-# %% TODO
-# practice_set_from_wordset([onyong_words, text_words], [
-#     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웓얰옣왫')),
-#     ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('앋앜앟앓')[2::3]]])
-#     ], alpha=2.0,
-#     misc=("+/ㄷㅋㅎㅀ +.", 30)
-# )
-
 # %%
 practice_set_from_wordset([onyong_words, text_words], [
     ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫')),
     ('IncludeCombs', [[pureo('았앛앞앚')[2::3]], [pureo('앋앜앟앓')[2::3]]]),
     ], alpha=2.0,
     misc=("+/ㅆㅊㅍㅈ +/ㄷㅋㅎㅀ ⓪", 30)
+)
+
+# %%
+practice_set_from_wordset([onyong_words, text_words], [
+    ('Covered', pureo('이가한장머녀소루달박에으앗압암채킈튀푀꽈뚀쮸뺘싸웠얯옢왲웓얰옣왫')),
+    ('IncludeCombs', [[pureo('와요유야워얘예왜')[1::2], pureo('았앛앞앚앋앜앟앓')[2::3]]])
+    ], misc=("+/ㅆ* +.모음", 30)
 )
 
 # %% ==================================================================

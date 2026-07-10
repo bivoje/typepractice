@@ -736,7 +736,7 @@ impl Practice {
 
                 let (mut selected_indices, property_counts) = balanced_sample_rand(&signatures, k as usize, self.num as usize, pcs.alpha, pcs.temp, rng);
 
-                // println!("words: {}/{}", collected.len(), selected_indices.len());
+                // println!("words: {}/{}", selected_indices.len(), collected.len());
 
                 // let mut cnts = if ! selected_indices.is_empty() {
                 //     selected_indices.sort();
